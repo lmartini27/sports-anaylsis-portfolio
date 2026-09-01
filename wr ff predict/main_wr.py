@@ -15,7 +15,7 @@ from src.position_pipeline import build_position_features, predict_next_week_pos
 from src.model import train_and_evaluate, print_feature_importance
 
 POSITION = "WR"
-YEARS = [2021, 2022, 2023, 2024]  # add 2026 once real games exist
+YEARS = [2021, 2022, 2023, 2024]  # add 2025 once data actually works, then eventually 2026
 
 
 def main():
