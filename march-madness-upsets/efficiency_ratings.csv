@@ -1,0 +1,3881 @@
+season,team,offensive_rating,defensive_rating,net_rating
+2015,Kentucky,114.2,87.1,27.1
+2015,Wisconsin,120.8,96.3,24.5
+2015,Duke,119.4,95.3,24.2
+2015,Arizona,113.7,90.9,22.8
+2015,Virginia,110.8,88.7,22.2
+2015,Villanova,115.5,93.6,21.9
+2015,Gonzaga,115.3,94.5,20.8
+2015,Utah,112.6,92.7,19.9
+2015,Rhode Island,131.7,114.0,17.7
+2015,Notre Dame,119.3,101.8,17.5
+2015,Wichita State,111.1,94.6,16.5
+2015,North Carolina,113.3,96.9,16.3
+2015,Ohio State,112.1,96.1,16.0
+2015,Northern Iowa,111.9,96.3,15.6
+2015,Oklahoma,107.4,92.8,14.6
+2015,Baylor,110.3,95.7,14.6
+2015,Michigan State,110.0,95.9,14.1
+2015,Kansas,109.2,95.3,14.0
+2015,Iowa State,112.3,98.5,13.9
+2015,Louisville,105.9,92.8,13.1
+2015,Stephen F. Austin,111.6,98.6,13.1
+2015,SMU,108.9,96.0,13.0
+2015,Xavier,110.7,98.0,12.8
+2015,Butler,105.8,93.2,12.6
+2015,Texas,108.0,95.4,12.5
+2015,Iowa,107.9,95.9,12.1
+2015,Boise State,110.4,98.4,12.1
+2015,Murray State,113.0,101.7,11.3
+2015,BYU,111.9,100.6,11.3
+2015,Davidson,113.8,102.7,11.1
+2015,VCU,107.3,96.2,11.0
+2015,Georgetown,108.0,97.1,10.9
+2015,Dayton,105.7,95.1,10.7
+2015,San Diego State,102.0,91.3,10.7
+2015,West Virginia,106.4,95.8,10.6
+2015,Arkansas,109.9,99.6,10.3
+2015,Cincinnati,105.5,95.4,10.1
+2015,Georgia State,108.8,98.7,10.1
+2015,Valparaiso,106.3,96.3,10.0
+2015,Florida,104.4,94.8,9.7
+2015,NC State,109.4,99.7,9.7
+2015,Buffalo,109.1,99.5,9.6
+2015,Maryland,107.0,97.7,9.3
+2015,Purdue,106.7,97.4,9.3
+2015,Stanford,108.8,99.7,9.2
+2015,Providence,106.9,97.8,9.1
+2015,Old Dominion,104.7,95.9,8.9
+2015,Colorado State,109.2,100.5,8.7
+2015,Georgia,105.5,96.9,8.6
+2015,Ole Miss,108.3,99.7,8.6
+2015,Louisiana Tech,106.7,98.2,8.5
+2015,Miami,107.0,98.5,8.5
+2015,Vanderbilt,109.7,101.3,8.5
+2015,Indiana,113.4,105.1,8.3
+2015,Sam Houston,106.1,97.9,8.2
+2015,TCU,105.8,97.8,8.1
+2015,LSU,105.0,97.0,8.0
+2015,George Washington,107.5,99.6,7.9
+2015,UCLA,107.6,100.0,7.7
+2015,Syracuse,102.9,95.2,7.7
+2015,Texas A&M,106.0,98.5,7.5
+2015,Oklahoma State,105.8,98.3,7.4
+2015,Green Bay,103.7,96.3,7.4
+2015,Temple,103.1,95.8,7.3
+2015,Iona,111.1,103.8,7.3
+2015,Illinois State,104.7,97.5,7.2
+2015,Richmond,104.1,97.0,7.1
+2015,Minnesota,107.7,100.6,7.1
+2015,Wofford,104.6,97.5,7.1
+2015,Oregon,109.5,102.5,7.1
+2015,UConn,105.4,98.3,7.0
+2015,South Dakota State,106.6,99.6,7.0
+2015,St. John's,105.9,99.1,6.7
+2015,North Carolina Central,106.9,100.3,6.6
+2015,UTEP,104.7,98.3,6.4
+2015,Illinois,106.5,100.1,6.4
+2015,Harvard,102.8,96.6,6.2
+2015,Alabama,106.5,100.4,6.1
+2015,Memphis,103.3,97.2,6.1
+2015,Yale,104.0,98.0,6.0
+2015,Toledo,109.9,104.0,5.9
+2015,New Mexico State,105.5,99.6,5.9
+2015,UAlbany,103.5,97.9,5.6
+2015,Vermont,102.3,96.7,5.6
+2015,Cleveland State,105.1,99.6,5.5
+2015,Arizona State,104.9,99.3,5.5
+2015,Saint Mary's,105.8,100.3,5.4
+2015,South Carolina,102.5,97.4,5.2
+2015,UC Irvine,105.2,100.1,5.1
+2015,UC Santa Barbara,107.3,102.4,4.9
+2015,Eastern Kentucky,105.8,101.3,4.5
+2015,Tulsa,101.6,97.1,4.5
+2015,UNLV,105.1,100.6,4.5
+2015,UC Davis,110.6,106.3,4.3
+2015,Northeastern,105.3,101.2,4.1
+2015,Coastal Carolina,106.9,102.7,4.1
+2015,Michigan,105.0,101.0,4.0
+2015,South Carolina Upstate,103.8,99.8,4.0
+2015,William & Mary,109.9,105.9,4.0
+2015,Bowling Green,104.4,100.4,4.0
+2015,Hofstra,107.6,103.7,4.0
+2015,Pittsburgh,108.0,104.0,4.0
+2015,Colorado,106.7,102.9,3.9
+2015,Wyoming,103.5,99.8,3.7
+2015,Akron,103.8,100.1,3.7
+2015,Stony Brook,101.6,98.1,3.6
+2015,La Salle,99.3,95.7,3.6
+2015,Kent State,105.3,101.7,3.6
+2015,Eastern Washington,110.1,106.6,3.5
+2015,Seton Hall,107.6,104.0,3.5
+2015,Evansville,103.7,100.4,3.3
+2015,Georgia Southern,101.5,98.2,3.3
+2015,Penn State,102.2,99.1,3.1
+2015,Clemson,101.8,98.7,3.1
+2015,UT Martin,107.6,104.6,3.0
+2015,Eastern Michigan,101.5,98.5,3.0
+2015,St. Bonaventure,103.7,100.9,2.8
+2015,Central Michigan,108.2,105.4,2.8
+2015,Louisiana,104.5,101.7,2.8
+2015,Hawai'i,104.0,101.4,2.6
+2015,Loyola Chicago,104.4,101.8,2.6
+2015,Kansas State,102.8,100.2,2.6
+2015,Tennessee,104.3,101.8,2.5
+2015,Utah State,103.4,100.9,2.4
+2015,Morehead State,103.8,101.5,2.3
+2015,High Point,106.4,104.1,2.3
+2015,Canisius,102.0,99.7,2.3
+2015,San Diego,100.4,98.2,2.3
+2015,Belmont,108.3,106.0,2.3
+2015,Montana,105.8,103.7,2.1
+2015,Massachusetts,102.4,100.3,2.1
+2015,North Florida,106.4,104.3,2.0
+2015,North Dakota State,103.1,101.1,2.0
+2015,Washington,104.8,102.8,2.0
+2015,Georgia Tech,99.6,97.6,2.0
+2015,Creighton,104.9,102.9,2.0
+2015,Oregon State,98.3,96.3,1.9
+2015,Florida Gulf Coast,103.4,101.6,1.8
+2015,Quinnipiac,103.1,101.3,1.8
+2015,Florida State,102.2,100.6,1.7
+2015,Dartmouth,101.4,99.8,1.7
+2015,Western Kentucky,103.4,101.8,1.6
+2015,Princeton,105.5,103.9,1.6
+2015,Manhattan,101.8,100.2,1.5
+2015,California,101.5,100.0,1.5
+2015,Columbia,105.9,104.5,1.4
+2015,Marquette,101.4,100.0,1.4
+2015,New Hampshire,101.2,99.9,1.3
+2015,Nebraska,98.0,96.9,1.2
+2015,Winthrop,104.3,103.3,1.0
+2015,NJIT,118.5,117.7,0.9
+2015,Charlotte,106.2,105.3,0.9
+2015,Chattanooga,104.6,103.7,0.8
+2015,Western Michigan,107.2,106.4,0.8
+2015,Monmouth,101.3,100.6,0.7
+2015,Middle Tennessee,101.7,101.0,0.7
+2015,UAB,102.3,101.6,0.7
+2015,American University,101.7,101.1,0.6
+2015,Rider,100.4,99.9,0.5
+2015,Northwestern,104.3,103.8,0.5
+2015,Lafayette,110.8,110.4,0.5
+2015,Incarnate Word,106.7,106.3,0.4
+2015,New Mexico,99.4,99.0,0.4
+2015,Boston College,104.2,103.8,0.4
+2015,Sacramento State,108.4,108.1,0.3
+2015,Colgate,105.4,105.1,0.2
+2015,Portland,104.2,104.0,0.2
+2015,Pepperdine,97.1,96.9,0.2
+2015,Purdue Fort Wayne,106.0,105.9,0.1
+2015,Radford,104.3,104.1,0.1
+2015,Wake Forest,102.1,102.0,0.1
+2015,Robert Morris,102.2,102.5,-0.2
+2015,Lehigh,100.8,101.0,-0.2
+2015,Indiana State,101.7,101.9,-0.2
+2015,Northern Arizona,101.4,101.8,-0.4
+2015,Mercer,103.3,103.8,-0.5
+2015,UL Monroe,98.7,99.2,-0.5
+2015,Saint Peter's,98.0,98.7,-0.7
+2015,Saint Joseph's,97.4,98.1,-0.8
+2015,UT Arlington,102.9,103.9,-0.9
+2015,Charleston Southern,105.2,106.1,-0.9
+2015,St. Francis (PA),100.4,101.4,-1.0
+2015,Texas A&M-Corpus Christi,101.5,102.6,-1.1
+2015,Oakland,107.6,108.7,-1.1
+2015,San Francisco,102.6,103.7,-1.1
+2015,Cal Poly,99.7,100.9,-1.2
+2015,Long Beach State,102.7,104.1,-1.4
+2015,Gardner-Webb,105.7,107.1,-1.4
+2015,Auburn,103.0,104.5,-1.5
+2015,East Tennessee State,102.9,104.4,-1.6
+2015,Bucknell,104.8,106.6,-1.7
+2015,UNC Wilmington,99.6,101.3,-1.8
+2015,Northern Illinois,100.5,102.2,-1.8
+2015,Maryland Eastern Shore,101.6,103.5,-1.9
+2015,UTSA,104.9,106.8,-2.0
+2015,Holy Cross,100.7,102.7,-2.0
+2015,Idaho,109.0,111.0,-2.0
+2015,Bryant,103.9,106.1,-2.1
+2015,Detroit Mercy,101.8,103.9,-2.1
+2015,Eastern Illinois,100.6,102.8,-2.1
+2015,Northwestern State,109.8,112.0,-2.2
+2015,Norfolk State,103.4,105.6,-2.2
+2015,James Madison,103.8,106.1,-2.3
+2015,Rice,101.4,103.7,-2.3
+2015,Air Force,105.1,107.4,-2.3
+2015,Mississippi State,98.4,100.7,-2.3
+2015,Little Rock,103.7,106.0,-2.3
+2015,UNC Asheville,100.9,103.4,-2.5
+2015,South Dakota,102.9,105.5,-2.5
+2015,Cornell,96.6,99.2,-2.6
+2015,Western Carolina,102.2,104.8,-2.6
+2015,Hampton,96.8,99.6,-2.7
+2015,Denver,104.3,107.0,-2.7
+2015,Texas Southern,104.4,107.1,-2.7
+2015,DePaul,104.9,107.7,-2.7
+2015,Northern Colorado,103.7,106.4,-2.7
+2015,Texas Tech,99.5,102.3,-2.8
+2015,Virginia Tech,103.1,106.0,-2.9
+2015,Miami (OH),100.8,103.7,-2.9
+2015,USC,98.8,101.7,-2.9
+2015,Oral Roberts,103.0,105.9,-2.9
+2015,SIU Edwardsville,98.8,101.8,-3.0
+2015,Boston University,105.0,108.2,-3.1
+2015,Southeast Missouri State,101.5,104.7,-3.2
+2015,Tulane,99.4,102.6,-3.2
+2015,UC Riverside,98.8,102.1,-3.4
+2015,Seattle U,98.7,102.1,-3.4
+2015,Tennessee Tech,103.2,106.7,-3.5
+2015,Southern Illinois,99.0,102.5,-3.5
+2015,Cal State Bakersfield,100.2,103.8,-3.6
+2015,George Mason,100.0,103.7,-3.7
+2015,Texas State,94.5,98.2,-3.7
+2015,Houston,100.6,104.3,-3.8
+2015,Fresno State,100.5,104.3,-3.9
+2015,Sacred Heart,102.4,106.3,-3.9
+2015,Fordham,99.3,103.3,-4.0
+2015,Alabama State,99.8,104.0,-4.1
+2015,East Carolina,101.3,105.6,-4.3
+2015,Ball State,99.6,103.9,-4.3
+2015,Mount St. Mary's,99.6,104.0,-4.4
+2015,Northern Kentucky,101.9,106.6,-4.7
+2015,Prairie View A&M,97.9,102.7,-4.7
+2015,Duquesne,104.6,109.4,-4.7
+2015,Weber State,100.8,105.6,-4.8
+2015,Wright State,99.5,104.4,-4.9
+2015,Milwaukee,100.8,105.7,-4.9
+2015,Washington State,103.2,108.1,-4.9
+2015,Long Island University,97.4,102.4,-5.0
+2015,Army,101.3,106.3,-5.0
+2015,North Texas,98.2,103.1,-5.0
+2015,Omaha,101.4,106.5,-5.1
+2015,Lamar,99.8,104.9,-5.1
+2015,Missouri,99.0,104.1,-5.1
+2015,Brown,99.4,104.6,-5.2
+2015,Arkansas State,97.9,103.1,-5.2
+2015,Elon,98.0,103.4,-5.4
+2015,Grand Canyon,103.5,108.9,-5.4
+2015,Ohio,101.4,106.7,-5.4
+2015,McNeese,101.7,107.3,-5.5
+2015,Rutgers,96.0,101.5,-5.5
+2015,Siena,104.0,109.6,-5.6
+2015,IU Indianapolis,95.8,101.4,-5.7
+2015,Navy,100.0,105.7,-5.7
+2015,Southern Utah,100.4,106.2,-5.8
+2015,Kansas City,99.8,105.7,-5.8
+2015,VMI,99.5,105.4,-5.8
+2015,Florida International,95.6,101.5,-5.9
+2015,Jackson State,95.8,101.9,-6.0
+2015,Troy,100.8,106.8,-6.0
+2015,UNC Greensboro,99.9,106.1,-6.1
+2015,Portland State,101.5,107.7,-6.2
+2015,Southern,95.1,101.3,-6.2
+2015,Youngstown State,105.1,111.5,-6.4
+2015,Houston Christian,101.5,108.0,-6.4
+2015,Cal State Northridge,98.9,105.3,-6.4
+2015,Towson,98.3,104.7,-6.4
+2015,Delaware,100.5,106.9,-6.5
+2015,Bradley,94.8,101.4,-6.6
+2015,Marshall,96.6,103.3,-6.8
+2015,Howard,95.2,102.1,-6.9
+2015,Delaware State,97.6,104.4,-6.9
+2015,Samford,101.2,108.2,-7.0
+2015,SE Louisiana,98.0,104.9,-7.0
+2015,Missouri State,98.4,105.5,-7.1
+2015,Cal State Fullerton,97.3,104.4,-7.1
+2015,Wagner,99.5,106.9,-7.3
+2015,Lipscomb,100.6,108.0,-7.4
+2015,New Orleans,99.3,106.8,-7.5
+2015,Charleston,95.6,103.1,-7.5
+2015,UCF,101.2,108.8,-7.6
+2015,South Alabama,100.0,107.7,-7.7
+2015,Fairfield,97.3,105.0,-7.7
+2015,Campbell,98.5,106.3,-7.7
+2015,Niagara,99.0,106.9,-7.9
+2015,Drake,102.0,110.0,-8.0
+2015,App State,98.1,106.1,-8.0
+2015,Drexel,100.3,108.4,-8.1
+2015,UMass Lowell,93.8,101.9,-8.1
+2015,The Citadel,104.9,113.3,-8.3
+2015,UIC,98.3,106.6,-8.3
+2015,Pacific,99.0,107.4,-8.4
+2015,Pennsylvania,97.5,105.9,-8.4
+2015,Florida Atlantic,99.1,107.6,-8.5
+2015,South Florida,97.5,106.0,-8.5
+2015,Idaho State,98.5,107.3,-8.7
+2015,Nevada,97.7,106.4,-8.7
+2015,Furman,100.0,108.8,-8.8
+2015,Jacksonville State,95.7,104.5,-8.8
+2015,Fairleigh Dickinson,98.8,107.6,-8.9
+2015,Marist,95.7,104.6,-8.9
+2015,Loyola Maryland,95.3,104.2,-8.9
+2015,Longwood,99.0,108.1,-9.2
+2015,North Dakota,99.3,108.6,-9.3
+2015,Southern Miss,97.6,106.9,-9.4
+2015,Saint Louis,94.1,103.6,-9.6
+2015,Loyola Marymount,97.6,107.6,-10.0
+2015,Utah Valley,94.3,104.5,-10.2
+2015,Austin Peay,96.2,106.6,-10.3
+2015,Bethune-Cookman,94.4,105.7,-11.3
+2015,Western Illinois,93.3,104.9,-11.6
+2015,Liberty,94.0,105.7,-11.7
+2015,Alabama A&M,96.5,108.2,-11.7
+2015,Arkansas-Pine Bluff,93.7,105.5,-11.8
+2015,South Carolina State,93.9,105.8,-11.9
+2015,Morgan State,97.3,109.3,-12.0
+2015,Montana State,95.3,107.3,-12.0
+2015,Nicholls,94.3,106.8,-12.4
+2015,North Carolina A&T,95.7,108.1,-12.4
+2015,Binghamton,92.8,105.3,-12.5
+2015,Coppin State,97.6,110.2,-12.6
+2015,UT Rio Grande Valley,94.7,107.6,-12.9
+2015,Stetson,98.0,111.2,-13.1
+2015,Chicago State,91.4,104.6,-13.2
+2015,Presbyterian,97.7,111.5,-13.7
+2015,UMBC,91.4,105.6,-14.2
+2015,Santa Clara,122.3,136.6,-14.3
+2015,Tennessee State,92.0,106.4,-14.4
+2015,Jacksonville,96.8,111.5,-14.7
+2015,Abilene Christian,94.1,108.9,-14.7
+2015,Kennesaw State,94.9,110.2,-15.3
+2015,Alcorn State,95.0,110.4,-15.4
+2015,Florida A&M,92.6,108.3,-15.7
+2015,Central Connecticut,93.7,109.7,-16.0
+2015,Maine,112.6,129.1,-16.5
+2015,Mississippi Valley State,92.6,110.2,-17.6
+2015,Central Arkansas,94.6,113.3,-18.7
+2015,San José State,87.2,106.9,-19.7
+2015,Grambling,86.7,110.2,-23.5
+2016,Villanova,120.3,90.1,30.2
+2016,Michigan State,122.3,93.4,28.9
+2016,Virginia,120.0,91.2,28.8
+2016,Kansas,119.5,91.5,28.0
+2016,North Carolina,122.6,94.7,27.9
+2016,Louisville,116.8,91.1,25.7
+2016,Purdue,116.6,92.0,24.6
+2016,West Virginia,114.4,89.8,24.6
+2016,Kentucky,120.5,96.0,24.5
+2016,SMU,119.8,96.0,23.8
+2016,Indiana,121.7,98.4,23.3
+2016,Oklahoma,117.1,94.6,22.5
+2016,Miami,117.9,95.8,22.1
+2016,Wichita State,111.5,89.5,22.0
+2016,Duke,121.1,99.2,21.9
+2016,Arizona,117.0,95.3,21.7
+2016,Gonzaga,116.7,95.2,21.5
+2016,Oregon,117.8,96.4,21.4
+2016,Texas A&M,113.4,92.2,21.2
+2016,Xavier,115.9,95.2,20.7
+2016,Maryland,116.3,96.0,20.4
+2016,Iowa,114.8,94.8,20.0
+2016,UConn,112.1,92.7,19.5
+2016,Vanderbilt,113.7,94.2,19.5
+2016,Saint Mary's,117.6,98.5,19.1
+2016,Cincinnati,111.9,93.3,18.6
+2016,Iowa State,118.7,100.5,18.3
+2016,Butler,118.3,100.9,17.5
+2016,California,111.6,94.2,17.4
+2016,Pittsburgh,114.8,97.6,17.3
+2016,Baylor,117.6,100.3,17.3
+2016,Syracuse,110.8,93.9,16.9
+2016,Florida,109.8,93.1,16.8
+2016,Stephen F. Austin,112.5,95.9,16.7
+2016,Utah,115.7,99.0,16.7
+2016,Notre Dame,119.5,103.3,16.3
+2016,Seton Hall,109.3,93.3,16.0
+2016,VCU,111.0,95.0,16.0
+2016,Valparaiso,107.3,91.4,15.8
+2016,Michigan,115.1,99.4,15.7
+2016,Wisconsin,109.5,94.2,15.3
+2016,Yale,109.7,94.7,15.1
+2016,Saint Joseph's,113.1,98.4,14.8
+2016,BYU,112.4,97.6,14.8
+2016,Texas,111.6,96.9,14.7
+2016,San Diego State,105.0,90.5,14.5
+2016,Florida State,112.4,98.6,13.8
+2016,Clemson,110.7,97.1,13.6
+2016,Creighton,111.5,98.0,13.5
+2016,George Washington,113.4,100.0,13.4
+2016,Little Rock,108.0,94.7,13.3
+2016,Georgia Tech,113.5,100.4,13.2
+2016,USC,112.8,99.7,13.1
+2016,Houston,116.7,103.9,12.8
+2016,Dayton,106.4,93.7,12.7
+2016,Texas Tech,112.4,99.9,12.5
+2016,South Carolina,108.8,96.3,12.5
+2016,Kansas State,107.6,95.0,12.5
+2016,Colorado,107.6,95.4,12.2
+2016,Northwestern,111.6,99.5,12.2
+2016,Providence,107.7,95.7,12.0
+2016,Princeton,114.5,103.0,11.6
+2016,Northern Iowa,109.9,98.3,11.5
+2016,Hawai'i,107.4,96.0,11.4
+2016,Tulsa,110.2,99.0,11.2
+2016,Virginia Tech,109.1,98.2,10.9
+2016,Evansville,107.9,97.1,10.8
+2016,Arkansas,110.6,100.1,10.5
+2016,Georgetown,110.5,100.0,10.5
+2016,Akron,110.6,100.2,10.4
+2016,Washington,109.1,98.8,10.4
+2016,Memphis,106.7,96.5,10.3
+2016,Oregon State,109.1,99.0,10.2
+2016,UCLA,111.0,101.1,9.9
+2016,NC State,112.6,102.9,9.7
+2016,South Dakota State,110.5,101.0,9.5
+2016,Rhode Island,107.9,98.4,9.5
+2016,Ohio State,105.8,96.4,9.4
+2016,UNC Wilmington,110.0,100.7,9.3
+2016,Nebraska,109.8,100.6,9.2
+2016,Georgia,106.6,97.6,9.1
+2016,William & Mary,112.0,103.0,9.1
+2016,Stony Brook,107.6,98.5,9.1
+2016,LSU,111.0,102.2,8.8
+2016,Boise State,109.5,100.8,8.7
+2016,Mississippi State,109.4,100.9,8.6
+2016,UT Arlington,106.5,98.0,8.5
+2016,Temple,107.4,98.9,8.5
+2016,Ole Miss,109.7,101.3,8.4
+2016,Oakland,115.8,107.5,8.3
+2016,Hofstra,110.8,102.5,8.3
+2016,Monmouth,107.2,99.0,8.2
+2016,UC Irvine,106.0,98.0,7.9
+2016,St. Bonaventure,114.0,106.2,7.9
+2016,James Madison,107.4,99.4,7.9
+2016,Old Dominion,106.0,98.4,7.6
+2016,Arizona State,109.0,101.9,7.2
+2016,Richmond,112.0,104.8,7.2
+2016,Iona,109.8,102.6,7.1
+2016,New Mexico State,103.8,96.9,6.9
+2016,UC Santa Barbara,105.9,99.1,6.8
+2016,UAlbany,106.1,99.4,6.7
+2016,Oklahoma State,105.2,98.5,6.7
+2016,Tennessee,109.3,102.5,6.7
+2016,Alabama,103.6,97.0,6.6
+2016,Stanford,107.1,100.6,6.5
+2016,Columbia,111.2,104.8,6.4
+2016,Fresno State,107.0,101.0,6.0
+2016,Toledo,111.5,105.5,6.0
+2016,UAB,109.1,103.2,5.9
+2016,New Mexico,107.7,101.9,5.8
+2016,Davidson,112.6,107.0,5.6
+2016,Long Beach State,110.6,105.0,5.6
+2016,Marquette,106.7,101.1,5.6
+2016,UNLV,103.6,98.2,5.4
+2016,Siena,108.6,103.6,5.1
+2016,Milwaukee,111.3,106.4,4.9
+2016,Cal State Bakersfield,103.0,98.1,4.9
+2016,Illinois State,103.4,98.5,4.9
+2016,Louisiana,109.9,105.3,4.7
+2016,Charleston,98.6,93.9,4.7
+2016,Chattanooga,107.0,102.3,4.7
+2016,Middle Tennessee,103.4,99.3,4.1
+2016,Ohio,111.2,107.1,4.1
+2016,Wake Forest,105.7,101.7,4.0
+2016,Southern Illinois,106.4,102.5,3.9
+2016,Purdue Fort Wayne,111.6,107.8,3.8
+2016,Northeastern,106.2,102.7,3.5
+2016,Utah State,109.5,106.4,3.1
+2016,Nevada,101.7,98.6,3.1
+2016,Illinois,106.5,103.6,2.9
+2016,UL Monroe,106.9,104.0,2.9
+2016,Morehead State,104.6,101.7,2.9
+2016,Belmont,112.6,109.7,2.9
+2016,Grand Canyon,104.2,101.6,2.6
+2016,Weber State,103.0,100.4,2.6
+2016,Green Bay,107.6,105.1,2.5
+2016,Penn State,102.3,100.0,2.3
+2016,Louisiana Tech,108.4,106.0,2.3
+2016,High Point,110.1,108.0,2.2
+2016,UNC Asheville,101.7,99.5,2.2
+2016,Montana,105.2,103.0,2.1
+2016,Southern,99.9,97.9,2.0
+2016,Marshall,110.1,108.2,1.9
+2016,Colorado State,111.7,109.7,1.9
+2016,Buffalo,104.4,102.5,1.9
+2016,Florida Gulf Coast,103.8,102.1,1.7
+2016,Pepperdine,105.2,103.7,1.5
+2016,TCU,100.7,99.3,1.3
+2016,North Dakota State,102.4,101.2,1.2
+2016,Vermont,107.0,105.8,1.2
+2016,Ball State,102.4,101.2,1.2
+2016,Duquesne,106.8,105.7,1.1
+2016,Tennessee State,102.2,101.1,1.1
+2016,Omaha,109.1,108.0,1.1
+2016,Towson,105.1,104.0,1.1
+2016,Winthrop,107.9,106.8,1.0
+2016,Texas A&M-Corpus Christi,102.0,101.3,0.7
+2016,Bucknell,105.8,105.1,0.6
+2016,Eastern Michigan,105.4,104.8,0.5
+2016,East Tennessee State,106.6,106.4,0.2
+2016,Kent State,106.3,106.1,0.2
+2016,Fordham,101.9,101.7,0.2
+2016,Central Michigan,110.5,110.4,0.1
+2016,Wyoming,107.8,107.6,0.1
+2016,Wright State,99.8,99.7,0.0
+2016,Murray State,105.8,106.2,-0.3
+2016,Harvard,103.2,103.7,-0.5
+2016,Northern Illinois,101.3,101.8,-0.5
+2016,Massachusetts,102.9,103.3,-0.5
+2016,Indiana State,98.5,99.1,-0.6
+2016,Furman,104.9,105.8,-0.8
+2016,Missouri,102.6,103.5,-0.9
+2016,Coastal Carolina,101.5,102.5,-1.0
+2016,North Florida,113.7,114.8,-1.1
+2016,Western Kentucky,107.1,108.2,-1.1
+2016,Georgia State,99.8,101.1,-1.4
+2016,Oral Roberts,107.3,108.8,-1.5
+2016,Tennessee Tech,108.3,110.0,-1.7
+2016,Mercer,104.4,106.0,-1.7
+2016,Detroit Mercy,109.9,111.7,-1.8
+2016,Loyola Chicago,99.1,100.9,-1.8
+2016,UCF,101.3,103.2,-1.9
+2016,Tulane,97.2,99.2,-2.0
+2016,Denver,103.0,105.1,-2.1
+2016,Elon,104.7,106.8,-2.2
+2016,Western Michigan,103.3,105.6,-2.3
+2016,Eastern Washington,111.3,113.6,-2.3
+2016,Wagner,99.2,101.7,-2.5
+2016,East Carolina,102.5,105.0,-2.5
+2016,Lehigh,103.8,106.3,-2.6
+2016,North Dakota,98.9,101.8,-2.9
+2016,NJIT,101.9,104.8,-2.9
+2016,DePaul,103.6,106.6,-3.0
+2016,Wofford,105.2,108.3,-3.1
+2016,Minnesota,100.3,103.4,-3.2
+2016,Portland,106.3,109.6,-3.3
+2016,Eastern Kentucky,106.9,110.3,-3.3
+2016,Auburn,101.2,104.5,-3.4
+2016,Cal Poly,106.2,109.7,-3.5
+2016,Washington State,102.4,105.9,-3.5
+2016,Idaho,98.8,102.5,-3.6
+2016,Navy,98.1,101.8,-3.7
+2016,IU Indianapolis,99.5,103.3,-3.8
+2016,Sam Houston,102.9,106.8,-3.9
+2016,Saint Peter's,97.2,101.2,-4.0
+2016,San Francisco,105.8,110.1,-4.2
+2016,Texas Southern,107.4,111.7,-4.3
+2016,Georgia Southern,103.0,107.3,-4.3
+2016,George Mason,100.1,104.5,-4.4
+2016,Fairfield,102.7,107.2,-4.5
+2016,Jackson State,95.7,100.2,-4.5
+2016,Charlotte,104.5,109.1,-4.6
+2016,Western Carolina,100.2,104.9,-4.6
+2016,Rider,99.1,103.8,-4.7
+2016,Dartmouth,99.9,104.6,-4.7
+2016,Pacific,101.1,105.9,-4.8
+2016,South Dakota,105.4,110.3,-4.9
+2016,Western Illinois,99.9,104.9,-5.0
+2016,UC Riverside,100.5,105.9,-5.4
+2016,Florida International,102.7,108.3,-5.5
+2016,Missouri State,100.2,105.7,-5.5
+2016,Bowling Green,99.9,105.4,-5.5
+2016,Lipscomb,104.0,109.8,-5.8
+2016,Canisius,107.8,113.6,-5.8
+2016,UNC Greensboro,101.7,107.6,-5.9
+2016,Texas State,98.8,104.7,-5.9
+2016,UTEP,101.8,107.9,-6.1
+2016,Boston University,103.3,109.4,-6.1
+2016,Radford,101.9,108.2,-6.3
+2016,Loyola Marymount,102.2,108.5,-6.3
+2016,Montana State,105.7,112.0,-6.3
+2016,St. John's,95.9,102.3,-6.4
+2016,Austin Peay,101.5,107.9,-6.4
+2016,Pennsylvania,103.5,110.0,-6.5
+2016,Incarnate Word,101.1,107.6,-6.5
+2016,Boston College,97.4,103.9,-6.5
+2016,Gardner-Webb,99.4,106.1,-6.6
+2016,Army,100.2,106.8,-6.6
+2016,UT Martin,102.7,109.3,-6.6
+2016,South Florida,97.5,104.2,-6.7
+2016,Northern Kentucky,100.8,107.5,-6.7
+2016,Alabama A&M,100.1,107.1,-7.0
+2016,UC Davis,93.8,100.8,-7.0
+2016,Saint Louis,94.9,102.0,-7.1
+2016,Samford,100.5,107.6,-7.1
+2016,Arkansas State,100.0,107.1,-7.2
+2016,Air Force,97.6,105.0,-7.3
+2016,Colgate,103.1,110.6,-7.5
+2016,Santa Clara,100.2,107.8,-7.6
+2016,Miami (OH),97.2,104.8,-7.6
+2016,Cal State Northridge,99.4,107.2,-7.8
+2016,Norfolk State,104.1,111.9,-7.8
+2016,Brown,101.5,109.3,-7.8
+2016,Portland State,101.5,109.8,-8.2
+2016,South Carolina State,101.3,109.6,-8.3
+2016,San José State,97.1,105.6,-8.4
+2016,Kansas City,105.2,113.6,-8.4
+2016,Manhattan,97.7,106.2,-8.5
+2016,Mount St. Mary's,95.5,103.9,-8.5
+2016,New Hampshire,99.2,107.8,-8.6
+2016,Drexel,97.8,106.4,-8.6
+2016,Morgan State,99.3,108.0,-8.7
+2016,Jacksonville,100.2,109.0,-8.7
+2016,Drake,102.4,111.1,-8.7
+2016,Eastern Illinois,100.7,109.6,-8.9
+2016,Cal State Fullerton,101.0,110.0,-9.0
+2016,Fairleigh Dickinson,102.4,111.9,-9.4
+2016,Houston Christian,101.5,111.0,-9.5
+2016,Delaware,101.0,110.6,-9.7
+2016,South Alabama,95.1,105.1,-9.9
+2016,Hampton,99.9,109.9,-10.0
+2016,App State,100.6,110.6,-10.0
+2016,Idaho State,99.5,109.4,-10.0
+2016,St. Francis (PA),101.4,111.5,-10.0
+2016,Sacred Heart,99.6,109.7,-10.1
+2016,Troy,98.8,108.9,-10.1
+2016,Sacramento State,99.0,109.2,-10.2
+2016,Rice,104.9,115.1,-10.2
+2016,Kennesaw State,100.5,110.9,-10.4
+2016,Quinnipiac,92.8,103.4,-10.6
+2016,Utah Valley,99.0,109.6,-10.6
+2016,Alabama State,97.9,108.7,-10.7
+2016,Loyola Maryland,100.3,111.1,-10.8
+2016,Long Island University,99.6,110.6,-10.9
+2016,La Salle,97.5,108.8,-11.3
+2016,Stetson,101.4,112.7,-11.4
+2016,Cornell,96.8,108.3,-11.5
+2016,Jacksonville State,97.9,109.6,-11.6
+2016,Seattle U,94.0,105.6,-11.6
+2016,Howard,95.2,106.8,-11.6
+2016,Rutgers,97.2,109.1,-11.9
+2016,Liberty,97.8,109.8,-11.9
+2016,North Texas,99.8,111.9,-12.1
+2016,Niagara,94.4,106.6,-12.2
+2016,Charleston Southern,99.1,111.5,-12.4
+2016,Robert Morris,92.4,104.8,-12.4
+2016,Cleveland State,91.8,104.2,-12.4
+2016,Longwood,99.8,112.3,-12.5
+2016,Campbell,99.5,112.0,-12.5
+2016,Holy Cross,95.8,108.4,-12.6
+2016,San Diego,93.7,106.6,-12.8
+2016,Youngstown State,101.7,114.5,-12.8
+2016,SIU Edwardsville,94.9,107.8,-12.9
+2016,Florida Atlantic,95.1,108.0,-12.9
+2016,Maryland Eastern Shore,98.9,112.0,-13.2
+2016,Southern Miss,95.6,108.8,-13.3
+2016,Coppin State,100.6,113.9,-13.3
+2016,SE Louisiana,97.7,111.1,-13.4
+2016,Lamar,96.8,110.4,-13.6
+2016,Marist,101.3,115.0,-13.7
+2016,Northern Colorado,103.0,116.8,-13.8
+2016,New Orleans,96.8,110.9,-14.1
+2016,UMass Lowell,100.3,114.6,-14.2
+2016,Bethune-Cookman,97.8,112.4,-14.7
+2016,Abilene Christian,98.3,113.1,-14.9
+2016,American University,91.8,106.8,-15.0
+2016,Central Arkansas,100.8,116.3,-15.6
+2016,UMBC,101.4,117.2,-15.7
+2016,Northwestern State,102.2,118.1,-15.9
+2016,VMI,95.7,111.8,-16.1
+2016,Lafayette,99.7,116.0,-16.3
+2016,McNeese,96.2,112.9,-16.7
+2016,North Carolina Central,96.2,113.0,-16.8
+2016,Bradley,87.3,104.2,-16.9
+2016,Presbyterian,92.6,109.6,-17.0
+2016,Binghamton,86.8,103.8,-17.0
+2016,The Citadel,101.2,118.3,-17.1
+2016,South Carolina Upstate,98.4,115.7,-17.3
+2016,Nicholls,91.0,108.6,-17.5
+2016,UIC,89.8,107.3,-17.6
+2016,Southeast Missouri State,91.2,109.3,-18.0
+2016,Maine,95.1,113.1,-18.0
+2016,Mississippi Valley State,90.2,109.5,-19.3
+2016,Prairie View A&M,89.2,109.3,-20.1
+2016,UTSA,96.3,116.4,-20.1
+2016,North Carolina A&T,93.6,114.5,-21.0
+2016,Southern Utah,97.0,118.7,-21.7
+2016,Arkansas-Pine Bluff,85.7,107.4,-21.7
+2016,Bryant,93.2,115.1,-22.0
+2016,Grambling,97.7,119.7,-22.0
+2016,Northern Arizona,92.5,114.7,-22.3
+2016,UT Rio Grande Valley,95.1,117.5,-22.4
+2016,Alcorn State,92.1,114.6,-22.5
+2016,Chicago State,90.4,113.2,-22.8
+2016,Florida A&M,81.8,106.0,-24.2
+2016,Central Connecticut,91.5,117.5,-26.0
+2016,Delaware State,85.8,112.7,-26.9
+2017,Florida,149.5,141.2,8.2
+2017,Gonzaga,108.1,101.2,6.9
+2017,Wichita State,108.0,102.4,5.6
+2017,Villanova,108.6,103.5,5.1
+2017,Saint Mary's,108.2,103.2,5.0
+2017,SMU,108.1,103.4,4.7
+2017,West Virginia,106.9,102.6,4.3
+2017,North Carolina,108.0,103.7,4.3
+2017,Kentucky,107.0,102.8,4.2
+2017,Cincinnati,107.2,103.0,4.1
+2017,UCLA,109.1,105.0,4.0
+2017,Arizona,107.6,104.0,3.6
+2017,Oregon,107.4,103.8,3.6
+2017,Kansas,107.9,104.4,3.5
+2017,Duke,107.8,104.3,3.5
+2017,Louisville,107.0,103.5,3.5
+2017,Purdue,107.1,103.7,3.4
+2017,Wisconsin,106.5,103.2,3.4
+2017,Virginia,105.8,102.6,3.3
+2017,Middle Tennessee,106.6,103.5,3.1
+2017,Michigan,108.2,105.2,3.0
+2017,Florida State,106.8,104.1,2.7
+2017,Vermont,106.7,104.0,2.7
+2017,Baylor,106.5,103.9,2.6
+2017,Princeton,106.2,103.6,2.5
+2017,Louisiana Tech,106.2,103.7,2.5
+2017,Notre Dame,107.4,104.9,2.5
+2017,Rhode Island,106.2,103.7,2.5
+2017,UNC Wilmington,108.2,105.7,2.5
+2017,VCU,106.0,103.5,2.5
+2017,East Tennessee State,106.1,103.7,2.4
+2017,Nevada,107.1,104.6,2.4
+2017,Iowa State,107.2,104.7,2.4
+2017,Dayton,106.2,103.8,2.4
+2017,South Carolina,103.9,101.5,2.4
+2017,Bucknell,106.2,103.8,2.4
+2017,Illinois State,105.4,103.0,2.4
+2017,Butler,107.1,104.7,2.4
+2017,Monmouth,107.0,104.7,2.3
+2017,New Mexico State,106.8,104.6,2.2
+2017,Utah,106.7,104.5,2.2
+2017,Houston,106.6,104.5,2.1
+2017,Creighton,106.7,104.6,2.1
+2017,Winthrop,106.0,103.9,2.1
+2017,Oklahoma State,108.1,106.1,2.0
+2017,Saint Peter's,105.7,103.7,2.0
+2017,North Carolina Central,105.6,103.6,2.0
+2017,Furman,106.4,104.4,1.9
+2017,Belmont,106.3,104.5,1.9
+2017,Marquette,107.7,105.9,1.8
+2017,Cal State Bakersfield,104.5,102.8,1.8
+2017,Indiana,107.0,105.3,1.7
+2017,UT Arlington,106.6,104.8,1.7
+2017,Valparaiso,105.7,104.1,1.6
+2017,Texas Tech,106.5,104.9,1.6
+2017,Oakland,105.6,104.0,1.6
+2017,Ohio,105.8,104.2,1.6
+2017,UCF,104.5,102.9,1.6
+2017,Charleston,105.8,104.3,1.5
+2017,USC,106.9,105.4,1.5
+2017,Lehigh,106.0,104.5,1.5
+2017,Akron,107.0,105.5,1.5
+2017,TCU,106.3,104.9,1.5
+2017,Kansas State,105.8,104.3,1.4
+2017,Northwestern,105.6,104.3,1.4
+2017,Florida Gulf Coast,106.3,104.9,1.4
+2017,Wake Forest,107.6,106.2,1.4
+2017,Iona,106.7,105.4,1.3
+2017,Minnesota,105.2,103.9,1.3
+2017,Miami,105.3,104.0,1.3
+2017,Syracuse,106.4,105.1,1.3
+2017,Arkansas,105.7,104.4,1.3
+2017,BYU,105.6,104.3,1.3
+2017,St. Bonaventure,105.8,104.6,1.2
+2017,California,104.7,103.5,1.2
+2017,UC Irvine,105.4,104.2,1.2
+2017,Louisiana,106.9,105.8,1.2
+2017,Alabama,104.0,102.8,1.2
+2017,UNC Asheville,105.8,104.7,1.1
+2017,Colorado State,105.6,104.5,1.1
+2017,Chattanooga,106.0,105.0,1.1
+2017,Arkansas State,105.7,104.6,1.1
+2017,Vanderbilt,104.8,103.7,1.1
+2017,San Diego State,104.9,103.8,1.1
+2017,Maryland,105.9,104.8,1.1
+2017,Old Dominion,104.5,103.5,1.0
+2017,Troy,106.6,105.6,1.0
+2017,North Dakota,105.6,104.6,1.0
+2017,Clemson,106.6,105.5,1.0
+2017,Michigan State,105.6,104.5,1.0
+2017,Xavier,106.4,105.4,1.0
+2017,Rice,106.2,105.2,1.0
+2017,Virginia Tech,106.9,106.0,0.9
+2017,Loyola Chicago,105.7,104.8,0.9
+2017,Toledo,106.3,105.5,0.9
+2017,Northern Kentucky,106.1,105.2,0.9
+2017,Weber State,106.6,105.7,0.9
+2017,Lipscomb,106.4,105.6,0.8
+2017,Boise State,105.9,105.1,0.8
+2017,San Francisco,104.8,104.0,0.8
+2017,Gardner-Webb,105.2,104.4,0.8
+2017,Towson,105.5,104.7,0.8
+2017,Buffalo,105.5,104.8,0.8
+2017,Harvard,105.5,104.6,0.8
+2017,Seton Hall,105.2,104.4,0.8
+2017,South Dakota,105.5,104.8,0.7
+2017,Providence,105.1,104.4,0.7
+2017,Texas State,104.8,104.1,0.7
+2017,Texas A&M-Corpus Christi,105.3,104.5,0.7
+2017,South Carolina Upstate,106.4,105.7,0.7
+2017,Utah Valley,104.8,104.1,0.7
+2017,Fresno State,105.2,104.5,0.7
+2017,Georgia State,105.3,104.6,0.7
+2017,Tennessee State,104.8,104.1,0.6
+2017,New Orleans,105.0,104.4,0.6
+2017,Grand Canyon,104.4,103.8,0.6
+2017,Texas Southern,105.9,105.3,0.6
+2017,Texas A&M,105.0,104.4,0.6
+2017,Ohio State,105.4,104.8,0.6
+2017,Colorado,106.1,105.5,0.6
+2017,UAlbany,105.8,105.2,0.6
+2017,Montana,106.0,105.4,0.6
+2017,Samford,106.2,105.6,0.6
+2017,Jacksonville State,105.8,105.2,0.6
+2017,Lamar,105.6,105.1,0.5
+2017,Davidson,105.4,104.9,0.5
+2017,Memphis,105.1,104.6,0.5
+2017,Richmond,105.7,105.2,0.5
+2017,Wyoming,104.9,104.4,0.5
+2017,Kent State,105.6,105.1,0.5
+2017,Yale,105.5,105.1,0.4
+2017,Georgia,104.2,103.9,0.4
+2017,Murray State,105.9,105.5,0.4
+2017,William & Mary,106.6,106.2,0.4
+2017,UNC Greensboro,105.7,105.3,0.4
+2017,Siena,105.7,105.3,0.4
+2017,Wright State,105.6,105.1,0.4
+2017,Idaho,105.5,105.1,0.4
+2017,Wofford,106.5,106.1,0.4
+2017,Tennessee,104.4,104.1,0.3
+2017,Purdue Fort Wayne,106.2,105.9,0.3
+2017,Denver,106.0,105.7,0.3
+2017,Ball State,105.5,105.2,0.3
+2017,Missouri State,105.9,105.6,0.3
+2017,UAB,105.5,105.2,0.3
+2017,SE Louisiana,104.5,104.2,0.3
+2017,Canisius,106.2,106.0,0.3
+2017,Pennsylvania,105.0,104.7,0.2
+2017,Auburn,105.0,104.9,0.2
+2017,North Dakota State,105.5,105.3,0.2
+2017,Elon,105.1,104.9,0.2
+2017,UConn,105.0,104.8,0.2
+2017,George Mason,105.4,105.2,0.2
+2017,Liberty,104.7,104.5,0.2
+2017,Northeastern,105.7,105.5,0.2
+2017,UMBC,106.3,106.0,0.2
+2017,Boston University,104.8,104.8,0.1
+2017,Marshall,106.2,106.1,0.1
+2017,Mercer,105.9,105.8,0.1
+2017,Iowa,105.8,105.7,0.1
+2017,New Mexico,105.3,105.2,0.1
+2017,Green Bay,105.0,104.9,0.1
+2017,Mississippi State,104.0,104.0,0.1
+2017,Wagner,105.0,105.1,0.0
+2017,Portland State,105.9,105.9,0.0
+2017,Montana State,105.7,105.7,0.0
+2017,Navy,104.6,104.7,0.0
+2017,Santa Clara,104.9,104.9,0.0
+2017,UC Davis,104.2,104.2,0.0
+2017,Rider,104.9,104.9,0.0
+2017,Fairfield,104.5,104.5,0.0
+2017,Western Michigan,105.8,105.8,0.0
+2017,Utah State,105.5,105.5,0.0
+2017,Georgetown,105.2,105.3,-0.1
+2017,IU Indianapolis,106.1,106.1,-0.1
+2017,George Washington,105.4,105.4,-0.1
+2017,Evansville,105.0,105.1,-0.1
+2017,Eastern Illinois,105.0,105.1,-0.1
+2017,Illinois,104.9,105.1,-0.1
+2017,Eastern Michigan,105.7,105.7,-0.1
+2017,Hofstra,106.5,106.6,-0.1
+2017,UT Martin,105.7,105.8,-0.2
+2017,Temple,105.2,105.4,-0.2
+2017,Alcorn State,104.5,104.7,-0.2
+2017,Omaha,106.2,106.4,-0.2
+2017,Long Island University,104.9,105.1,-0.2
+2017,New Hampshire,104.8,105.0,-0.2
+2017,Massachusetts,103.8,104.1,-0.3
+2017,Georgia Southern,105.5,105.8,-0.3
+2017,Mount St. Mary's,104.4,104.7,-0.3
+2017,Houston Christian,105.7,106.0,-0.3
+2017,Stephen F. Austin,104.2,104.5,-0.3
+2017,South Dakota State,106.3,106.6,-0.3
+2017,Northern Illinois,104.3,104.6,-0.3
+2017,Jacksonville,105.7,105.9,-0.3
+2017,St. Francis (PA),105.2,105.5,-0.3
+2017,Southeast Missouri State,105.4,105.8,-0.4
+2017,Morehead State,105.8,106.2,-0.4
+2017,Oklahoma,104.2,104.7,-0.4
+2017,Sam Houston,104.2,104.6,-0.4
+2017,Penn State,104.1,104.6,-0.4
+2017,Georgia Tech,103.1,103.5,-0.4
+2017,La Salle,105.9,106.3,-0.4
+2017,Cal State Fullerton,104.5,104.9,-0.4
+2017,Loyola Maryland,104.4,104.8,-0.4
+2017,High Point,104.9,105.4,-0.5
+2017,Loyola Marymount,105.0,105.5,-0.5
+2017,St. John's,105.3,105.8,-0.5
+2017,Holy Cross,104.2,104.7,-0.5
+2017,Stony Brook,104.7,105.3,-0.6
+2017,Kennesaw State,105.5,106.1,-0.6
+2017,Stanford,104.4,105.0,-0.6
+2017,Pittsburgh,105.7,106.4,-0.7
+2017,Little Rock,104.3,105.0,-0.7
+2017,Rutgers,103.8,104.5,-0.7
+2017,Southern Illinois,104.5,105.2,-0.7
+2017,Army,104.9,105.6,-0.7
+2017,UTEP,104.2,104.9,-0.7
+2017,UTSA,103.9,104.7,-0.8
+2017,Sacramento State,105.3,106.1,-0.8
+2017,Long Beach State,105.0,105.8,-0.8
+2017,Western Kentucky,105.0,105.8,-0.8
+2017,Northern Colorado,104.5,105.2,-0.8
+2017,UIC,104.5,105.4,-0.8
+2017,Columbia,104.7,105.6,-0.9
+2017,Saint Joseph's,104.2,105.1,-0.9
+2017,Niagara,104.9,105.8,-0.9
+2017,Abilene Christian,104.5,105.4,-0.9
+2017,Tulsa,104.4,105.3,-0.9
+2017,Fairleigh Dickinson,105.3,106.3,-0.9
+2017,Tennessee Tech,104.7,105.6,-0.9
+2017,Coastal Carolina,104.5,105.5,-1.0
+2017,James Madison,104.2,105.3,-1.0
+2017,Campbell,105.0,106.0,-1.0
+2017,Kansas City,104.8,105.8,-1.0
+2017,Central Michigan,106.1,107.1,-1.0
+2017,Nebraska,104.5,105.5,-1.0
+2017,Brown,105.1,106.0,-1.0
+2017,Northwestern State,105.1,106.2,-1.1
+2017,Fordham,103.5,104.6,-1.1
+2017,Cal Poly,105.1,106.2,-1.1
+2017,UMass Lowell,105.8,107.0,-1.1
+2017,Florida International,105.1,106.2,-1.1
+2017,Seattle U,103.9,104.9,-1.1
+2017,Jackson State,104.6,105.7,-1.1
+2017,NJIT,104.9,106.0,-1.1
+2017,Colgate,104.2,105.4,-1.1
+2017,Indiana State,103.7,104.8,-1.1
+2017,Southern,104.9,106.1,-1.1
+2017,South Alabama,103.9,105.1,-1.1
+2017,Cal State Northridge,105.3,106.4,-1.1
+2017,East Carolina,103.1,104.2,-1.1
+2017,Bryant,105.0,106.1,-1.1
+2017,Sacred Heart,104.2,105.3,-1.1
+2017,Bowling Green,104.4,105.6,-1.2
+2017,NC State,105.6,106.8,-1.2
+2017,Arizona State,105.8,107.0,-1.2
+2017,Charlotte,104.7,105.8,-1.2
+2017,San José State,104.3,105.5,-1.2
+2017,Cleveland State,103.8,104.9,-1.2
+2017,Texas,103.6,104.8,-1.2
+2017,Northern Iowa,103.2,104.5,-1.2
+2017,Drexel,105.2,106.4,-1.2
+2017,Maine,104.3,105.6,-1.3
+2017,Washington,105.3,106.6,-1.3
+2017,Maryland Eastern Shore,104.9,106.1,-1.3
+2017,Hawai'i,103.8,105.1,-1.3
+2017,Missouri,102.8,104.1,-1.3
+2017,Duquesne,104.2,105.6,-1.4
+2017,Air Force,104.9,106.4,-1.4
+2017,Dartmouth,104.5,105.9,-1.4
+2017,Charleston Southern,105.1,106.5,-1.4
+2017,Morgan State,103.8,105.2,-1.4
+2017,Robert Morris,102.7,104.1,-1.4
+2017,Hampton,103.9,105.3,-1.4
+2017,Norfolk State,104.0,105.5,-1.4
+2017,Incarnate Word,105.0,106.4,-1.4
+2017,Milwaukee,104.6,106.0,-1.5
+2017,North Florida,104.6,106.1,-1.5
+2017,Florida Atlantic,104.2,105.8,-1.5
+2017,Prairie View A&M,104.6,106.1,-1.5
+2017,UL Monroe,104.2,105.7,-1.5
+2017,Radford,103.8,105.5,-1.6
+2017,Cornell,104.4,106.0,-1.6
+2017,Oral Roberts,104.6,106.3,-1.6
+2017,Florida A&M,104.6,106.2,-1.6
+2017,Eastern Kentucky,104.2,105.9,-1.7
+2017,Miami (OH),103.7,105.4,-1.7
+2017,Youngstown State,104.8,106.5,-1.7
+2017,Bradley,103.0,104.7,-1.7
+2017,Austin Peay,105.9,107.7,-1.8
+2017,UT Rio Grande Valley,104.6,106.4,-1.8
+2017,App State,104.3,106.2,-1.9
+2017,South Carolina State,104.6,106.5,-1.9
+2017,Grambling,104.2,106.1,-1.9
+2017,American University,103.6,105.5,-1.9
+2017,Bethune-Cookman,104.2,106.2,-2.0
+2017,Delaware State,104.3,106.3,-2.0
+2017,Binghamton,104.0,106.0,-2.0
+2017,Alabama State,103.8,105.8,-2.0
+2017,Pacific,103.8,105.9,-2.0
+2017,SIU Edwardsville,103.8,105.9,-2.0
+2017,UC Riverside,103.2,105.2,-2.0
+2017,Boston College,104.4,106.3,-2.0
+2017,Western Illinois,104.1,106.2,-2.1
+2017,Manhattan,103.8,105.9,-2.1
+2017,Washington State,104.5,106.5,-2.1
+2017,Drake,104.5,106.6,-2.1
+2017,Nicholls,104.8,106.9,-2.1
+2017,DePaul,104.2,106.3,-2.2
+2017,The Citadel,105.2,107.4,-2.2
+2017,Northern Arizona,103.8,106.0,-2.2
+2017,UNLV,103.5,105.7,-2.2
+2017,Quinnipiac,104.6,106.7,-2.2
+2017,San Diego,104.0,106.2,-2.2
+2017,Stetson,104.7,107.0,-2.2
+2017,McNeese,103.9,106.1,-2.2
+2017,LSU,104.6,106.9,-2.3
+2017,Detroit Mercy,104.8,107.1,-2.3
+2017,North Texas,103.4,105.7,-2.3
+2017,Howard,103.4,105.8,-2.3
+2017,Tulane,104.1,106.5,-2.4
+2017,Mississippi Valley State,104.2,106.6,-2.4
+2017,Central Arkansas,105.1,107.5,-2.4
+2017,Marist,104.4,107.0,-2.5
+2017,Southern Utah,105.1,107.6,-2.5
+2017,Delaware,103.8,106.4,-2.5
+2017,North Carolina A&T,104.3,106.9,-2.6
+2017,Arkansas-Pine Bluff,102.8,105.5,-2.7
+2017,Portland,103.7,106.4,-2.7
+2017,Idaho State,104.1,106.9,-2.8
+2017,Southern Miss,102.9,105.8,-2.9
+2017,Saint Louis,102.7,105.6,-2.9
+2017,UC Santa Barbara,103.2,106.1,-2.9
+2017,South Florida,103.2,106.2,-3.0
+2017,Coppin State,103.4,106.5,-3.0
+2017,Lafayette,103.4,106.4,-3.0
+2017,Central Connecticut,103.5,106.6,-3.1
+2017,Pepperdine,104.3,107.6,-3.2
+2017,Oregon State,102.8,106.1,-3.2
+2017,Alabama A&M,103.9,107.2,-3.3
+2017,VMI,104.0,107.3,-3.3
+2017,Longwood,103.4,106.8,-3.4
+2017,Western Carolina,102.3,106.0,-3.7
+2017,Chicago State,102.6,106.6,-4.0
+2017,Ole Miss,144.1,148.2,-4.1
+2017,Presbyterian,102.8,107.0,-4.2
+2018,Old Dominion,135.2,124.4,10.8
+2018,Villanova,126.4,120.1,6.2
+2018,UC Davis,131.8,126.4,5.4
+2018,Cincinnati,123.5,118.2,5.2
+2018,Gonzaga,124.4,119.2,5.2
+2018,Davidson,140.3,135.3,5.0
+2018,Saint Mary's,128.2,123.4,4.8
+2018,Duke,124.9,120.2,4.7
+2018,Boise State,129.4,124.7,4.7
+2018,Purdue,124.4,119.8,4.6
+2018,Northeastern,130.7,126.1,4.6
+2018,Belmont,128.9,124.4,4.5
+2018,Idaho,137.5,133.2,4.3
+2018,Virginia,122.7,118.3,4.3
+2018,Louisiana,127.7,123.6,4.1
+2018,Michigan State,124.2,120.1,4.1
+2018,Western Kentucky,134.4,130.4,4.0
+2018,Murray State,132.5,128.6,3.9
+2018,Houston,123.5,119.7,3.8
+2018,Michigan,122.9,119.3,3.6
+2018,Furman,131.1,127.5,3.6
+2018,Stephen F. Austin,125.1,121.6,3.5
+2018,Vermont,126.4,123.0,3.4
+2018,Utah,128.7,125.3,3.4
+2018,Nevada,123.7,120.3,3.4
+2018,Loyola Chicago,122.6,119.3,3.3
+2018,Middle Tennessee,127.4,124.0,3.3
+2018,East Tennessee State,127.2,123.9,3.3
+2018,West Virginia,123.8,120.6,3.2
+2018,South Dakota State,128.1,125.0,3.2
+2018,Fresno State,131.8,128.7,3.1
+2018,Northern Colorado,129.3,126.2,3.1
+2018,Northern Kentucky,126.0,122.9,3.0
+2018,Utah Valley,131.4,128.5,2.9
+2018,North Carolina,123.5,120.7,2.8
+2018,Kansas,123.7,121.0,2.7
+2018,Wichita State,124.9,122.2,2.7
+2018,Tennessee,122.5,119.8,2.7
+2018,UL Monroe,138.7,136.0,2.7
+2018,Butler,126.8,124.1,2.7
+2018,Weber State,139.8,137.1,2.7
+2018,Charleston,128.5,125.9,2.7
+2018,SE Louisiana,131.2,128.6,2.6
+2018,Penn State,122.7,120.1,2.6
+2018,UNC Greensboro,122.0,119.4,2.6
+2018,NC State,129.8,127.3,2.5
+2018,Texas Tech,122.5,119.9,2.5
+2018,Mississippi State,127.8,125.3,2.5
+2018,Xavier,124.5,121.9,2.5
+2018,Auburn,123.4,120.9,2.5
+2018,Marshall,127.2,124.7,2.5
+2018,Arizona,123.7,121.1,2.5
+2018,Montana,129.3,126.9,2.4
+2018,Bucknell,125.3,122.9,2.4
+2018,Ohio State,123.2,120.8,2.4
+2018,South Dakota,122.4,120.1,2.3
+2018,USC,126.8,124.5,2.3
+2018,Clemson,122.9,120.6,2.3
+2018,Canisius,127.5,125.3,2.2
+2018,New Mexico State,126.8,124.6,2.2
+2018,Buffalo,123.4,121.2,2.2
+2018,St. Bonaventure,122.7,120.5,2.2
+2018,Eastern Washington,130.6,128.4,2.1
+2018,TCU,126.8,124.8,2.0
+2018,Miami,127.5,125.5,2.0
+2018,Florida State,122.9,120.9,2.0
+2018,Wright State,125.1,123.1,2.0
+2018,BYU,124.8,122.9,1.9
+2018,Missouri State,131.2,129.3,1.9
+2018,Georgia State,122.1,120.2,1.9
+2018,North Carolina Central,126.5,124.7,1.8
+2018,Virginia Tech,123.6,121.8,1.8
+2018,Grand Canyon,120.6,118.9,1.8
+2018,Rhode Island,122.4,120.6,1.8
+2018,Kentucky,128.0,126.2,1.8
+2018,UCLA,126.3,124.6,1.7
+2018,Florida,123.2,121.6,1.6
+2018,Arizona State,123.0,121.3,1.6
+2018,UAlbany,125.7,124.0,1.6
+2018,Winthrop,123.0,121.6,1.5
+2018,Oregon,122.6,121.1,1.5
+2018,Seton Hall,123.1,121.6,1.5
+2018,UAB,128.1,126.7,1.4
+2018,SMU,122.7,121.3,1.4
+2018,Pennsylvania,121.7,120.4,1.4
+2018,Kansas State,122.0,120.7,1.3
+2018,Ball State,126.1,124.8,1.3
+2018,Tulsa,126.9,125.6,1.3
+2018,Missouri,122.3,121.0,1.3
+2018,St. Francis (PA),131.9,130.6,1.3
+2018,Louisville,121.8,120.6,1.2
+2018,Arkansas,123.1,122.0,1.1
+2018,Notre Dame,123.1,122.0,1.1
+2018,Nebraska,122.1,121.0,1.1
+2018,Florida Gulf Coast,127.3,126.1,1.1
+2018,Baylor,122.7,121.7,1.1
+2018,LSU,123.1,122.1,1.1
+2018,Valparaiso,125.1,124.0,1.0
+2018,Georgia Southern,121.7,120.8,1.0
+2018,Creighton,123.3,122.2,1.0
+2018,Iona,123.9,122.9,1.0
+2018,Wofford,129.6,128.7,1.0
+2018,Lamar,122.2,121.2,1.0
+2018,Mercer,123.5,122.4,1.0
+2018,Wagner,122.9,122.0,1.0
+2018,Towson,122.4,121.4,1.0
+2018,Radford,125.2,124.2,1.0
+2018,Rider,123.4,122.3,1.0
+2018,Lipscomb,126.1,125.2,0.9
+2018,Seattle U,126.3,125.4,0.9
+2018,Harvard,121.0,120.2,0.8
+2018,Jacksonville State,129.2,128.3,0.8
+2018,Texas,121.3,120.5,0.8
+2018,Purdue Fort Wayne,129.0,128.3,0.8
+2018,Eastern Michigan,121.4,120.7,0.7
+2018,Nicholls,125.1,124.4,0.7
+2018,Hofstra,127.9,127.2,0.7
+2018,UIC,124.7,124.0,0.7
+2018,Marquette,123.7,123.1,0.6
+2018,Columbia,128.7,128.1,0.6
+2018,Liberty,121.8,121.2,0.6
+2018,Oklahoma State,122.8,122.2,0.6
+2018,New Orleans,129.6,129.0,0.6
+2018,Central Michigan,124.0,123.5,0.6
+2018,UC Irvine,122.4,121.8,0.6
+2018,Oklahoma,122.8,122.3,0.5
+2018,Syracuse,125.7,125.2,0.5
+2018,North Texas,126.4,125.8,0.5
+2018,Norfolk State,128.9,128.4,0.5
+2018,Maryland,127.7,127.2,0.5
+2018,Oakland,122.6,122.1,0.5
+2018,New Mexico,122.5,122.1,0.5
+2018,Colgate,125.6,125.2,0.4
+2018,Northwestern,122.2,121.8,0.4
+2018,VCU,126.6,126.2,0.4
+2018,Wyoming,125.2,124.8,0.4
+2018,UNLV,129.6,129.2,0.4
+2018,Texas A&M,121.7,121.3,0.4
+2018,Georgia,122.0,121.6,0.4
+2018,Toledo,126.9,126.4,0.4
+2018,Indiana,122.5,122.2,0.4
+2018,Southern Illinois,124.9,124.6,0.3
+2018,UNC Asheville,123.4,123.1,0.3
+2018,Idaho State,131.2,131.0,0.2
+2018,Saint Joseph's,124.1,123.9,0.2
+2018,Alabama,125.8,125.6,0.2
+2018,Wisconsin,121.9,121.8,0.2
+2018,Cal State Fullerton,124.4,124.2,0.2
+2018,UMBC,122.0,121.9,0.2
+2018,Ohio,125.1,125.0,0.1
+2018,South Carolina,121.2,121.1,0.1
+2018,Saint Louis,124.9,124.8,0.1
+2018,Louisiana Tech,127.5,127.4,0.1
+2018,Saint Peter's,121.4,121.3,0.1
+2018,Central Connecticut,128.4,128.3,0.1
+2018,Iowa,123.5,123.4,0.1
+2018,Pacific,128.5,128.3,0.1
+2018,Milwaukee,124.2,124.1,0.1
+2018,North Dakota State,127.8,127.7,0.1
+2018,Lafayette,134.4,134.3,0.1
+2018,Denver,127.6,127.6,0.1
+2018,Stanford,121.1,121.0,0.1
+2018,San Francisco,123.2,123.2,0.0
+2018,Northern Iowa,121.0,121.0,0.0
+2018,Southeast Missouri State,128.8,128.8,0.0
+2018,Yale,121.9,121.9,0.0
+2018,Boston College,122.4,122.5,0.0
+2018,Rutgers,125.5,125.5,0.0
+2018,Texas Southern,122.7,122.7,0.0
+2018,Grambling,122.9,122.9,0.0
+2018,South Alabama,124.0,124.1,0.0
+2018,Georgetown,121.8,121.9,-0.1
+2018,Troy,125.4,125.4,-0.1
+2018,High Point,122.2,122.2,-0.1
+2018,Utah State,121.5,121.6,-0.1
+2018,Long Island University,122.9,123.0,-0.1
+2018,Drake,121.5,121.7,-0.2
+2018,Navy,129.8,129.9,-0.2
+2018,Duquesne,121.4,121.6,-0.2
+2018,Colorado,125.9,126.1,-0.2
+2018,Mount St. Mary's,125.1,125.3,-0.2
+2018,Hampton,121.8,122.1,-0.2
+2018,Prairie View A&M,122.0,122.2,-0.2
+2018,Illinois,122.2,122.4,-0.2
+2018,St. John's,121.2,121.5,-0.3
+2018,Temple,121.8,122.1,-0.3
+2018,App State,124.3,124.6,-0.3
+2018,Niagara,127.5,127.8,-0.3
+2018,Monmouth,124.1,124.4,-0.3
+2018,Bethune-Cookman,121.5,121.8,-0.3
+2018,Campbell,125.4,125.7,-0.3
+2018,Evansville,120.2,120.5,-0.3
+2018,UCF,123.9,124.2,-0.3
+2018,Oregon State,128.0,128.3,-0.3
+2018,Manhattan,121.3,121.6,-0.4
+2018,Western Michigan,125.4,125.8,-0.4
+2018,Dayton,126.3,126.8,-0.4
+2018,Indiana State,124.0,124.4,-0.4
+2018,Robert Morris,123.9,124.2,-0.4
+2018,Hawai'i,127.2,127.6,-0.4
+2018,Charleston Southern,121.8,122.1,-0.4
+2018,Sam Houston,129.0,129.4,-0.4
+2018,Stony Brook,121.3,121.7,-0.4
+2018,San Diego,124.4,124.7,-0.4
+2018,La Salle,126.0,126.5,-0.5
+2018,Portland State,131.0,131.5,-0.5
+2018,Austin Peay,123.4,123.9,-0.5
+2018,North Carolina A&T,126.3,126.9,-0.5
+2018,San Diego State,132.1,132.5,-0.5
+2018,Fairleigh Dickinson,122.0,122.5,-0.5
+2018,Fairfield,125.0,125.5,-0.5
+2018,Kent State,124.0,124.5,-0.5
+2018,Air Force,140.3,140.9,-0.6
+2018,Illinois State,121.4,122.0,-0.6
+2018,Memphis,122.1,122.7,-0.6
+2018,Delaware,124.3,125.0,-0.6
+2018,Massachusetts,127.2,127.9,-0.6
+2018,Little Rock,127.0,127.6,-0.6
+2018,DePaul,121.7,122.4,-0.7
+2018,NJIT,129.6,130.3,-0.7
+2018,George Mason,128.8,129.6,-0.7
+2018,Miami (OH),124.5,125.2,-0.7
+2018,Vanderbilt,122.7,123.4,-0.7
+2018,Tulane,122.0,122.8,-0.7
+2018,Army,121.8,122.5,-0.7
+2018,Tennessee Tech,122.6,123.5,-0.8
+2018,Lehigh,129.6,130.5,-0.8
+2018,Eastern Kentucky,124.4,125.2,-0.8
+2018,Morgan State,122.0,122.9,-0.9
+2018,Florida Atlantic,126.0,126.9,-0.9
+2018,Providence,124.9,125.8,-0.9
+2018,Eastern Illinois,126.6,127.5,-0.9
+2018,Holy Cross,123.6,124.5,-0.9
+2018,Princeton,133.5,134.4,-0.9
+2018,Minnesota,122.2,123.0,-0.9
+2018,George Washington,121.1,122.0,-0.9
+2018,Coastal Carolina,124.3,125.2,-0.9
+2018,New Hampshire,122.4,123.3,-0.9
+2018,Cal State Bakersfield,122.0,122.9,-0.9
+2018,Bowling Green,121.4,122.3,-0.9
+2018,UTSA,129.3,130.2,-0.9
+2018,Brown,125.8,126.8,-1.0
+2018,Quinnipiac,125.2,126.1,-1.0
+2018,Central Arkansas,123.7,124.7,-1.0
+2018,James Madison,122.9,123.8,-1.0
+2018,North Dakota,121.3,122.3,-1.0
+2018,Northern Illinois,125.3,126.3,-1.0
+2018,Florida International,126.3,127.3,-1.1
+2018,Gardner-Webb,121.1,122.2,-1.1
+2018,Binghamton,123.4,124.5,-1.1
+2018,Georgia Tech,120.6,121.7,-1.1
+2018,Howard,121.9,123.1,-1.2
+2018,Southern,121.1,122.3,-1.2
+2018,Loyola Maryland,125.0,126.2,-1.2
+2018,Oral Roberts,122.7,124.0,-1.3
+2018,Long Beach State,121.3,122.6,-1.3
+2018,Drexel,121.4,122.7,-1.3
+2018,Dartmouth,125.5,126.8,-1.3
+2018,Jackson State,121.6,122.8,-1.3
+2018,Iowa State,124.4,125.8,-1.4
+2018,Sacred Heart,123.5,124.9,-1.4
+2018,Texas State,128.8,130.2,-1.4
+2018,Southern Utah,125.5,126.9,-1.4
+2018,Stetson,122.3,123.6,-1.4
+2018,Texas A&M-Corpus Christi,120.7,122.1,-1.4
+2018,Green Bay,124.5,125.9,-1.4
+2018,Kennesaw State,122.8,124.4,-1.5
+2018,Cornell,128.1,129.6,-1.5
+2018,UMass Lowell,127.3,128.8,-1.5
+2018,Wake Forest,127.3,128.8,-1.5
+2018,Tennessee State,128.3,129.8,-1.5
+2018,IU Indianapolis,124.1,125.6,-1.6
+2018,Maine,123.7,125.4,-1.6
+2018,UNC Wilmington,130.7,132.3,-1.6
+2018,Richmond,125.0,126.6,-1.6
+2018,Boston University,127.6,129.4,-1.7
+2018,Santa Clara,128.7,130.4,-1.7
+2018,Bradley,132.1,133.8,-1.7
+2018,UC Riverside,126.9,128.6,-1.7
+2018,Cal Poly,121.5,123.2,-1.7
+2018,UConn,120.8,122.6,-1.7
+2018,Jacksonville,122.8,124.5,-1.8
+2018,Washington State,125.4,127.3,-1.8
+2018,Washington,125.9,127.7,-1.8
+2018,Siena,121.2,123.0,-1.8
+2018,Florida A&M,122.3,124.2,-1.9
+2018,Houston Christian,126.7,128.6,-1.9
+2018,Akron,123.6,125.6,-1.9
+2018,Kansas City,123.7,125.6,-1.9
+2018,Chattanooga,123.8,125.8,-2.0
+2018,North Florida,128.0,130.1,-2.0
+2018,Loyola Marymount,124.6,126.7,-2.1
+2018,McNeese,125.0,127.2,-2.1
+2018,UT Martin,125.5,127.6,-2.1
+2018,Arkansas-Pine Bluff,121.0,123.1,-2.1
+2018,Southern Miss,125.4,127.7,-2.2
+2018,Ole Miss,126.7,129.0,-2.3
+2018,American University,130.4,132.6,-2.3
+2018,Alabama State,123.5,125.7,-2.3
+2018,The Citadel,124.5,126.9,-2.4
+2018,Detroit Mercy,123.1,125.5,-2.4
+2018,Presbyterian,121.2,123.6,-2.4
+2018,Mississippi Valley State,121.8,124.3,-2.5
+2018,Pepperdine,124.2,126.7,-2.5
+2018,SIU Edwardsville,126.0,128.6,-2.6
+2018,Abilene Christian,124.2,126.9,-2.6
+2018,Cal State Northridge,120.4,123.1,-2.7
+2018,Marist,120.7,123.4,-2.7
+2018,UC Santa Barbara,129.2,131.9,-2.7
+2018,Cleveland State,123.9,126.6,-2.7
+2018,South Florida,120.3,123.0,-2.7
+2018,VMI,122.2,125.1,-2.8
+2018,Delaware State,126.0,128.9,-2.8
+2018,Incarnate Word,121.4,124.3,-2.9
+2018,Elon,129.0,131.9,-2.9
+2018,California,119.6,122.6,-3.0
+2018,Alcorn State,122.8,125.8,-3.0
+2018,UT Rio Grande Valley,127.3,130.3,-3.0
+2018,South Carolina Upstate,122.2,125.3,-3.1
+2018,Charlotte,125.9,129.0,-3.1
+2018,UT Arlington,132.0,135.1,-3.1
+2018,William & Mary,133.7,136.8,-3.1
+2018,Alabama A&M,120.8,124.0,-3.2
+2018,Samford,128.5,131.6,-3.2
+2018,Omaha,126.3,129.5,-3.2
+2018,South Carolina State,129.4,132.6,-3.2
+2018,East Carolina,120.2,123.3,-3.2
+2018,Arkansas State,127.4,130.6,-3.2
+2018,Youngstown State,126.2,129.5,-3.3
+2018,Pittsburgh,119.6,123.0,-3.4
+2018,Western Illinois,124.7,128.0,-3.4
+2018,San José State,123.5,127.0,-3.5
+2018,Coppin State,123.7,127.2,-3.5
+2018,Longwood,119.5,123.1,-3.6
+2018,Morehead State,130.1,133.7,-3.6
+2018,Colorado State,125.7,129.6,-3.9
+2018,Northwestern State,119.2,123.1,-3.9
+2018,Sacramento State,134.7,138.6,-4.0
+2018,Portland,128.7,133.0,-4.3
+2018,Western Carolina,126.8,131.2,-4.4
+2018,Northern Arizona,121.5,126.4,-4.9
+2018,Montana State,133.4,138.4,-5.1
+2018,Chicago State,122.3,127.7,-5.4
+2018,Rice,129.3,134.7,-5.4
+2018,Bryant,124.3,130.0,-5.6
+2018,Maryland Eastern Shore,129.3,135.2,-5.9
+2018,Fordham,127.8,133.8,-6.1
+2018,UTEP,123.1,131.4,-8.3
+2019,Gonzaga,120.6,93.2,27.4
+2019,Virginia,117.7,93.3,24.4
+2019,Duke,114.9,93.0,21.9
+2019,Michigan State,115.9,95.4,20.5
+2019,Texas Tech,111.0,90.9,20.1
+2019,North Carolina,115.2,96.5,18.8
+2019,Kentucky,113.7,95.3,18.4
+2019,Houston,112.5,94.5,18.0
+2019,Michigan,109.8,92.1,17.7
+2019,Virginia Tech,114.8,97.7,17.1
+2019,Tennessee,117.0,100.1,16.9
+2019,Purdue,116.9,100.1,16.8
+2019,Buffalo,113.7,97.1,16.6
+2019,Auburn,115.1,99.2,15.9
+2019,Wofford,118.1,102.8,15.3
+2019,Nevada,112.4,97.7,14.7
+2019,Iowa State,114.3,99.9,14.4
+2019,Florida State,109.5,96.0,13.5
+2019,Cincinnati,112.0,99.3,12.7
+2019,Wisconsin,108.1,95.6,12.5
+2019,Murray State,112.2,99.8,12.4
+2019,New Mexico State,114.3,101.9,12.4
+2019,Louisville,110.1,97.8,12.2
+2019,Lipscomb,109.9,97.8,12.1
+2019,Saint Mary's,112.8,100.8,12.0
+2019,Utah State,110.4,98.4,11.9
+2019,Kansas,109.2,97.3,11.9
+2019,Belmont,114.0,102.6,11.5
+2019,LSU,112.7,101.3,11.4
+2019,Mississippi State,112.9,101.5,11.4
+2019,Villanova,113.2,102.0,11.2
+2019,Oregon,107.5,96.4,11.2
+2019,Maryland,110.4,99.3,11.1
+2019,Kansas State,104.7,93.8,10.9
+2019,UCF,133.4,122.8,10.5
+2019,Marquette,111.4,101.0,10.4
+2019,NC State,110.5,100.1,10.3
+2019,Florida,107.2,97.2,10.0
+2019,UC Irvine,111.4,101.5,9.9
+2019,Vermont,109.5,99.7,9.8
+2019,Hofstra,117.5,107.8,9.7
+2019,Texas,109.0,99.3,9.7
+2019,Liberty,111.2,101.8,9.4
+2019,Clemson,106.1,96.9,9.2
+2019,Toledo,109.3,100.1,9.1
+2019,Washington,105.7,96.9,8.9
+2019,Furman,108.8,100.0,8.8
+2019,Baylor,110.4,101.6,8.8
+2019,VCU,103.1,94.5,8.7
+2019,Syracuse,107.3,98.5,8.7
+2019,Oklahoma,107.0,98.5,8.5
+2019,Yale,110.6,102.5,8.1
+2019,TCU,107.9,100.1,7.8
+2019,Memphis,106.8,99.0,7.8
+2019,Ole Miss,110.0,102.3,7.7
+2019,Colorado,106.4,98.7,7.6
+2019,Iowa,112.7,105.0,7.6
+2019,Fresno State,107.8,100.5,7.3
+2019,Dayton,108.7,101.7,7.0
+2019,South Dakota State,111.5,104.5,7.0
+2019,Arizona State,107.4,100.4,7.0
+2019,Ohio State,106.5,99.7,6.8
+2019,Penn State,108.1,101.3,6.8
+2019,Indiana,106.2,99.7,6.5
+2019,Nebraska,108.5,102.2,6.4
+2019,Utah Valley,112.5,106.2,6.3
+2019,Northern Kentucky,108.4,102.1,6.3
+2019,Wichita State,106.0,99.8,6.3
+2019,Montana,108.0,101.9,6.2
+2019,Temple,107.0,101.0,6.0
+2019,Creighton,108.7,102.7,6.0
+2019,San Francisco,110.1,104.1,6.0
+2019,East Tennessee State,108.3,102.6,5.8
+2019,Davidson,107.6,101.8,5.8
+2019,Jacksonville State,106.4,100.7,5.7
+2019,Old Dominion,101.7,96.2,5.5
+2019,Northeastern,110.7,105.2,5.5
+2019,Colgate,109.3,103.9,5.4
+2019,San Diego,105.5,100.2,5.3
+2019,Arkansas,106.2,100.9,5.3
+2019,BYU,111.0,105.8,5.2
+2019,Grand Canyon,106.7,101.6,5.1
+2019,Bowling Green,108.0,103.0,5.0
+2019,St. Bonaventure,103.4,98.3,5.0
+2019,Charleston,108.8,104.0,4.7
+2019,Minnesota,106.6,101.8,4.7
+2019,Southern Miss,106.8,102.1,4.7
+2019,UNC Greensboro,106.3,101.7,4.6
+2019,Oregon State,109.5,105.0,4.5
+2019,Seton Hall,106.0,101.6,4.5
+2019,Alabama,104.9,100.5,4.4
+2019,Miami,107.6,103.3,4.4
+2019,Loyola Chicago,105.4,101.1,4.3
+2019,USC,108.3,104.1,4.2
+2019,Xavier,107.9,103.7,4.2
+2019,Arizona,105.7,101.6,4.1
+2019,Saint Louis,102.9,98.8,4.1
+2019,Radford,108.7,104.6,4.1
+2019,South Florida,101.5,97.5,4.0
+2019,Wright State,107.2,103.2,4.0
+2019,Pennsylvania,105.4,101.5,3.9
+2019,San Diego State,104.9,101.0,3.9
+2019,Austin Peay,110.0,106.2,3.8
+2019,Harvard,105.9,102.2,3.7
+2019,Providence,104.0,100.3,3.7
+2019,Akron,102.3,98.7,3.6
+2019,Rhode Island,103.9,100.3,3.6
+2019,Butler,108.0,104.6,3.4
+2019,Drake,106.1,102.8,3.3
+2019,Georgia Southern,106.3,103.1,3.2
+2019,Western Kentucky,103.9,100.6,3.2
+2019,Pittsburgh,103.8,100.5,3.2
+2019,Ball State,104.5,101.4,3.2
+2019,Boise State,109.6,106.5,3.1
+2019,St. John's,106.5,103.5,3.1
+2019,Northwestern,104.2,101.0,3.1
+2019,Northern Colorado,106.7,103.6,3.0
+2019,UConn,105.6,102.6,3.0
+2019,Central Michigan,109.0,106.0,3.0
+2019,SMU,109.1,106.2,2.9
+2019,Abilene Christian,104.2,101.4,2.8
+2019,Bucknell,109.3,106.5,2.8
+2019,UCLA,106.9,104.1,2.8
+2019,Georgia State,107.0,104.2,2.8
+2019,Brown,101.4,98.8,2.6
+2019,South Carolina,104.9,102.3,2.6
+2019,Stony Brook,101.6,99.1,2.5
+2019,Utah,111.6,109.1,2.5
+2019,Missouri,103.8,101.3,2.4
+2019,Louisiana Tech,103.4,101.0,2.4
+2019,Texas State,103.4,101.1,2.3
+2019,Southern Illinois,104.9,102.8,2.2
+2019,Presbyterian,109.7,107.5,2.2
+2019,UL Monroe,111.1,109.0,2.1
+2019,Georgetown,106.5,104.3,2.1
+2019,Loyola Marymount,103.1,101.2,2.0
+2019,Rutgers,103.8,101.8,2.0
+2019,Notre Dame,107.2,105.2,1.9
+2019,Northern Illinois,107.8,106.0,1.9
+2019,North Texas,102.7,100.8,1.9
+2019,DePaul,109.0,107.2,1.8
+2019,Omaha,110.1,108.3,1.8
+2019,Sam Houston,106.2,104.5,1.7
+2019,UAB,106.6,105.0,1.6
+2019,Samford,106.1,104.5,1.6
+2019,Charleston Southern,103.4,101.7,1.6
+2019,Texas A&M,105.1,103.5,1.6
+2019,Kent State,108.7,107.2,1.4
+2019,Tulsa,104.1,102.7,1.4
+2019,Hampton,108.2,106.9,1.3
+2019,Stanford,103.3,102.0,1.3
+2019,Winthrop,107.6,106.3,1.3
+2019,California Baptist,110.0,108.9,1.2
+2019,Gardner-Webb,108.4,107.3,1.1
+2019,Coastal Carolina,107.0,105.9,1.1
+2019,Florida Atlantic,131.5,130.5,1.1
+2019,UC Santa Barbara,105.7,104.7,1.0
+2019,Georgia Tech,101.5,100.5,0.9
+2019,Illinois,106.7,105.8,0.9
+2019,West Virginia,105.6,104.8,0.8
+2019,Texas Southern,105.2,104.5,0.8
+2019,Campbell,108.3,107.7,0.7
+2019,Oklahoma State,105.7,105.0,0.7
+2019,Lehigh,109.1,108.5,0.6
+2019,UTSA,105.4,104.8,0.6
+2019,Iona,108.1,107.6,0.5
+2019,Marshall,105.0,104.6,0.4
+2019,Missouri State,104.5,104.4,0.2
+2019,Boston College,105.4,105.2,0.2
+2019,Miami (OH),103.6,103.4,0.2
+2019,UNLV,106.3,106.1,0.2
+2019,Rider,104.8,104.7,0.1
+2019,NJIT,102.9,102.8,0.1
+2019,UT Arlington,101.4,101.5,-0.1
+2019,Bradley,102.2,102.2,-0.1
+2019,Long Island University,103.7,103.9,-0.2
+2019,Pepperdine,106.4,106.6,-0.2
+2019,George Mason,103.7,104.0,-0.2
+2019,Lamar,105.4,105.7,-0.3
+2019,Fairleigh Dickinson,106.3,106.7,-0.4
+2019,Hawai'i,104.6,105.0,-0.4
+2019,Louisiana,106.4,106.8,-0.4
+2019,Weber State,104.2,104.7,-0.5
+2019,Northern Iowa,103.1,103.7,-0.5
+2019,North Florida,104.6,105.3,-0.7
+2019,American University,103.3,104.1,-0.8
+2019,Sacred Heart,107.8,108.7,-0.9
+2019,Seattle U,104.3,105.4,-1.0
+2019,Purdue Fort Wayne,107.2,108.2,-1.0
+2019,Duquesne,104.3,105.3,-1.0
+2019,Georgia,103.7,104.9,-1.1
+2019,Quinnipiac,107.4,108.4,-1.1
+2019,IU Indianapolis,106.4,107.6,-1.1
+2019,Colorado State,107.7,108.8,-1.2
+2019,North Dakota State,107.2,108.4,-1.2
+2019,UT Rio Grande Valley,99.9,101.1,-1.2
+2019,Green Bay,105.6,106.8,-1.2
+2019,Eastern Michigan,102.7,104.1,-1.3
+2019,Prairie View A&M,103.9,105.3,-1.4
+2019,UIC,102.6,104.1,-1.5
+2019,UMBC,100.1,101.5,-1.5
+2019,Oakland,107.6,109.3,-1.7
+2019,Princeton,100.0,101.7,-1.7
+2019,New Mexico,103.4,105.3,-1.8
+2019,Santa Clara,102.0,104.0,-2.0
+2019,Cal State Fullerton,100.1,102.1,-2.1
+2019,Boston University,105.7,107.9,-2.2
+2019,Florida International,100.7,102.9,-2.3
+2019,High Point,101.7,104.1,-2.4
+2019,Eastern Washington,103.1,105.6,-2.4
+2019,Mercer,103.0,105.3,-2.4
+2019,UMass Lowell,105.3,107.8,-2.5
+2019,Richmond,106.2,108.8,-2.6
+2019,Dartmouth,105.2,107.8,-2.6
+2019,Indiana State,103.3,106.1,-2.7
+2019,Columbia,103.1,105.9,-2.7
+2019,Army,99.9,102.6,-2.7
+2019,Norfolk State,101.8,104.7,-2.9
+2019,South Dakota,102.5,105.4,-2.9
+2019,Illinois State,101.1,104.2,-3.0
+2019,Ohio,99.9,103.1,-3.2
+2019,Siena,104.9,108.0,-3.2
+2019,Saint Joseph's,104.5,107.8,-3.3
+2019,App State,105.5,108.9,-3.4
+2019,Cal State Bakersfield,104.1,107.5,-3.4
+2019,Holy Cross,102.9,106.5,-3.6
+2019,Little Rock,102.0,105.6,-3.6
+2019,SE Louisiana,101.3,104.9,-3.7
+2019,North Carolina Central,102.2,105.9,-3.7
+2019,Evansville,101.0,104.7,-3.7
+2019,St. Francis (PA),106.6,110.4,-3.8
+2019,Longwood,102.4,106.2,-3.8
+2019,Robert Morris,101.3,105.1,-3.8
+2019,Long Beach State,101.4,105.2,-3.8
+2019,Vanderbilt,100.6,104.5,-3.9
+2019,Montana State,107.9,111.8,-3.9
+2019,Texas A&M-Corpus Christi,97.8,101.8,-4.0
+2019,Valparaiso,100.5,104.4,-4.0
+2019,Cornell,100.7,104.9,-4.2
+2019,William & Mary,103.5,107.6,-4.2
+2019,Sacramento State,100.8,105.1,-4.2
+2019,Pacific,102.1,106.5,-4.4
+2019,UAlbany,101.0,105.4,-4.4
+2019,Wake Forest,102.7,107.1,-4.4
+2019,Washington State,105.4,109.9,-4.5
+2019,Jacksonville,101.2,105.8,-4.5
+2019,Massachusetts,104.5,109.0,-4.5
+2019,South Alabama,103.3,107.9,-4.6
+2019,Fairfield,100.9,105.4,-4.6
+2019,Marist,103.1,108.0,-4.9
+2019,Portland State,104.1,109.0,-4.9
+2019,Cal State Northridge,106.3,111.5,-5.1
+2019,Canisius,103.7,109.0,-5.2
+2019,Grambling,96.6,101.8,-5.2
+2019,Florida Gulf Coast,101.1,106.3,-5.2
+2019,Kansas City,102.1,107.4,-5.3
+2019,Loyola Maryland,103.9,109.2,-5.3
+2019,Southern Utah,100.4,105.7,-5.3
+2019,North Dakota,100.3,105.6,-5.4
+2019,Fordham,99.7,105.1,-5.4
+2019,UC Davis,99.0,104.4,-5.4
+2019,New Orleans,100.4,105.8,-5.4
+2019,Delaware,106.5,112.0,-5.5
+2019,Rice,103.9,109.4,-5.5
+2019,Drexel,106.4,111.9,-5.5
+2019,Air Force,101.8,107.5,-5.7
+2019,Eastern Kentucky,99.6,105.5,-5.9
+2019,La Salle,100.9,106.8,-6.0
+2019,Troy,103.1,109.1,-6.0
+2019,Navy,100.2,106.3,-6.1
+2019,Detroit Mercy,106.7,112.8,-6.1
+2019,Northern Arizona,104.0,110.2,-6.2
+2019,Houston Christian,104.6,111.0,-6.4
+2019,The Citadel,106.0,112.5,-6.5
+2019,Howard,105.4,111.9,-6.5
+2019,Youngstown State,104.5,111.0,-6.5
+2019,Bethune-Cookman,97.1,103.7,-6.6
+2019,Wagner,99.6,106.2,-6.6
+2019,Morehead State,103.2,110.0,-6.8
+2019,Towson,102.2,109.0,-6.8
+2019,UNC Wilmington,106.8,113.6,-6.8
+2019,Niagara,105.3,112.2,-6.9
+2019,Middle Tennessee,98.6,105.4,-6.9
+2019,Western Illinois,100.3,107.2,-6.9
+2019,Western Michigan,101.1,108.1,-7.0
+2019,Lafayette,103.6,110.8,-7.1
+2019,North Carolina A&T,102.6,109.8,-7.1
+2019,James Madison,101.5,108.8,-7.3
+2019,Monmouth,96.8,104.1,-7.4
+2019,Nicholls,100.7,108.2,-7.5
+2019,Central Arkansas,101.1,108.6,-7.5
+2019,Cleveland State,102.2,109.8,-7.5
+2019,Alabama State,99.1,106.8,-7.7
+2019,Milwaukee,101.2,109.0,-7.8
+2019,Mount St. Mary's,98.7,106.7,-8.0
+2019,Jackson State,96.9,104.9,-8.0
+2019,California,103.6,111.6,-8.0
+2019,Oral Roberts,103.0,111.0,-8.0
+2019,Western Carolina,102.8,110.9,-8.1
+2019,East Carolina,98.5,106.6,-8.1
+2019,UTEP,93.7,101.8,-8.1
+2019,Stephen F. Austin,99.8,108.0,-8.2
+2019,North Alabama,98.9,107.1,-8.2
+2019,Chattanooga,102.6,110.9,-8.3
+2019,Saint Peter's,98.7,107.1,-8.3
+2019,UT Martin,105.6,113.9,-8.3
+2019,Bryant,103.1,111.5,-8.4
+2019,Manhattan,94.4,102.9,-8.5
+2019,Tennessee State,100.0,108.5,-8.5
+2019,Florida A&M,98.6,107.2,-8.6
+2019,Southeast Missouri State,100.5,109.1,-8.6
+2019,Arkansas State,102.4,111.1,-8.7
+2019,Denver,101.8,110.6,-8.8
+2019,George Washington,97.7,106.4,-8.8
+2019,Eastern Illinois,101.0,110.0,-9.0
+2019,Arkansas-Pine Bluff,98.2,107.2,-9.0
+2019,Morgan State,97.3,106.3,-9.0
+2019,Charlotte,96.6,105.7,-9.1
+2019,Idaho State,104.9,114.3,-9.4
+2019,Elon,99.9,109.3,-9.4
+2019,Tulane,98.8,108.3,-9.5
+2019,South Carolina State,100.4,110.2,-9.8
+2019,Central Connecticut,101.1,110.9,-9.8
+2019,VMI,103.0,113.1,-10.1
+2019,Binghamton,98.5,108.8,-10.3
+2019,Kennesaw State,96.7,107.1,-10.4
+2019,McNeese,102.8,113.5,-10.7
+2019,UC Riverside,101.3,112.3,-11.0
+2019,Cal Poly,101.7,112.8,-11.1
+2019,South Carolina Upstate,98.1,109.2,-11.1
+2019,SIU Edwardsville,100.1,111.3,-11.2
+2019,Wyoming,96.6,107.9,-11.3
+2019,Portland,96.7,108.3,-11.6
+2019,Maine,96.0,107.7,-11.7
+2019,Stetson,97.8,110.5,-12.7
+2019,Tennessee Tech,92.9,105.9,-13.0
+2019,Southern,97.6,110.8,-13.2
+2019,Coppin State,93.2,106.8,-13.6
+2019,New Hampshire,92.8,106.6,-13.8
+2019,Northwestern State,94.2,108.2,-14.0
+2019,Alabama A&M,93.9,108.5,-14.6
+2019,Alcorn State,94.6,110.4,-15.8
+2019,Idaho,98.9,115.2,-16.3
+2019,Mississippi Valley State,97.7,114.3,-16.6
+2019,Incarnate Word,98.8,115.6,-16.8
+2019,San José State,95.8,114.0,-18.2
+2019,UNC Asheville,95.0,113.4,-18.4
+2019,Delaware State,92.1,112.4,-20.2
+2019,Maryland Eastern Shore,92.0,112.8,-20.8
+2019,Chicago State,93.1,117.8,-24.7
+2020,William & Mary,1148.5,591.7,556.8
+2020,Stanford,95.6,73.5,22.0
+2020,Oklahoma,97.0,76.0,21.0
+2020,Gonzaga,121.0,100.4,20.6
+2020,Kansas,114.9,95.3,19.6
+2020,Dayton,116.8,100.2,16.7
+2020,San Diego State,113.3,97.0,16.3
+2020,Duke,114.8,98.7,16.2
+2020,Wofford,97.0,81.6,15.5
+2020,Baylor,112.5,97.1,15.4
+2020,Buffalo,94.6,80.3,14.3
+2020,BYU,116.3,102.1,14.2
+2020,Michigan State,113.2,99.3,13.9
+2020,Arizona,111.8,98.0,13.7
+2020,West Virginia,109.0,95.6,13.4
+2020,East Tennessee State,114.5,101.5,13.0
+2020,Oregon,117.0,104.0,13.0
+2020,Louisville,112.7,100.5,12.2
+2020,Texas Tech,110.5,98.5,12.0
+2020,Houston,111.8,100.1,11.6
+2020,Ohio State,111.4,100.1,11.3
+2020,Florida State,111.7,100.5,11.2
+2020,Northern Iowa,116.0,105.2,10.8
+2020,Belmont,112.6,101.8,10.8
+2020,Butler,112.2,101.8,10.5
+2020,Villanova,113.2,102.6,10.5
+2020,Utah State,109.9,99.7,10.3
+2020,Yale,109.5,99.6,9.9
+2020,Creighton,116.0,106.2,9.8
+2020,Maryland,111.7,102.0,9.7
+2020,Colorado,109.7,100.1,9.7
+2020,Seton Hall,110.5,100.9,9.6
+2020,Louisiana Tech,110.7,101.2,9.5
+2020,Akron,111.2,101.8,9.5
+2020,Richmond,113.0,103.6,9.4
+2020,Kentucky,111.6,102.3,9.2
+2020,Liberty,109.4,100.3,9.1
+2020,Duquesne,124.6,115.5,9.1
+2020,Vermont,109.7,100.8,8.9
+2020,Illinois,112.4,103.5,8.9
+2020,Morehead State,89.0,80.3,8.7
+2020,Saint Mary's,113.1,104.6,8.6
+2020,Northern Colorado,113.1,104.5,8.6
+2020,Furman,109.6,101.1,8.6
+2020,LSU,114.9,106.5,8.4
+2020,UNC Greensboro,109.3,101.0,8.3
+2020,Iowa,115.3,107.0,8.3
+2020,Auburn,111.1,102.9,8.2
+2020,Florida,111.3,103.1,8.2
+2020,Purdue,108.0,99.8,8.1
+2020,Wisconsin,109.4,101.4,8.0
+2020,San Francisco,111.9,104.0,7.9
+2020,Marquette,111.6,103.7,7.8
+2020,Penn State,109.2,101.6,7.6
+2020,Old Dominion,81.4,73.9,7.5
+2020,North Dakota State,112.6,105.1,7.5
+2020,Mississippi State,112.5,105.0,7.4
+2020,North Texas,112.5,105.1,7.4
+2020,Wichita State,105.9,98.6,7.3
+2020,VCU,111.1,103.8,7.2
+2020,Providence,108.6,101.5,7.1
+2020,Arkansas,109.7,102.6,7.1
+2020,Hampton,97.1,90.0,7.1
+2020,Oregon State,113.5,106.5,7.0
+2020,Minnesota,110.1,103.1,7.0
+2020,New Mexico State,111.5,104.6,6.9
+2020,Washington,107.3,100.4,6.9
+2020,Michigan,107.3,100.5,6.8
+2020,Cincinnati,109.6,102.9,6.7
+2020,Saint Louis,107.5,100.8,6.7
+2020,Fairfield,85.9,79.3,6.5
+2020,UC Irvine,109.7,103.2,6.4
+2020,Loyola Chicago,108.4,102.2,6.3
+2020,Rhode Island,107.1,100.9,6.2
+2020,Murray State,108.5,102.5,6.0
+2020,USC,107.2,101.3,5.9
+2020,Memphis,102.8,96.9,5.9
+2020,Bradley,109.7,103.8,5.9
+2020,Texas State,109.1,103.3,5.8
+2020,UConn,108.9,103.3,5.6
+2020,Syracuse,110.4,104.8,5.6
+2020,Ball State,105.9,100.5,5.5
+2020,Indiana,107.5,102.1,5.4
+2020,Davidson,112.4,107.0,5.4
+2020,Oral Roberts,113.7,108.3,5.4
+2020,Wright State,109.3,103.8,5.4
+2020,Colgate,109.9,104.6,5.3
+2020,Arizona State,105.9,100.9,5.0
+2020,Eastern Washington,109.0,104.2,4.8
+2020,Nevada,110.8,106.0,4.8
+2020,Kent State,113.1,108.3,4.8
+2020,Boise State,109.9,105.2,4.7
+2020,Xavier,106.3,101.6,4.7
+2020,Tennessee,106.4,101.7,4.7
+2020,South Carolina,106.0,101.2,4.7
+2020,Notre Dame,110.1,105.5,4.6
+2020,Alabama,110.0,105.4,4.6
+2020,Western Kentucky,111.2,106.7,4.5
+2020,Siena,111.3,106.8,4.5
+2020,NC State,109.7,105.2,4.5
+2020,Austin Peay,111.8,107.3,4.5
+2020,Texas,105.9,101.4,4.5
+2020,Oklahoma State,108.2,103.7,4.5
+2020,Winthrop,108.5,104.1,4.3
+2020,Chattanooga,111.2,107.0,4.3
+2020,South Dakota State,111.1,106.9,4.2
+2020,Montana,107.9,103.7,4.2
+2020,Tulsa,104.5,100.5,4.0
+2020,Rutgers,101.8,97.9,3.9
+2020,Western Carolina,113.5,109.6,3.9
+2020,Stephen F. Austin,103.4,99.6,3.8
+2020,Indiana State,109.5,105.8,3.7
+2020,Georgia State,110.2,106.6,3.7
+2020,Toledo,110.4,106.8,3.6
+2020,Missouri,106.3,102.8,3.5
+2020,Northern Kentucky,106.8,103.3,3.5
+2020,Little Rock,107.8,104.4,3.5
+2020,Charleston,55.1,51.8,3.4
+2020,Saint Joseph's,91.5,88.2,3.3
+2020,St. Bonaventure,111.3,108.1,3.2
+2020,Colorado State,110.3,107.2,3.1
+2020,UCLA,109.6,106.5,3.1
+2020,Missouri State,108.7,105.7,3.0
+2020,Marshall,107.8,104.9,2.9
+2020,Kansas State,104.9,102.0,2.9
+2020,Southern Utah,104.6,101.7,2.9
+2020,Clemson,104.4,101.6,2.8
+2020,SMU,112.0,109.1,2.8
+2020,St. John's,105.3,102.7,2.6
+2020,Georgia Southern,105.7,103.1,2.6
+2020,North Florida,117.8,115.2,2.6
+2020,Georgetown,109.0,106.5,2.5
+2020,Ohio,109.8,107.3,2.5
+2020,St. Francis (PA),111.2,108.8,2.4
+2020,UC Santa Barbara,110.1,107.8,2.3
+2020,TCU,106.7,104.5,2.2
+2020,Florida International,108.8,106.5,2.2
+2020,Boston University,105.2,103.0,2.2
+2020,Eastern Illinois,106.1,104.1,2.1
+2020,Pennsylvania,107.0,105.0,2.0
+2020,Georgia,108.2,106.3,1.9
+2020,Saint Peter's,103.0,101.1,1.9
+2020,Valparaiso,107.4,105.5,1.9
+2020,Virginia Tech,105.9,104.0,1.9
+2020,Washington State,106.1,104.3,1.8
+2020,Iowa State,109.2,107.4,1.8
+2020,Utah,109.4,107.6,1.8
+2020,Pacific,106.5,104.8,1.7
+2020,UNLV,108.5,106.9,1.6
+2020,Ole Miss,104.1,103.0,1.1
+2020,Nicholls,104.9,103.8,1.1
+2020,Stony Brook,107.4,106.4,1.0
+2020,Virginia,93.5,92.6,0.9
+2020,Portland State,110.6,109.7,0.9
+2020,American University,105.5,104.7,0.8
+2020,Harvard,103.6,102.7,0.8
+2020,South Dakota,111.8,111.1,0.8
+2020,Gardner-Webb,110.3,109.5,0.8
+2020,Rider,105.8,105.1,0.7
+2020,Southern Illinois,105.1,104.5,0.7
+2020,Sam Houston,105.9,105.2,0.7
+2020,DePaul,103.4,102.9,0.6
+2020,Bowling Green,108.2,107.6,0.6
+2020,Georgia Tech,100.1,99.6,0.5
+2020,Sacred Heart,107.7,107.3,0.5
+2020,Tennessee State,107.7,107.4,0.4
+2020,Northern Illinois,104.5,104.2,0.3
+2020,California Baptist,111.8,111.5,0.3
+2020,Sacramento State,102.6,102.3,0.3
+2020,Robert Morris,106.7,106.5,0.2
+2020,Florida Atlantic,109.7,109.5,0.2
+2020,Pepperdine,108.4,108.2,0.2
+2020,UT Arlington,103.0,103.1,0.0
+2020,UCF,107.8,107.8,0.0
+2020,Santa Clara,108.3,108.3,0.0
+2020,Mercer,106.9,107.0,-0.1
+2020,Fresno State,107.0,107.1,-0.1
+2020,Prairie View A&M,102.0,102.2,-0.3
+2020,New Mexico,107.2,107.6,-0.3
+2020,App State,104.5,105.0,-0.5
+2020,Wake Forest,108.4,109.0,-0.6
+2020,Iona,106.6,107.2,-0.6
+2020,Miami,108.0,108.7,-0.7
+2020,Pittsburgh,103.9,104.7,-0.8
+2020,Central Michigan,107.2,108.1,-0.9
+2020,UTEP,101.8,102.7,-0.9
+2020,North Carolina,105.2,106.1,-0.9
+2020,North Dakota,107.7,108.7,-1.0
+2020,UAB,104.9,106.1,-1.1
+2020,UTSA,109.3,110.4,-1.1
+2020,UIC,101.2,102.3,-1.1
+2020,UC Riverside,103.4,104.5,-1.1
+2020,North Carolina Central,102.7,103.8,-1.1
+2020,Monmouth,121.5,122.9,-1.3
+2020,South Alabama,105.0,106.5,-1.6
+2020,Southern,103.4,104.9,-1.6
+2020,Lafayette,112.2,113.9,-1.7
+2020,Merrimack,100.8,102.5,-1.7
+2020,UC Davis,107.8,109.5,-1.7
+2020,Abilene Christian,99.7,101.5,-1.8
+2020,Coastal Carolina,107.6,109.5,-1.9
+2020,Seattle U,105.7,107.6,-2.0
+2020,Temple,99.7,101.8,-2.1
+2020,Rice,108.6,110.8,-2.2
+2020,Lipscomb,105.7,107.9,-2.2
+2020,Radford,103.5,105.8,-2.3
+2020,High Point,103.8,106.1,-2.3
+2020,Hawai'i,105.7,108.1,-2.4
+2020,Miami (OH),108.0,110.4,-2.4
+2020,Green Bay,108.9,111.3,-2.4
+2020,Utah Valley,105.0,107.4,-2.4
+2020,UT Rio Grande Valley,105.3,107.8,-2.5
+2020,Texas A&M,103.2,105.7,-2.5
+2020,Omaha,106.6,109.3,-2.6
+2020,Drake,103.4,106.1,-2.7
+2020,North Carolina A&T,102.9,105.6,-2.7
+2020,Lamar,102.1,104.9,-2.8
+2020,Texas Southern,104.9,107.7,-2.8
+2020,Western Michigan,104.7,107.6,-2.8
+2020,Long Island University,106.2,109.1,-2.9
+2020,North Alabama,104.9,107.9,-3.0
+2020,California,104.3,107.3,-3.0
+2020,Jacksonville State,104.2,107.2,-3.0
+2020,Montana State,102.6,105.6,-3.0
+2020,Eastern Michigan,97.4,100.5,-3.1
+2020,Grambling,104.3,107.5,-3.1
+2020,Jacksonville,101.8,105.0,-3.2
+2020,Youngstown State,106.2,109.6,-3.4
+2020,Dartmouth,100.8,104.2,-3.4
+2020,Norfolk State,97.1,100.5,-3.4
+2020,Northern Arizona,107.9,111.4,-3.5
+2020,Arkansas State,105.8,109.5,-3.7
+2020,VMI,104.4,108.2,-3.7
+2020,McNeese,109.0,112.7,-3.7
+2020,Eastern Kentucky,102.7,106.5,-3.8
+2020,Bethune-Cookman,101.8,105.7,-3.9
+2020,Bucknell,104.1,108.0,-3.9
+2020,Jackson State,100.5,104.6,-4.0
+2020,Vanderbilt,106.7,110.7,-4.0
+2020,Canisius,106.1,110.1,-4.0
+2020,Massachusetts,104.1,108.2,-4.1
+2020,Air Force,108.4,112.6,-4.2
+2020,UAlbany,102.2,106.4,-4.2
+2020,Navy,102.4,106.7,-4.2
+2020,Charlotte,97.4,101.6,-4.2
+2020,Army,103.1,107.4,-4.3
+2020,UNC Asheville,107.1,111.5,-4.3
+2020,Kansas City,104.2,108.6,-4.3
+2020,South Florida,100.7,105.3,-4.5
+2020,Illinois State,103.3,107.7,-4.5
+2020,Campbell,101.1,105.7,-4.6
+2020,Cal State Northridge,109.2,113.9,-4.6
+2020,Tulane,103.1,107.8,-4.7
+2020,Purdue Fort Wayne,101.6,106.3,-4.7
+2020,Louisiana,104.7,109.5,-4.9
+2020,La Salle,99.2,104.1,-4.9
+2020,Bryant,99.3,104.2,-5.0
+2020,Brown,100.0,105.1,-5.1
+2020,Longwood,102.5,107.6,-5.1
+2020,Northwestern,103.8,108.9,-5.1
+2020,Northwestern State,103.6,108.7,-5.1
+2020,Cal State Bakersfield,102.3,107.5,-5.2
+2020,Loyola Maryland,106.8,112.0,-5.2
+2020,Oakland,104.0,109.5,-5.5
+2020,Loyola Marymount,103.5,109.1,-5.6
+2020,Mount St. Mary's,103.2,109.0,-5.9
+2020,Grand Canyon,106.3,112.2,-5.9
+2020,Manhattan,98.1,104.1,-6.0
+2020,NJIT,101.2,107.2,-6.0
+2020,Idaho State,106.1,112.2,-6.1
+2020,Florida A&M,101.5,107.7,-6.2
+2020,Fairleigh Dickinson,105.9,112.2,-6.3
+2020,Cal State Fullerton,103.8,110.1,-6.3
+2020,Central Arkansas,103.2,109.6,-6.4
+2020,Boston College,99.8,106.2,-6.4
+2020,Quinnipiac,101.9,108.5,-6.5
+2020,Cornell,104.2,110.9,-6.7
+2020,Milwaukee,101.7,108.4,-6.7
+2020,Hofstra,71.0,77.8,-6.8
+2020,Evansville,101.3,108.1,-6.8
+2020,San Diego,100.7,107.7,-7.0
+2020,UL Monroe,100.1,107.1,-7.0
+2020,George Mason,97.1,104.1,-7.0
+2020,Texas A&M-Corpus Christi,100.2,107.3,-7.1
+2020,Nebraska,102.1,109.4,-7.3
+2020,Marist,98.3,105.6,-7.3
+2020,Lehigh,117.7,125.1,-7.4
+2020,Florida Gulf Coast,97.8,105.3,-7.5
+2020,Stetson,102.4,109.9,-7.5
+2020,UMass Lowell,105.0,112.5,-7.5
+2020,Morgan State,100.5,108.2,-7.7
+2020,Niagara,103.0,110.7,-7.7
+2020,Samford,106.6,114.4,-7.9
+2020,Long Beach State,100.5,108.4,-7.9
+2020,Princeton,114.8,122.7,-7.9
+2020,Troy,101.1,109.1,-8.0
+2020,George Washington,102.4,110.4,-8.1
+2020,Southern Miss,99.4,107.7,-8.3
+2020,Middle Tennessee,102.2,110.6,-8.4
+2020,New Hampshire,94.4,102.9,-8.5
+2020,UT Martin,110.9,119.4,-8.5
+2020,Tennessee Tech,100.5,109.2,-8.7
+2020,Denver,101.4,110.1,-8.8
+2020,Wyoming,97.1,106.1,-8.9
+2020,South Carolina State,103.6,112.6,-9.0
+2020,Weber State,101.0,110.1,-9.1
+2020,Columbia,105.7,114.7,-9.1
+2020,South Carolina Upstate,103.9,113.3,-9.4
+2020,Cal Poly,99.6,109.2,-9.5
+2020,New Orleans,104.9,114.5,-9.6
+2020,UMBC,98.3,107.9,-9.6
+2020,Portland,99.4,109.2,-9.7
+2020,SIU Edwardsville,101.5,111.2,-9.7
+2020,Presbyterian,105.2,115.1,-9.8
+2020,The Citadel,103.7,113.6,-9.8
+2020,Wagner,104.5,114.6,-10.1
+2020,Southeast Missouri State,101.3,111.5,-10.2
+2020,Detroit Mercy,102.8,113.0,-10.2
+2020,Alcorn State,104.8,115.3,-10.5
+2020,SE Louisiana,99.9,110.6,-10.7
+2020,Cleveland State,98.6,109.6,-11.0
+2020,Idaho,99.1,110.3,-11.1
+2020,Western Illinois,103.3,114.6,-11.3
+2020,Delaware State,104.8,116.2,-11.4
+2020,IU Indianapolis,104.1,115.7,-11.7
+2020,East Carolina,94.6,106.4,-11.8
+2020,Binghamton,103.6,115.4,-11.8
+2020,Charleston Southern,96.1,107.9,-11.8
+2020,Fordham,88.2,100.1,-11.9
+2020,Alabama State,93.7,105.7,-12.0
+2020,Alabama A&M,99.2,111.4,-12.2
+2020,Delaware,69.3,81.6,-12.3
+2020,San José State,100.9,113.3,-12.4
+2020,Maine,94.9,107.3,-12.4
+2020,Houston Christian,107.8,120.6,-12.9
+2020,Coppin State,90.9,104.0,-13.1
+2020,Mississippi Valley State,97.8,112.2,-14.4
+2020,Incarnate Word,98.5,113.3,-14.8
+2020,Towson,92.9,109.1,-16.2
+2020,Arkansas-Pine Bluff,91.3,107.6,-16.3
+2020,Maryland Eastern Shore,96.4,112.8,-16.4
+2020,Holy Cross,99.2,116.6,-17.5
+2020,Central Connecticut,96.6,114.3,-17.7
+2020,Howard,101.5,120.0,-18.5
+2020,UNC Wilmington,55.7,76.4,-20.8
+2020,Kennesaw State,90.0,112.9,-22.9
+2020,Chicago State,93.2,121.3,-28.1
+2020,Northeastern,130.7,197.2,-66.5
+2020,Elon,133.5,242.8,-109.3
+2020,Drexel,169.9,286.4,-116.5
+2020,James Madison,193.4,398.6,-205.2
+2021,Gonzaga,124.6,92.5,32.1
+2021,Houston,129.9,99.8,30.0
+2021,Baylor,122.0,93.0,29.0
+2021,Illinois,116.7,92.4,24.2
+2021,Michigan,116.0,92.6,23.5
+2021,Iowa,121.9,99.7,22.1
+2021,USC,115.1,93.1,22.0
+2021,Loyola Chicago,110.9,89.1,21.8
+2021,Alabama,111.3,90.4,20.9
+2021,Colorado,114.3,94.7,19.7
+2021,Arkansas,111.5,91.9,19.6
+2021,Texas Tech,111.6,92.3,19.3
+2021,Ohio State,117.7,99.6,18.2
+2021,Villanova,115.6,98.5,17.2
+2021,Wisconsin,111.4,94.4,17.0
+2021,BYU,112.3,95.4,17.0
+2021,Tennessee,107.9,91.0,16.9
+2021,LSU,118.1,101.3,16.9
+2021,Florida State,112.5,96.0,16.5
+2021,Virginia,113.2,96.7,16.5
+2021,Creighton,111.8,95.4,16.4
+2021,UConn,112.3,96.2,16.1
+2021,Oregon,115.2,99.2,16.0
+2021,UCLA,114.5,98.6,15.9
+2021,Colgate,113.7,97.8,15.9
+2021,West Virginia,113.5,97.7,15.8
+2021,Texas,111.0,95.3,15.7
+2021,San Diego State,109.5,93.9,15.6
+2021,Kansas,108.8,93.3,15.5
+2021,St. Bonaventure,110.7,95.7,15.0
+2021,Memphis,102.7,88.0,14.7
+2021,Purdue,111.2,97.1,14.2
+2021,Arizona,112.7,98.8,14.0
+2021,North Carolina,109.4,95.5,13.9
+2021,Oklahoma State,108.1,94.4,13.7
+2021,Syracuse,110.7,97.1,13.6
+2021,Oklahoma,110.4,96.9,13.5
+2021,Wright State,109.3,95.9,13.4
+2021,Maryland,111.2,97.9,13.3
+2021,Florida,109.7,96.5,13.2
+2021,Drake,113.6,100.7,12.9
+2021,UC Santa Barbara,111.7,98.9,12.8
+2021,Georgia Tech,113.2,100.4,12.8
+2021,Utah State,105.7,93.0,12.7
+2021,Duke,111.8,99.5,12.3
+2021,Rutgers,105.9,93.8,12.1
+2021,Abilene Christian,103.2,91.3,11.9
+2021,Buffalo,109.0,97.4,11.6
+2021,Saint Louis,108.9,97.4,11.5
+2021,Toledo,114.4,103.0,11.5
+2021,SMU,109.1,97.6,11.4
+2021,Virginia Tech,109.2,97.9,11.3
+2021,VCU,104.4,93.3,11.1
+2021,Ole Miss,104.2,93.4,10.8
+2021,Penn State,110.4,100.0,10.4
+2021,Winthrop,107.7,97.4,10.3
+2021,Belmont,111.3,101.0,10.3
+2021,North Texas,106.2,95.9,10.3
+2021,Clemson,105.8,95.5,10.3
+2021,Kentucky,105.6,95.5,10.1
+2021,Auburn,111.0,100.8,10.1
+2021,Richmond,109.2,99.2,9.9
+2021,Seton Hall,106.9,97.1,9.8
+2021,Vermont,108.2,98.5,9.7
+2021,Missouri,108.5,98.8,9.7
+2021,Louisiana Tech,104.9,95.3,9.6
+2021,Oregon State,108.9,99.6,9.4
+2021,Boise State,111.0,101.6,9.4
+2021,Xavier,108.7,99.3,9.4
+2021,Ohio,110.8,101.6,9.3
+2021,Liberty,110.7,101.5,9.3
+2021,Utah,108.7,99.5,9.2
+2021,Colorado State,106.1,97.1,9.0
+2021,UAB,104.6,95.6,9.0
+2021,Davidson,111.8,102.9,8.9
+2021,NC State,109.5,100.7,8.8
+2021,Saint Mary's,102.4,93.8,8.6
+2021,Marshall,108.6,100.2,8.5
+2021,Furman,109.6,101.1,8.5
+2021,Georgetown,105.9,97.4,8.5
+2021,Grand Canyon,104.4,95.9,8.5
+2021,UC Riverside,106.5,98.1,8.4
+2021,Weber State,111.4,103.0,8.4
+2021,UC Irvine,105.0,96.6,8.4
+2021,Mississippi State,106.9,98.6,8.4
+2021,UNC Greensboro,104.7,96.4,8.3
+2021,Louisville,105.9,97.7,8.2
+2021,Indiana,105.8,97.6,8.2
+2021,Eastern Washington,110.3,102.6,7.8
+2021,St. John's,107.9,100.2,7.8
+2021,Wichita State,105.4,97.8,7.6
+2021,San Francisco,106.6,99.0,7.6
+2021,Stanford,102.7,95.5,7.2
+2021,Missouri State,108.8,102.0,6.8
+2021,Western Kentucky,105.9,99.3,6.6
+2021,Minnesota,105.2,98.6,6.6
+2021,Providence,107.5,101.1,6.4
+2021,Michigan State,104.4,98.2,6.2
+2021,Dayton,107.0,100.8,6.2
+2021,Loyola Marymount,108.4,102.3,6.1
+2021,Northwestern,103.7,97.6,6.1
+2021,Washington State,101.9,95.9,6.0
+2021,Notre Dame,112.9,107.6,5.3
+2021,Southern Utah,110.9,105.7,5.2
+2021,Akron,107.7,102.5,5.2
+2021,Stephen F. Austin,106.5,101.5,5.1
+2021,UMBC,106.0,100.9,5.1
+2021,South Dakota State,110.9,106.0,5.0
+2021,Nevada,105.5,100.5,5.0
+2021,Pittsburgh,106.8,102.0,4.8
+2021,Marquette,108.5,103.8,4.7
+2021,Kent State,107.9,103.3,4.6
+2021,Georgia,106.2,101.8,4.4
+2021,Vanderbilt,107.2,102.8,4.4
+2021,Pepperdine,104.6,100.2,4.4
+2021,Mercer,107.5,103.5,4.0
+2021,Iona,103.0,99.1,3.9
+2021,Arizona State,106.3,102.5,3.8
+2021,New Mexico State,111.5,107.8,3.7
+2021,Bryant,105.0,101.5,3.5
+2021,Murray State,105.4,101.9,3.5
+2021,Massachusetts,105.0,101.6,3.4
+2021,UCF,104.6,101.2,3.4
+2021,Siena,106.2,102.7,3.4
+2021,Wofford,107.9,104.6,3.3
+2021,Indiana State,103.2,100.0,3.2
+2021,Morehead State,100.9,97.8,3.2
+2021,James Madison,105.0,101.9,3.1
+2021,Bowling Green,105.9,103.0,2.9
+2021,Oral Roberts,108.6,105.8,2.7
+2021,East Tennessee State,103.9,101.2,2.7
+2021,Tulsa,101.3,98.8,2.4
+2021,Cal State Bakersfield,104.5,102.2,2.3
+2021,Sam Houston,103.8,101.5,2.3
+2021,Nebraska,99.3,97.1,2.2
+2021,Navy,103.6,101.6,2.1
+2021,Gardner-Webb,106.1,104.3,1.9
+2021,Detroit Mercy,112.0,110.2,1.8
+2021,Bellarmine,109.5,107.7,1.8
+2021,Rhode Island,102.0,100.2,1.8
+2021,Pacific,102.5,100.8,1.7
+2021,Florida Atlantic,104.9,103.2,1.7
+2021,Duquesne,101.9,100.2,1.7
+2021,Cincinnati,102.3,100.6,1.7
+2021,VMI,108.5,107.0,1.6
+2021,UTEP,103.9,102.3,1.6
+2021,Jacksonville State,106.1,104.6,1.5
+2021,Mount St. Mary's,102.5,101.1,1.4
+2021,North Dakota State,103.9,102.6,1.4
+2021,California,104.5,103.2,1.3
+2021,Drexel,106.1,104.8,1.3
+2021,Georgia State,105.6,104.4,1.2
+2021,South Carolina,103.5,102.4,1.1
+2021,George Mason,100.7,99.8,0.8
+2021,Old Dominion,101.7,100.9,0.8
+2021,Chattanooga,106.2,105.4,0.8
+2021,Eastern Kentucky,102.4,101.8,0.7
+2021,Northeastern,100.2,99.5,0.7
+2021,Coastal Carolina,101.5,100.8,0.6
+2021,Wagner,103.9,103.4,0.5
+2021,Butler,102.0,101.6,0.4
+2021,Hofstra,108.1,107.8,0.4
+2021,Ball State,103.2,102.8,0.3
+2021,Texas State,100.7,100.4,0.3
+2021,Miami (OH),106.3,106.0,0.3
+2021,South Dakota,106.6,106.4,0.2
+2021,Loyola Maryland,99.4,99.5,-0.1
+2021,Bradley,102.4,102.5,-0.2
+2021,UTSA,105.5,105.8,-0.2
+2021,Hawai'i,107.2,107.4,-0.3
+2021,Temple,100.1,100.5,-0.3
+2021,Monmouth,103.5,103.8,-0.3
+2021,Nicholls,102.0,102.3,-0.4
+2021,Saint Peter's,94.2,94.7,-0.5
+2021,Louisiana,103.1,103.7,-0.6
+2021,Cleveland State,99.9,100.7,-0.7
+2021,TCU,103.9,104.6,-0.7
+2021,UAlbany,101.0,101.9,-1.0
+2021,Texas A&M,100.2,101.4,-1.1
+2021,Rice,105.5,106.5,-1.1
+2021,Campbell,103.7,105.2,-1.4
+2021,Miami,100.1,101.7,-1.5
+2021,Morgan State,103.0,104.5,-1.5
+2021,Army,100.1,101.6,-1.5
+2021,East Carolina,97.4,99.0,-1.6
+2021,Delaware,98.2,100.0,-1.7
+2021,California Baptist,109.3,111.0,-1.7
+2021,Montana,100.2,101.9,-1.7
+2021,Santa Clara,102.2,104.0,-1.8
+2021,Elon,100.7,102.5,-1.8
+2021,South Alabama,104.9,106.9,-1.9
+2021,UMass Lowell,102.9,104.9,-2.0
+2021,DePaul,96.6,98.6,-2.1
+2021,Niagara,102.9,105.4,-2.4
+2021,Canisius,104.9,107.3,-2.4
+2021,Wyoming,106.4,109.0,-2.6
+2021,Washington,101.6,104.2,-2.6
+2021,Norfolk State,100.8,103.4,-2.6
+2021,Texas Southern,102.5,105.1,-2.6
+2021,Northern Iowa,102.1,104.9,-2.7
+2021,UNLV,103.0,106.0,-3.0
+2021,Austin Peay,105.5,108.6,-3.0
+2021,Stony Brook,98.1,101.2,-3.1
+2021,Montana State,100.8,104.1,-3.2
+2021,Wake Forest,102.0,105.3,-3.3
+2021,Radford,101.1,104.4,-3.3
+2021,Marist,95.1,98.6,-3.5
+2021,Arkansas State,101.8,105.4,-3.6
+2021,Lafayette,106.1,109.7,-3.6
+2021,Little Rock,101.4,105.0,-3.6
+2021,Boston College,102.0,105.6,-3.6
+2021,Long Island University,97.2,100.7,-3.6
+2021,American University,101.3,105.0,-3.7
+2021,Northern Kentucky,104.1,107.9,-3.8
+2021,Prairie View A&M,98.7,102.6,-3.9
+2021,UNC Asheville,101.7,105.8,-4.1
+2021,Utah Valley,110.7,114.8,-4.1
+2021,Kansas State,99.1,103.4,-4.2
+2021,Tarleton State,98.2,102.4,-4.2
+2021,UNC Wilmington,103.9,108.2,-4.3
+2021,South Florida,101.0,105.4,-4.4
+2021,Portland State,94.1,98.6,-4.5
+2021,UT Arlington,98.3,102.8,-4.5
+2021,Idaho State,96.7,101.2,-4.6
+2021,Iowa State,99.5,104.1,-4.6
+2021,The Citadel,105.1,109.7,-4.6
+2021,Bucknell,102.7,107.4,-4.7
+2021,Merrimack,96.7,101.4,-4.7
+2021,Boston University,103.0,107.7,-4.7
+2021,Seattle U,98.1,102.9,-4.8
+2021,Northern Colorado,100.1,104.9,-4.8
+2021,App State,100.0,104.8,-4.8
+2021,Milwaukee,102.6,107.5,-4.9
+2021,Florida A&M,95.3,100.2,-4.9
+2021,Quinnipiac,96.0,100.9,-5.0
+2021,Longwood,100.2,105.2,-5.0
+2021,Southern Illinois,100.4,105.4,-5.0
+2021,Western Carolina,102.6,107.6,-5.1
+2021,Charleston,103.0,108.2,-5.2
+2021,Sacramento State,103.6,108.9,-5.3
+2021,UC Davis,98.3,103.6,-5.3
+2021,Charlotte,97.5,103.0,-5.4
+2021,Fairleigh Dickinson,104.9,110.4,-5.5
+2021,Fresno State,99.2,104.7,-5.5
+2021,Cal State Fullerton,105.9,111.5,-5.6
+2021,La Salle,100.6,106.4,-5.8
+2021,Lipscomb,100.6,106.5,-5.9
+2021,Youngstown State,105.3,111.2,-6.0
+2021,Illinois State,98.9,105.0,-6.1
+2021,Stetson,101.6,107.7,-6.1
+2021,Kansas City,97.6,103.9,-6.2
+2021,Valparaiso,96.5,102.7,-6.2
+2021,Holy Cross,101.8,108.1,-6.3
+2021,Evansville,104.2,110.5,-6.3
+2021,New Hampshire,100.4,106.7,-6.3
+2021,Tulane,111.1,117.6,-6.6
+2021,Jackson State,90.3,97.1,-6.7
+2021,UC San Diego,101.7,108.4,-6.8
+2021,New Orleans,99.8,106.7,-6.9
+2021,North Carolina A&T,99.2,106.2,-7.0
+2021,Oakland,102.8,110.0,-7.2
+2021,San Diego,98.3,105.6,-7.3
+2021,Long Beach State,100.2,107.6,-7.4
+2021,Saint Joseph's,100.8,108.2,-7.5
+2021,Samford,96.8,104.4,-7.6
+2021,St. Francis (PA),98.9,106.5,-7.7
+2021,Southern Miss,93.2,100.9,-7.7
+2021,NJIT,99.3,107.2,-7.8
+2021,George Washington,101.0,108.9,-7.9
+2021,Manhattan,93.6,101.6,-8.0
+2021,Green Bay,104.1,112.2,-8.1
+2021,High Point,98.1,106.2,-8.1
+2021,Southeast Missouri State,96.6,104.7,-8.1
+2021,Fairfield,99.0,107.3,-8.2
+2021,UT Rio Grande Valley,92.8,101.1,-8.3
+2021,Florida Gulf Coast,95.3,103.6,-8.4
+2021,Southern,94.4,102.9,-8.5
+2021,William & Mary,98.0,106.9,-8.9
+2021,UIC,95.0,104.0,-9.0
+2021,IU Indianapolis,96.5,105.7,-9.1
+2021,Binghamton,97.6,106.8,-9.3
+2021,North Alabama,97.2,106.6,-9.4
+2021,Rider,102.5,111.9,-9.4
+2021,Lamar,95.0,104.5,-9.5
+2021,Coppin State,92.3,102.0,-9.7
+2021,Georgia Southern,95.2,104.9,-9.7
+2021,North Dakota,98.5,108.4,-9.9
+2021,Jacksonville,94.4,104.5,-10.1
+2021,Purdue Fort Wayne,101.1,111.3,-10.2
+2021,Cal State Northridge,100.8,111.2,-10.4
+2021,Grambling,95.1,105.6,-10.5
+2021,Central Michigan,100.7,111.7,-11.0
+2021,Sacred Heart,100.3,111.3,-11.0
+2021,Central Connecticut,97.4,108.6,-11.2
+2021,UL Monroe,94.9,106.2,-11.2
+2021,Robert Morris,100.4,111.6,-11.3
+2021,North Florida,102.9,114.2,-11.4
+2021,Howard,100.2,111.7,-11.5
+2021,Florida International,98.1,109.6,-11.5
+2021,South Carolina Upstate,97.2,108.8,-11.6
+2021,Northwestern State,98.0,109.7,-11.7
+2021,Eastern Illinois,96.2,108.1,-11.9
+2021,Hampton,97.1,109.1,-11.9
+2021,Presbyterian,93.8,105.8,-12.0
+2021,Towson,99.5,111.6,-12.1
+2021,Central Arkansas,98.8,110.9,-12.1
+2021,Western Illinois,96.7,108.9,-12.2
+2021,Troy,92.8,105.1,-12.2
+2021,Lehigh,95.0,107.2,-12.3
+2021,Tennessee State,92.1,104.6,-12.5
+2021,Northern Arizona,99.5,112.1,-12.6
+2021,Maine,87.3,99.8,-12.6
+2021,Western Michigan,93.1,105.9,-12.7
+2021,Alabama A&M,91.6,104.4,-12.8
+2021,SIU Edwardsville,95.2,108.4,-13.2
+2021,Incarnate Word,97.6,110.8,-13.2
+2021,Tennessee Tech,97.0,110.2,-13.2
+2021,Utah Tech,92.5,106.1,-13.6
+2021,Middle Tennessee,92.6,106.6,-14.0
+2021,Omaha,95.0,109.3,-14.3
+2021,Eastern Michigan,98.2,112.8,-14.5
+2021,McNeese,98.1,112.8,-14.8
+2021,Houston Christian,95.1,110.0,-14.8
+2021,North Carolina Central,96.3,111.0,-14.8
+2021,SE Louisiana,94.5,109.6,-15.2
+2021,Texas A&M-Corpus Christi,92.9,108.1,-15.2
+2021,Charleston Southern,92.3,107.5,-15.3
+2021,Cal Poly,90.5,106.3,-15.8
+2021,Alcorn State,95.2,112.1,-16.9
+2021,New Mexico,90.1,107.3,-17.1
+2021,Portland,97.3,114.5,-17.1
+2021,Fordham,86.7,104.7,-18.0
+2021,Kennesaw State,92.1,110.8,-18.7
+2021,Denver,94.9,113.7,-18.8
+2021,Alabama State,88.2,107.4,-19.2
+2021,Northern Illinois,92.7,112.3,-19.7
+2021,Air Force,94.6,114.6,-20.0
+2021,Idaho,91.3,111.6,-20.3
+2021,UT Martin,94.8,115.2,-20.4
+2021,San José State,93.4,114.0,-20.6
+2021,Arkansas-Pine Bluff,92.3,113.2,-20.8
+2021,Delaware State,93.7,116.2,-22.5
+2021,South Carolina State,85.2,113.4,-28.2
+2021,Chicago State,86.8,118.1,-31.3
+2021,Mississippi Valley State,85.5,122.5,-37.0
+2022,Gonzaga,121.1,89.5,31.6
+2022,Houston,117.8,87.9,29.8
+2022,Arizona,119.0,91.9,27.1
+2022,Baylor,117.4,90.5,27.0
+2022,Kansas,119.4,93.0,26.4
+2022,Texas Tech,112.8,86.9,25.9
+2022,Kentucky,119.8,94.0,25.8
+2022,Tennessee,113.3,87.6,25.7
+2022,Villanova,117.9,92.7,25.2
+2022,Duke,120.9,96.1,24.8
+2022,Purdue,121.7,98.1,23.6
+2022,UCLA,116.0,92.3,23.6
+2022,Iowa,121.0,98.5,22.5
+2022,Auburn,112.6,90.2,22.4
+2022,Texas,112.7,91.4,21.3
+2022,Illinois,114.9,94.5,20.3
+2022,Saint Mary's,111.2,91.3,19.9
+2022,LSU,107.5,88.0,19.5
+2022,North Carolina,115.8,96.6,19.2
+2022,UConn,114.5,95.5,19.0
+2022,Virginia Tech,115.5,96.8,18.7
+2022,Arkansas,110.1,91.7,18.4
+2022,Loyola Chicago,110.5,92.2,18.3
+2022,San Francisco,110.3,93.1,17.2
+2022,Murray State,113.3,96.1,17.2
+2022,Ohio State,116.3,99.4,16.9
+2022,Alabama,115.6,99.3,16.3
+2022,Memphis,111.0,94.7,16.3
+2022,San Diego State,104.6,88.4,16.2
+2022,Vermont,113.4,97.3,16.1
+2022,Michigan,114.2,98.2,16.0
+2022,TCU,109.7,93.7,15.9
+2022,Wake Forest,112.2,96.3,15.9
+2022,Oklahoma,110.5,94.7,15.9
+2022,Wisconsin,109.6,93.9,15.7
+2022,UAB,114.2,98.8,15.4
+2022,Notre Dame,113.3,98.1,15.1
+2022,Davidson,115.9,100.8,15.1
+2022,Providence,112.7,97.8,14.9
+2022,Texas A&M,108.6,93.8,14.7
+2022,Michigan State,111.8,97.3,14.5
+2022,Oklahoma State,104.6,90.1,14.5
+2022,Boise State,107.8,93.3,14.5
+2022,North Texas,109.3,95.0,14.3
+2022,Dayton,109.0,94.7,14.3
+2022,Xavier,111.4,97.3,14.2
+2022,Washington State,108.8,94.7,14.1
+2022,Indiana,107.8,93.8,14.0
+2022,USC,110.2,96.2,14.0
+2022,Iowa State,103.2,89.5,13.8
+2022,Mississippi State,110.8,97.0,13.7
+2022,Colorado State,112.9,99.2,13.7
+2022,Seton Hall,108.2,94.7,13.5
+2022,Miami,113.4,100.1,13.3
+2022,St. John's,110.9,98.0,12.9
+2022,VCU,102.3,89.6,12.7
+2022,Chattanooga,111.7,99.1,12.7
+2022,Florida,109.7,97.1,12.6
+2022,BYU,111.5,98.8,12.6
+2022,Missouri State,115.4,103.0,12.5
+2022,Creighton,106.2,93.9,12.3
+2022,Utah State,110.1,97.9,12.2
+2022,Marquette,109.0,96.8,12.2
+2022,SMU,110.3,98.0,12.2
+2022,Wyoming,110.2,98.2,12.0
+2022,Vanderbilt,107.3,95.3,12.0
+2022,Towson,112.0,100.0,12.0
+2022,Saint Louis,110.5,98.6,11.9
+2022,Belmont,110.8,99.3,11.5
+2022,Kansas State,109.4,98.2,11.1
+2022,Clemson,111.7,100.6,11.0
+2022,Fresno State,106.0,95.1,10.9
+2022,Furman,113.6,102.8,10.8
+2022,Drake,109.7,98.9,10.8
+2022,West Virginia,108.0,97.4,10.7
+2022,Santa Clara,111.9,101.4,10.5
+2022,St. Bonaventure,110.1,99.5,10.5
+2022,Virginia,107.3,96.9,10.4
+2022,South Dakota State,116.1,105.7,10.4
+2022,Toledo,111.9,101.5,10.4
+2022,Syracuse,114.7,104.3,10.3
+2022,Oregon,110.0,99.9,10.1
+2022,New Mexico State,108.0,98.0,10.0
+2022,Colorado,106.7,96.6,10.0
+2022,Grand Canyon,108.6,98.8,9.8
+2022,Bradley,105.5,95.9,9.6
+2022,Maryland,110.7,101.4,9.3
+2022,Iona,108.2,98.9,9.3
+2022,Richmond,109.5,100.2,9.3
+2022,Penn State,106.6,97.4,9.2
+2022,Rutgers,106.2,97.1,9.1
+2022,Northern Iowa,112.6,103.7,8.9
+2022,Wichita State,104.5,95.8,8.7
+2022,Middle Tennessee,107.7,99.0,8.7
+2022,Tulane,109.8,101.6,8.3
+2022,Saint Peter's,102.3,94.2,8.1
+2022,Northwestern,106.1,98.4,7.8
+2022,Louisiana Tech,106.5,99.1,7.4
+2022,Cincinnati,104.5,97.0,7.4
+2022,UNLV,106.0,98.7,7.4
+2022,South Carolina,102.2,95.2,6.9
+2022,Princeton,114.5,107.9,6.6
+2022,Wofford,110.2,103.7,6.5
+2022,Arizona State,101.3,94.8,6.5
+2022,DePaul,108.5,102.3,6.2
+2022,UCF,106.4,100.4,6.0
+2022,Morehead State,104.6,98.8,5.7
+2022,Florida State,105.1,99.5,5.6
+2022,Southern Illinois,105.4,99.9,5.5
+2022,George Mason,106.8,101.4,5.4
+2022,Ole Miss,105.3,100.2,5.1
+2022,Liberty,107.4,102.3,5.1
+2022,Western Kentucky,106.3,101.4,4.9
+2022,Colgate,108.5,103.6,4.9
+2022,Stanford,105.2,100.4,4.8
+2022,Hofstra,108.7,104.0,4.7
+2022,Utah Valley,103.8,99.3,4.5
+2022,Stephen F. Austin,103.0,98.5,4.5
+2022,Minnesota,106.3,101.8,4.5
+2022,Buffalo,108.3,103.9,4.4
+2022,Temple,103.3,99.1,4.2
+2022,Ohio,104.8,100.6,4.2
+2022,Washington,104.8,100.8,4.0
+2022,UC Santa Barbara,106.0,101.9,4.0
+2022,Florida Atlantic,106.4,102.5,3.8
+2022,Abilene Christian,104.2,100.4,3.8
+2022,Seattle U,101.1,97.4,3.6
+2022,Longwood,108.0,104.6,3.3
+2022,UC Irvine,101.2,97.8,3.3
+2022,Rhode Island,100.6,97.3,3.3
+2022,Utah,106.6,103.3,3.3
+2022,Boston College,104.1,100.9,3.2
+2022,Akron,106.2,103.0,3.2
+2022,Louisville,102.9,100.1,2.9
+2022,Texas State,106.4,103.5,2.9
+2022,Coastal Carolina,104.2,101.5,2.7
+2022,Charleston,104.5,101.8,2.6
+2022,Jacksonville State,107.0,104.4,2.6
+2022,Delaware,107.6,105.2,2.5
+2022,Nevada,106.6,104.1,2.5
+2022,Wagner,102.3,100.0,2.3
+2022,Montana State,105.3,103.0,2.3
+2022,Monmouth,103.2,101.1,2.2
+2022,NC State,108.8,106.5,2.2
+2022,Kent State,103.2,101.2,2.0
+2022,Drexel,106.7,105.0,1.8
+2022,Winthrop,106.6,105.1,1.4
+2022,Yale,102.0,100.7,1.4
+2022,Sam Houston,100.6,99.2,1.4
+2022,Butler,101.9,100.5,1.4
+2022,Nebraska,105.1,103.7,1.4
+2022,South Alabama,102.5,101.1,1.3
+2022,Oral Roberts,110.5,109.2,1.2
+2022,Georgia State,101.9,100.8,1.1
+2022,Cal State Fullerton,106.5,105.4,1.1
+2022,Missouri,102.9,101.8,1.1
+2022,UNC Wilmington,105.0,104.0,1.0
+2022,VMI,109.8,109.1,0.8
+2022,California,102.6,101.7,0.8
+2022,UNC Greensboro,100.4,99.6,0.8
+2022,Gardner-Webb,99.1,98.4,0.7
+2022,UTEP,100.8,100.1,0.7
+2022,Navy,96.8,96.5,0.4
+2022,Saint Joseph's,100.6,100.3,0.3
+2022,Hawai'i,106.7,106.5,0.3
+2022,UC Riverside,101.2,100.9,0.2
+2022,Southern Utah,106.4,106.3,0.1
+2022,Oakland,103.5,103.5,0.0
+2022,Long Beach State,102.9,102.9,0.0
+2022,North Dakota State,102.8,102.8,0.0
+2022,Georgia Tech,100.6,100.6,0.0
+2022,App State,101.9,102.2,-0.3
+2022,Wright State,107.0,107.2,-0.3
+2022,Massachusetts,112.9,113.3,-0.4
+2022,Cleveland State,104.9,105.3,-0.4
+2022,Jacksonville,100.8,101.5,-0.7
+2022,Niagara,101.7,102.4,-0.7
+2022,Fordham,97.4,98.3,-0.9
+2022,New Mexico,104.9,105.9,-0.9
+2022,Tulsa,104.2,105.1,-0.9
+2022,East Tennessee State,107.3,108.2,-0.9
+2022,Mercer,105.1,106.1,-1.0
+2022,Georgetown,104.8,105.8,-1.0
+2022,Louisiana,101.8,103.0,-1.1
+2022,Norfolk State,101.4,102.6,-1.2
+2022,Weber State,103.4,104.5,-1.2
+2022,Portland,104.4,105.8,-1.4
+2022,Cornell,104.9,106.3,-1.4
+2022,East Carolina,102.2,103.6,-1.4
+2022,Illinois State,104.9,106.4,-1.5
+2022,Texas Southern,99.0,100.5,-1.5
+2022,Northern Kentucky,102.1,103.7,-1.6
+2022,Samford,104.6,106.2,-1.6
+2022,Arkansas State,100.2,101.9,-1.7
+2022,Fairfield,104.2,105.9,-1.7
+2022,Old Dominion,101.6,103.4,-1.8
+2022,Charlotte,106.5,108.5,-2.0
+2022,Nicholls,103.0,105.2,-2.2
+2022,Campbell,101.8,104.2,-2.4
+2022,Florida Gulf Coast,105.9,108.4,-2.5
+2022,UNC Asheville,102.4,105.0,-2.6
+2022,Southern,97.3,99.9,-2.6
+2022,Valparaiso,104.5,107.2,-2.7
+2022,Marist,101.7,104.4,-2.7
+2022,Tarleton State,99.9,102.8,-2.9
+2022,Rice,110.0,113.0,-2.9
+2022,Troy,98.3,101.3,-3.0
+2022,Boston University,105.8,108.8,-3.0
+2022,Bellarmine,107.1,110.3,-3.2
+2022,Pittsburgh,99.4,102.8,-3.4
+2022,Pennsylvania,105.8,109.2,-3.4
+2022,Brown,100.1,103.7,-3.6
+2022,Dartmouth,99.3,102.9,-3.6
+2022,California Baptist,102.0,105.7,-3.7
+2022,Harvard,98.2,102.0,-3.8
+2022,UC Davis,98.9,102.7,-3.8
+2022,Bryant,104.4,108.2,-3.8
+2022,Kennesaw State,104.6,108.5,-3.9
+2022,South Dakota,106.5,110.4,-3.9
+2022,Quinnipiac,103.5,107.4,-4.0
+2022,Loyola Marymount,105.7,109.7,-4.0
+2022,Howard,103.0,107.0,-4.0
+2022,Indiana State,99.0,103.1,-4.1
+2022,Northern Colorado,109.0,113.3,-4.3
+2022,Georgia,105.9,110.2,-4.3
+2022,James Madison,103.1,107.5,-4.4
+2022,Kansas City,101.5,105.9,-4.4
+2022,Eastern Washington,103.8,108.4,-4.6
+2022,High Point,99.9,104.7,-4.8
+2022,New Hampshire,106.0,111.0,-4.9
+2022,Rider,99.7,104.6,-4.9
+2022,La Salle,99.6,104.5,-4.9
+2022,George Washington,99.0,104.2,-5.1
+2022,Marshall,101.3,106.6,-5.3
+2022,Detroit Mercy,105.5,110.9,-5.4
+2022,UT Arlington,97.1,102.6,-5.5
+2022,Purdue Fort Wayne,99.0,104.8,-5.7
+2022,Siena,100.2,105.9,-5.7
+2022,Stony Brook,105.0,110.8,-5.8
+2022,Southeast Missouri State,105.8,111.8,-6.0
+2022,The Citadel,102.5,108.6,-6.1
+2022,San Diego,96.4,102.5,-6.2
+2022,Texas A&M-Corpus Christi,97.0,103.2,-6.2
+2022,Western Illinois,100.9,107.2,-6.2
+2022,Georgia Southern,97.4,104.0,-6.6
+2022,Long Island University,99.8,106.5,-6.7
+2022,Loyola Maryland,99.3,106.1,-6.8
+2022,UMass Lowell,96.4,103.2,-6.8
+2022,Canisius,98.5,105.5,-7.0
+2022,Miami (OH),105.7,112.8,-7.1
+2022,Alcorn State,98.9,106.1,-7.2
+2022,Tennessee Tech,100.9,108.1,-7.2
+2022,UMBC,104.0,111.3,-7.2
+2022,Oregon State,104.9,112.1,-7.2
+2022,Eastern Kentucky,101.2,108.5,-7.3
+2022,Manhattan,101.3,108.9,-7.6
+2022,Mount St. Mary's,98.3,105.9,-7.6
+2022,Northeastern,99.1,106.9,-7.7
+2022,South Florida,92.0,99.7,-7.8
+2022,Youngstown State,103.8,111.6,-7.8
+2022,Elon,99.1,107.0,-7.9
+2022,Montana,99.9,107.9,-7.9
+2022,New Orleans,98.0,106.0,-7.9
+2022,Presbyterian,96.4,104.6,-8.1
+2022,SE Louisiana,103.0,111.2,-8.1
+2022,UC San Diego,101.3,109.5,-8.2
+2022,Lipscomb,101.5,109.9,-8.4
+2022,Tennessee State,97.9,106.4,-8.5
+2022,South Carolina Upstate,102.4,110.9,-8.5
+2022,Ball State,101.6,110.3,-8.7
+2022,South Carolina State,92.9,101.8,-8.9
+2022,Cal State Bakersfield,98.5,107.4,-8.9
+2022,Portland State,95.7,104.6,-8.9
+2022,Jackson State,94.6,103.6,-9.0
+2022,Florida International,97.2,106.3,-9.1
+2022,Maryland Eastern Shore,91.9,101.1,-9.2
+2022,UAlbany,94.8,104.1,-9.3
+2022,North Carolina A&T,98.3,107.7,-9.4
+2022,UL Monroe,101.0,110.4,-9.4
+2022,Bowling Green,103.6,113.2,-9.5
+2022,Radford,95.6,105.2,-9.6
+2022,North Carolina Central,96.7,106.3,-9.6
+2022,Duquesne,101.5,111.0,-9.6
+2022,Air Force,95.3,104.9,-9.7
+2022,North Florida,98.2,108.0,-9.8
+2022,Utah Tech,95.4,105.3,-10.0
+2022,Army,98.7,108.8,-10.1
+2022,Binghamton,96.1,106.4,-10.3
+2022,Prairie View A&M,97.6,107.9,-10.3
+2022,UIC,99.8,110.1,-10.3
+2022,Pepperdine,96.9,107.3,-10.4
+2022,Western Carolina,98.4,109.2,-10.8
+2022,Austin Peay,95.8,106.7,-10.8
+2022,SIU Edwardsville,95.2,106.1,-10.9
+2022,Lehigh,98.3,109.3,-11.0
+2022,Pacific,96.1,107.5,-11.3
+2022,UT Martin,97.4,108.8,-11.4
+2022,Denver,100.3,111.7,-11.4
+2022,UT Rio Grande Valley,101.4,113.4,-12.0
+2022,San José State,98.5,110.8,-12.3
+2022,Coppin State,93.3,105.6,-12.3
+2022,Northern Illinois,93.0,105.3,-12.3
+2022,Grambling,93.2,106.2,-12.9
+2022,Alabama State,97.4,110.4,-12.9
+2022,Stetson,97.7,110.6,-12.9
+2022,Florida A&M,95.0,107.8,-12.9
+2022,North Alabama,90.9,103.9,-13.0
+2022,McNeese,97.3,110.5,-13.2
+2022,Cal Poly,93.6,107.1,-13.4
+2022,Eastern Michigan,94.4,107.9,-13.5
+2022,Morgan State,94.2,107.7,-13.5
+2022,Lafayette,97.4,111.0,-13.7
+2022,Alabama A&M,88.1,101.7,-13.7
+2022,Merrimack,92.3,106.5,-14.2
+2022,Robert Morris,99.8,114.0,-14.2
+2022,Sacred Heart,101.9,116.2,-14.3
+2022,UTSA,93.5,107.8,-14.3
+2022,Sacramento State,95.6,109.9,-14.3
+2022,St. Thomas-Minnesota,104.6,119.6,-15.0
+2022,Central Michigan,96.1,111.2,-15.1
+2022,Hampton,94.0,109.1,-15.1
+2022,Central Arkansas,98.4,113.6,-15.2
+2022,Little Rock,96.6,112.0,-15.4
+2022,NJIT,93.9,109.3,-15.4
+2022,Evansville,92.5,108.1,-15.6
+2022,St. Francis (PA),96.0,111.8,-15.8
+2022,Idaho,98.3,114.2,-15.9
+2022,Northwestern State,98.3,114.4,-16.0
+2022,Milwaukee,93.2,109.3,-16.1
+2022,American University,95.3,111.5,-16.3
+2022,Bucknell,102.5,119.0,-16.4
+2022,Cal State Northridge,94.2,110.8,-16.6
+2022,William & Mary,92.7,109.4,-16.7
+2022,Houston Christian,94.9,112.0,-17.0
+2022,Western Michigan,99.8,117.0,-17.2
+2022,Northern Arizona,95.9,113.4,-17.5
+2022,Southern Miss,94.4,112.6,-18.2
+2022,Chicago State,99.6,117.9,-18.3
+2022,Bethune-Cookman,92.8,111.1,-18.3
+2022,Green Bay,94.4,113.2,-18.8
+2022,Idaho State,96.2,115.4,-19.1
+2022,Holy Cross,92.3,111.8,-19.6
+2022,Fairleigh Dickinson,93.2,112.8,-19.6
+2022,Lamar,92.0,111.8,-19.8
+2022,Charleston Southern,93.4,113.3,-19.9
+2022,Columbia,94.0,114.9,-20.8
+2022,Central Connecticut,90.9,111.8,-20.9
+2022,North Dakota,97.1,118.3,-21.2
+2022,Omaha,96.7,118.2,-21.4
+2022,Maine,92.0,113.5,-21.5
+2022,Arkansas-Pine Bluff,95.9,117.6,-21.7
+2022,Incarnate Word,98.0,121.2,-23.2
+2022,Mississippi Valley State,91.3,116.4,-25.2
+2022,Delaware State,85.5,111.4,-25.9
+2022,Eastern Illinois,83.4,110.1,-26.7
+2022,IU Indianapolis,79.7,111.8,-32.1
+2023,Pittsburgh,160.4,123.2,37.2
+2023,Purdue,130.6,121.8,8.9
+2023,Houston,108.8,102.7,6.1
+2023,UConn,108.8,103.9,4.8
+2023,Alabama,107.9,103.3,4.6
+2023,Tennessee,107.0,102.6,4.5
+2023,UCLA,107.4,103.1,4.3
+2023,Florida Atlantic,108.3,104.4,4.0
+2023,Gonzaga,109.7,106.1,3.6
+2023,Charleston,107.9,104.3,3.6
+2023,Texas,107.9,104.4,3.5
+2023,Iona,107.9,104.6,3.4
+2023,Saint Mary's,107.4,104.0,3.4
+2023,Arizona,108.4,105.1,3.3
+2023,North Texas,107.2,104.1,3.1
+2023,Liberty,107.5,104.4,3.1
+2023,Marquette,108.6,105.6,3.0
+2023,Drake,107.5,104.5,3.0
+2023,Oral Roberts,108.4,105.4,3.0
+2023,Yale,107.7,104.8,2.9
+2023,UAB,108.0,105.2,2.8
+2023,Creighton,107.6,104.9,2.8
+2023,Kent State,107.2,104.5,2.7
+2023,San Diego State,106.6,104.1,2.6
+2023,Virginia,106.9,104.3,2.6
+2023,Miami,108.1,105.5,2.6
+2023,VCU,106.2,103.7,2.6
+2023,Indiana State,107.6,105.1,2.6
+2023,Hofstra,107.3,104.8,2.6
+2023,Marshall,107.5,105.0,2.5
+2023,Dayton,106.9,104.4,2.5
+2023,UMass Lowell,107.5,105.1,2.5
+2023,Kansas,107.0,104.5,2.5
+2023,Xavier,108.0,105.7,2.4
+2023,Toledo,109.7,107.4,2.4
+2023,Memphis,107.2,104.8,2.4
+2023,Furman,108.3,106.0,2.3
+2023,Colgate,108.5,106.2,2.3
+2023,Bradley,106.7,104.4,2.3
+2023,Utah Valley,106.7,104.4,2.2
+2023,NC State,108.2,106.0,2.2
+2023,Utah State,108.1,105.8,2.2
+2023,Youngstown State,108.7,106.5,2.2
+2023,Clemson,107.5,105.3,2.2
+2023,Kentucky,107.6,105.6,2.1
+2023,Texas A&M,107.3,105.2,2.1
+2023,North Carolina,106.8,104.7,2.1
+2023,TCU,106.9,104.8,2.0
+2023,Boise State,107.0,105.0,2.0
+2023,Maryland,106.8,104.8,2.0
+2023,Baylor,108.3,106.3,2.0
+2023,Cincinnati,107.6,105.6,1.9
+2023,Sam Houston,106.3,104.4,1.9
+2023,James Madison,106.9,104.9,1.9
+2023,Kansas State,106.9,105.0,1.9
+2023,UCF,106.5,104.6,1.9
+2023,Arkansas,106.6,104.7,1.9
+2023,Towson,107.3,105.5,1.8
+2023,West Virginia,107.4,105.6,1.8
+2023,Southern Miss,106.7,105.1,1.7
+2023,Rutgers,104.9,103.2,1.7
+2023,Mississippi State,105.1,103.5,1.7
+2023,Vermont,107.5,105.8,1.7
+2023,Providence,108.1,106.4,1.7
+2023,Louisiana,107.6,106.0,1.7
+2023,Iowa State,105.7,104.0,1.7
+2023,UC Santa Barbara,107.6,106.0,1.6
+2023,Longwood,106.9,105.3,1.6
+2023,UC Irvine,106.7,105.1,1.6
+2023,UNC Greensboro,106.2,104.6,1.5
+2023,New Mexico,107.9,106.5,1.5
+2023,Virginia Tech,107.3,105.8,1.5
+2023,Charlotte,106.9,105.5,1.4
+2023,Akron,107.4,106.0,1.4
+2023,Illinois,105.9,104.5,1.4
+2023,Auburn,106.3,104.9,1.4
+2023,Montana State,106.6,105.2,1.4
+2023,South Alabama,106.8,105.4,1.4
+2023,Utah,105.9,104.6,1.3
+2023,Ohio,107.8,106.6,1.3
+2023,Samford,107.5,106.2,1.3
+2023,Princeton,107.3,105.9,1.3
+2023,Nevada,107.1,105.7,1.3
+2023,Oregon,106.8,105.5,1.3
+2023,Belmont,107.6,106.3,1.3
+2023,Arizona State,105.9,104.8,1.2
+2023,Texas A&M-Corpus Christi,107.3,106.1,1.2
+2023,Indiana,106.3,105.1,1.2
+2023,Missouri,107.9,106.7,1.2
+2023,Hawai'i,106.5,105.3,1.2
+2023,USC,106.6,105.3,1.2
+2023,BYU,106.5,105.4,1.1
+2023,Grambling,105.7,104.5,1.1
+2023,Eastern Washington,107.5,106.4,1.1
+2023,Kennesaw State,106.5,105.5,1.0
+2023,Penn State,107.0,106.0,1.0
+2023,UNC Asheville,106.4,105.4,1.0
+2023,Saint Louis,107.2,106.3,1.0
+2023,Wake Forest,107.6,106.6,1.0
+2023,Southern Illinois,105.7,104.7,1.0
+2023,Wright State,106.8,105.8,1.0
+2023,Navy,106.5,105.5,1.0
+2023,Washington State,106.8,105.8,1.0
+2023,Quinnipiac,106.5,105.6,0.9
+2023,Michigan State,106.4,105.5,0.9
+2023,Oklahoma State,105.4,104.6,0.9
+2023,Cornell,107.8,106.9,0.9
+2023,Colorado,105.6,104.7,0.9
+2023,Iowa,107.4,106.5,0.9
+2023,Cal State Fullerton,106.3,105.4,0.9
+2023,Florida,105.9,105.0,0.8
+2023,Norfolk State,107.2,106.3,0.8
+2023,Grand Canyon,107.2,106.4,0.8
+2023,Villanova,107.0,106.2,0.8
+2023,Lipscomb,106.9,106.0,0.8
+2023,Radford,106.7,105.9,0.8
+2023,Ohio State,106.6,105.8,0.8
+2023,Troy,106.1,105.2,0.8
+2023,Michigan,106.0,105.1,0.8
+2023,Drexel,106.0,105.2,0.8
+2023,Fordham,105.7,104.9,0.8
+2023,Seton Hall,105.6,104.8,0.8
+2023,UNC Wilmington,106.0,105.3,0.7
+2023,Cleveland State,106.6,105.8,0.7
+2023,UC Riverside,106.7,106.1,0.7
+2023,Northwestern State,106.9,106.3,0.7
+2023,Duquesne,107.0,106.3,0.7
+2023,Southern Utah,107.0,106.3,0.7
+2023,Santa Clara,106.7,106.0,0.7
+2023,North Carolina Central,105.8,105.2,0.6
+2023,St. John's,106.2,105.6,0.6
+2023,Ball State,107.5,106.9,0.6
+2023,Tulane,106.8,106.2,0.6
+2023,Stephen F. Austin,106.3,105.7,0.6
+2023,Siena,106.3,105.7,0.6
+2023,Chattanooga,107.7,107.1,0.6
+2023,UC Davis,106.2,105.6,0.6
+2023,Northern Kentucky,105.9,105.4,0.6
+2023,Missouri State,106.2,105.7,0.5
+2023,Syracuse,106.6,106.1,0.5
+2023,Harvard,105.8,105.3,0.5
+2023,Texas Tech,106.5,106.0,0.5
+2023,UNLV,106.0,105.5,0.5
+2023,Wichita State,106.0,105.5,0.5
+2023,Gardner-Webb,106.0,105.4,0.5
+2023,SIU Edwardsville,106.1,105.6,0.5
+2023,Bryant,107.1,106.6,0.5
+2023,Rider,107.0,106.6,0.4
+2023,Stanford,106.9,106.5,0.4
+2023,Montana,107.3,107.0,0.3
+2023,George Mason,105.6,105.3,0.3
+2023,Pennsylvania,107.1,106.8,0.3
+2023,South Dakota State,106.3,106.1,0.3
+2023,Middle Tennessee,106.7,106.4,0.3
+2023,San José State,106.5,106.2,0.3
+2023,Fairleigh Dickinson,106.9,106.6,0.3
+2023,California Baptist,106.0,105.8,0.2
+2023,Seattle U,106.2,105.9,0.2
+2023,Queens University,107.1,106.9,0.2
+2023,Vanderbilt,106.8,106.5,0.2
+2023,Eastern Kentucky,106.5,106.2,0.2
+2023,Stetson,107.9,107.7,0.2
+2023,Detroit Mercy,107.7,107.5,0.2
+2023,UMBC,107.0,106.8,0.2
+2023,St. Thomas-Minnesota,107.2,107.0,0.1
+2023,Long Beach State,106.1,106.0,0.1
+2023,San Francisco,106.6,106.5,0.1
+2023,Davidson,106.4,106.3,0.1
+2023,Oklahoma,106.1,105.9,0.1
+2023,Army,106.6,106.5,0.1
+2023,Wisconsin,105.4,105.3,0.1
+2023,Florida Gulf Coast,106.4,106.3,0.1
+2023,Loyola Marymount,107.3,107.1,0.1
+2023,Utah Tech,106.5,106.5,0.0
+2023,Old Dominion,105.6,105.6,0.0
+2023,UT Martin,106.1,106.1,0.0
+2023,Southeast Missouri State,106.1,106.2,0.0
+2023,Richmond,105.7,105.6,0.0
+2023,Wagner,105.4,105.3,0.0
+2023,Robert Morris,105.8,105.9,-0.1
+2023,Colorado State,106.6,106.7,-0.1
+2023,Howard,106.0,106.1,-0.1
+2023,South Florida,106.4,106.5,-0.1
+2023,Weber State,105.3,105.5,-0.2
+2023,St. Bonaventure,105.6,105.8,-0.2
+2023,Brown,105.1,105.4,-0.2
+2023,American University,106.7,106.9,-0.2
+2023,App State,105.4,105.6,-0.2
+2023,SE Louisiana,106.6,106.8,-0.2
+2023,Campbell,106.4,106.6,-0.2
+2023,Georgia Tech,105.5,105.8,-0.3
+2023,Temple,105.9,106.2,-0.3
+2023,Milwaukee,106.1,106.3,-0.3
+2023,Sacred Heart,105.2,105.5,-0.3
+2023,Saint Joseph's,106.3,106.6,-0.3
+2023,Georgia Southern,105.4,105.7,-0.3
+2023,Mercer,105.6,106.0,-0.4
+2023,North Dakota State,106.5,106.9,-0.4
+2023,Wofford,107.6,108.0,-0.4
+2023,Southern Indiana,106.6,107.0,-0.4
+2023,Morehead State,105.7,106.1,-0.4
+2023,Western Carolina,106.0,106.6,-0.5
+2023,Southern,105.0,105.5,-0.5
+2023,Texas State,106.1,106.5,-0.5
+2023,Air Force,106.0,106.5,-0.5
+2023,Louisiana Tech,105.9,106.4,-0.5
+2023,Western Kentucky,105.9,106.4,-0.5
+2023,Nicholls,105.8,106.3,-0.5
+2023,Boston University,105.4,105.9,-0.5
+2023,Purdue Fort Wayne,105.6,106.1,-0.5
+2023,Alcorn State,105.3,105.9,-0.6
+2023,George Washington,107.0,107.5,-0.6
+2023,Nebraska,105.0,105.6,-0.6
+2023,Massachusetts,105.3,105.9,-0.6
+2023,Washington,105.1,105.8,-0.6
+2023,Tarleton State,105.6,106.1,-0.6
+2023,Tennessee State,106.1,106.7,-0.6
+2023,Maryland Eastern Shore,104.6,105.2,-0.6
+2023,Niagara,106.1,106.7,-0.6
+2023,Northern Iowa,105.7,106.3,-0.6
+2023,Lafayette,104.8,105.4,-0.6
+2023,Ole Miss,105.6,106.2,-0.6
+2023,Prairie View A&M,104.5,105.2,-0.7
+2023,Sacramento State,106.1,106.9,-0.7
+2023,Fresno State,105.4,106.1,-0.7
+2023,Abilene Christian,106.1,106.8,-0.7
+2023,East Carolina,105.5,106.2,-0.7
+2023,New Mexico State,106.1,106.8,-0.7
+2023,Winthrop,107.2,108.0,-0.8
+2023,Maine,105.6,106.4,-0.8
+2023,Jacksonville,105.4,106.2,-0.8
+2023,Pacific,106.8,107.6,-0.8
+2023,Tennessee Tech,105.9,106.7,-0.8
+2023,North Florida,107.1,107.9,-0.8
+2023,Murray State,106.4,107.2,-0.8
+2023,Delaware,105.9,106.8,-0.8
+2023,New Hampshire,105.5,106.3,-0.8
+2023,Buffalo,106.0,106.8,-0.8
+2023,Fairfield,105.3,106.0,-0.8
+2023,Western Illinois,106.4,107.2,-0.8
+2023,Notre Dame,106.4,107.2,-0.8
+2023,UTEP,104.6,105.4,-0.8
+2023,Alabama A&M,104.9,105.7,-0.8
+2023,East Texas A&M,106.3,107.1,-0.8
+2023,Lehigh,105.3,106.0,-0.8
+2023,Stonehill,105.1,106.0,-0.9
+2023,Idaho State,106.3,107.2,-0.9
+2023,Jackson State,105.6,106.6,-0.9
+2023,Morgan State,104.7,105.7,-0.9
+2023,Bucknell,105.9,106.8,-0.9
+2023,Portland,107.0,107.8,-0.9
+2023,Butler,104.9,105.8,-0.9
+2023,Rice,106.6,107.6,-1.0
+2023,North Alabama,106.1,107.1,-1.0
+2023,Canisius,106.0,107.0,-1.0
+2023,Jacksonville State,105.9,106.9,-1.0
+2023,Florida International,105.7,106.7,-1.0
+2023,East Tennessee State,105.6,106.5,-1.0
+2023,La Salle,105.5,106.5,-1.0
+2023,South Carolina Upstate,105.1,106.1,-1.0
+2023,Marist,104.9,105.9,-1.0
+2023,Northern Arizona,106.7,107.7,-1.0
+2023,Northern Colorado,106.7,107.8,-1.0
+2023,Boston College,104.8,106.0,-1.1
+2023,Little Rock,106.2,107.3,-1.1
+2023,Merrimack,103.8,104.9,-1.1
+2023,Georgia,105.4,106.4,-1.1
+2023,Northern Illinois,105.3,106.4,-1.1
+2023,Portland State,106.0,107.1,-1.2
+2023,Denver,106.2,107.4,-1.2
+2023,Miami (OH),106.5,107.7,-1.2
+2023,Dartmouth,105.1,106.3,-1.2
+2023,Mount St. Mary's,105.0,106.1,-1.2
+2023,Manhattan,105.1,106.4,-1.3
+2023,Wyoming,105.8,107.1,-1.3
+2023,High Point,105.8,107.1,-1.3
+2023,LSU,105.6,106.9,-1.3
+2023,Pepperdine,106.1,107.4,-1.3
+2023,North Dakota,106.1,107.4,-1.3
+2023,Texas Southern,104.5,105.8,-1.3
+2023,Bowling Green,106.5,107.9,-1.4
+2023,Oakland,106.3,107.8,-1.4
+2023,UT Rio Grande Valley,106.1,107.7,-1.5
+2023,Binghamton,105.5,107.0,-1.5
+2023,Illinois State,105.3,106.8,-1.5
+2023,Idaho,106.2,107.8,-1.6
+2023,Rhode Island,104.4,106.0,-1.6
+2023,Saint Peter's,105.0,106.6,-1.6
+2023,Loyola Chicago,105.2,106.8,-1.6
+2023,Arkansas State,105.1,106.7,-1.6
+2023,SMU,105.7,107.3,-1.6
+2023,Bellarmine,105.6,107.3,-1.6
+2023,South Dakota,106.3,108.0,-1.6
+2023,San Diego,106.9,108.5,-1.6
+2023,Incarnate Word,105.4,107.0,-1.6
+2023,Charleston Southern,106.6,108.3,-1.7
+2023,Central Connecticut,105.4,107.1,-1.7
+2023,UC San Diego,105.4,107.0,-1.7
+2023,St. Francis (PA),106.2,107.9,-1.7
+2023,Arkansas-Pine Bluff,104.3,106.1,-1.8
+2023,NJIT,105.7,107.5,-1.8
+2023,Georgia State,105.0,106.8,-1.8
+2023,Valparaiso,105.0,106.7,-1.8
+2023,Florida State,105.1,106.9,-1.8
+2023,Coastal Carolina,106.0,107.9,-1.8
+2023,Chicago State,105.9,107.8,-1.9
+2023,William & Mary,105.5,107.4,-1.9
+2023,DePaul,105.1,107.1,-1.9
+2023,Loyola Maryland,105.9,107.8,-1.9
+2023,Northeastern,105.2,107.2,-2.0
+2023,UT Arlington,104.8,106.8,-2.0
+2023,UIC,104.5,106.5,-2.0
+2023,Lindenwood,104.8,106.9,-2.1
+2023,New Orleans,105.3,107.3,-2.1
+2023,Cal State Bakersfield,104.0,106.1,-2.1
+2023,Alabama State,104.2,106.3,-2.1
+2023,North Carolina A&T,105.1,107.1,-2.1
+2023,The Citadel,105.1,107.2,-2.1
+2023,Kansas City,105.1,107.2,-2.1
+2023,Eastern Illinois,104.6,106.7,-2.1
+2023,UL Monroe,104.6,106.7,-2.1
+2023,Holy Cross,104.4,106.7,-2.2
+2023,Oregon State,104.2,106.4,-2.2
+2023,Western Michigan,106.0,108.2,-2.2
+2023,Duke,124.5,126.7,-2.2
+2023,Elon,104.8,107.1,-2.3
+2023,UAlbany,105.7,108.0,-2.3
+2023,Cal Poly,104.0,106.3,-2.3
+2023,Eastern Michigan,105.9,108.3,-2.4
+2023,Omaha,105.4,107.8,-2.4
+2023,McNeese,105.2,107.6,-2.4
+2023,Central Michigan,104.5,107.0,-2.5
+2023,Bethune-Cookman,105.0,107.5,-2.5
+2023,Stony Brook,104.4,106.8,-2.5
+2023,Presbyterian,104.5,107.1,-2.5
+2023,Lamar,105.0,107.6,-2.6
+2023,UTSA,105.3,107.9,-2.6
+2023,Austin Peay,104.7,107.3,-2.7
+2023,Central Arkansas,105.1,107.9,-2.7
+2023,Cal State Northridge,104.3,107.0,-2.7
+2023,South Carolina,105.1,107.8,-2.7
+2023,Houston Christian,105.9,108.8,-2.8
+2023,South Carolina State,105.4,108.2,-2.8
+2023,Hampton,105.3,108.1,-2.8
+2023,Coppin State,105.2,107.9,-2.8
+2023,Georgetown,104.8,107.7,-2.9
+2023,Columbia,104.4,107.4,-3.0
+2023,Minnesota,103.8,106.9,-3.1
+2023,Delaware State,103.9,107.1,-3.2
+2023,Louisville,104.2,107.5,-3.3
+2023,Florida A&M,103.5,106.8,-3.3
+2023,VMI,105.2,108.6,-3.4
+2023,Tulsa,104.5,108.1,-3.6
+2023,IU Indianapolis,104.7,108.4,-3.7
+2023,Mississippi Valley State,103.5,107.3,-3.8
+2023,Long Island University,103.7,107.6,-3.9
+2023,California,103.7,107.6,-3.9
+2023,Monmouth,103.5,107.4,-3.9
+2023,Evansville,103.3,107.3,-4.0
+2023,Green Bay,103.4,108.7,-5.2
+2023,Northwestern,123.6,158.1,-34.6
+2024,UConn,126.7,92.3,34.4
+2024,Houston,118.7,85.3,33.4
+2024,Purdue,125.3,94.6,30.7
+2024,Arizona,120.9,92.8,28.2
+2024,Iowa State,116.1,88.4,27.7
+2024,Auburn,121.1,93.6,27.5
+2024,Tennessee,117.3,90.6,26.6
+2024,Duke,121.8,95.5,26.4
+2024,North Carolina,120.2,94.3,25.8
+2024,Alabama,125.6,101.4,24.2
+2024,Creighton,120.7,96.8,23.9
+2024,Illinois,124.4,101.0,23.4
+2024,BYU,121.3,98.1,23.2
+2024,Baylor,124.1,101.1,23.0
+2024,Gonzaga,122.0,99.0,23.0
+2024,Saint Mary's,116.3,94.1,22.3
+2024,Marquette,117.4,95.4,22.0
+2024,Michigan State,114.1,94.3,19.8
+2024,San Diego State,113.6,94.7,18.9
+2024,Wisconsin,118.7,99.7,18.9
+2024,Clemson,117.4,98.9,18.5
+2024,Colorado,118.2,99.6,18.5
+2024,Kentucky,121.9,103.5,18.4
+2024,Texas,115.7,97.2,18.4
+2024,St. John's,118.0,99.9,18.1
+2024,New Mexico,114.5,96.5,18.0
+2024,Kansas,113.9,96.0,17.9
+2024,Dayton,117.9,100.0,17.9
+2024,Texas Tech,117.5,99.8,17.7
+2024,Indiana State,120.2,102.6,17.6
+2024,Cincinnati,113.3,96.1,17.2
+2024,Florida,118.7,101.9,16.9
+2024,Wake Forest,117.3,100.5,16.8
+2024,Pittsburgh,115.6,98.9,16.7
+2024,Villanova,111.6,94.9,16.6
+2024,Colorado State,114.2,97.6,16.6
+2024,Boise State,115.0,98.7,16.3
+2024,Utah,114.6,98.3,16.3
+2024,Nebraska,114.6,98.4,16.2
+2024,Texas A&M,117.2,101.2,16.1
+2024,Washington State,113.4,97.3,16.0
+2024,Oklahoma,114.4,98.5,15.9
+2024,Nevada,114.3,98.3,15.9
+2024,Mississippi State,111.8,96.0,15.9
+2024,TCU,114.8,99.0,15.8
+2024,Drake,115.4,100.2,15.2
+2024,Florida Atlantic,117.4,102.5,14.9
+2024,Utah State,115.6,100.8,14.7
+2024,Northwestern,115.1,100.3,14.7
+2024,Ohio State,114.2,99.6,14.6
+2024,NC State,114.5,100.1,14.4
+2024,Grand Canyon,112.5,98.2,14.4
+2024,Virginia Tech,115.3,101.5,13.9
+2024,Iowa,118.4,104.9,13.5
+2024,Oregon,114.0,100.5,13.5
+2024,McNeese,114.9,101.6,13.3
+2024,Seton Hall,111.9,98.6,13.3
+2024,Providence,109.0,95.8,13.2
+2024,San Francisco,112.3,99.3,13.0
+2024,James Madison,113.4,100.6,12.8
+2024,Xavier,112.1,99.3,12.8
+2024,Bradley,112.4,99.7,12.7
+2024,Washington,114.8,102.3,12.5
+2024,UCF,107.2,94.8,12.4
+2024,Princeton,117.8,105.5,12.3
+2024,South Carolina,114.1,101.9,12.2
+2024,SMU,111.8,99.7,12.1
+2024,Butler,112.6,100.7,11.8
+2024,Virginia,105.3,93.5,11.8
+2024,VCU,109.0,98.0,11.0
+2024,Kansas State,108.9,97.9,11.0
+2024,UC Irvine,110.7,99.8,10.9
+2024,Maryland,106.8,96.1,10.7
+2024,Boston College,113.1,102.9,10.3
+2024,Memphis,112.7,102.6,10.2
+2024,App State,108.5,98.3,10.2
+2024,North Texas,109.7,99.8,9.9
+2024,Samford,113.8,104.1,9.7
+2024,UNLV,112.6,102.9,9.7
+2024,Richmond,107.7,98.2,9.5
+2024,George Mason,111.1,101.6,9.4
+2024,Massachusetts,112.5,103.2,9.4
+2024,Yale,111.3,101.9,9.4
+2024,Minnesota,112.5,103.2,9.3
+2024,Penn State,110.5,101.3,9.2
+2024,USC,110.9,101.8,9.2
+2024,South Florida,111.2,102.1,9.1
+2024,St. Bonaventure,113.1,104.0,9.1
+2024,Florida State,110.7,101.5,9.1
+2024,Duquesne,107.6,98.7,8.8
+2024,Loyola Chicago,105.5,96.6,8.8
+2024,Saint Joseph's,111.2,102.6,8.6
+2024,Miami,111.0,102.5,8.5
+2024,Louisiana Tech,108.4,99.9,8.5
+2024,Syracuse,110.0,101.7,8.4
+2024,Georgia,109.3,101.0,8.3
+2024,Ole Miss,112.6,104.7,7.9
+2024,LSU,110.0,102.3,7.7
+2024,Charleston,113.1,106.0,7.1
+2024,Cornell,113.5,106.5,6.9
+2024,Indiana,109.8,102.9,6.9
+2024,Vermont,107.1,100.4,6.7
+2024,Seattle U,106.5,99.9,6.7
+2024,UCLA,107.1,100.8,6.3
+2024,Santa Clara,110.2,104.0,6.2
+2024,Rutgers,99.7,93.5,6.2
+2024,High Point,116.3,110.3,6.0
+2024,Hofstra,109.0,103.1,5.9
+2024,Stanford,109.7,104.0,5.6
+2024,UAB,112.3,106.8,5.5
+2024,Western Carolina,108.7,103.3,5.4
+2024,Southern Illinois,109.7,104.4,5.3
+2024,Akron,107.2,101.9,5.3
+2024,Morehead State,108.7,103.6,5.1
+2024,Northern Iowa,108.7,103.7,5.0
+2024,Drexel,107.8,103.1,4.7
+2024,UNC Wilmington,113.0,108.3,4.6
+2024,Oakland,110.3,105.8,4.5
+2024,Oklahoma State,108.5,104.1,4.4
+2024,Arkansas,109.5,105.1,4.4
+2024,Belmont,109.0,104.8,4.3
+2024,UC San Diego,111.4,107.1,4.3
+2024,Youngstown State,109.1,105.0,4.2
+2024,Charlotte,108.8,104.8,4.0
+2024,California,108.7,104.8,3.9
+2024,Davidson,105.4,101.5,3.9
+2024,Toledo,112.7,109.0,3.7
+2024,Notre Dame,102.8,99.1,3.7
+2024,UT Arlington,108.9,105.2,3.7
+2024,Liberty,110.1,106.6,3.4
+2024,Colgate,105.5,102.2,3.3
+2024,Ohio,109.5,106.3,3.2
+2024,Troy,106.8,103.7,3.1
+2024,Georgia Tech,108.5,105.4,3.1
+2024,South Dakota State,108.2,105.2,3.0
+2024,Michigan,110.0,107.0,3.0
+2024,Tulane,111.2,108.3,2.9
+2024,Western Kentucky,104.8,102.0,2.8
+2024,Arkansas State,112.5,109.9,2.7
+2024,Chattanooga,110.7,108.3,2.5
+2024,St. Thomas-Minnesota,107.8,105.4,2.4
+2024,UMass Lowell,107.1,104.9,2.2
+2024,UNC Greensboro,109.1,106.9,2.2
+2024,Furman,109.5,107.4,2.1
+2024,Arizona State,103.2,101.2,2.0
+2024,Tarleton State,109.1,107.1,2.0
+2024,Weber State,108.8,107.0,1.8
+2024,Eastern Washington,112.1,110.4,1.6
+2024,Louisiana,105.9,104.3,1.6
+2024,Montana,111.3,109.7,1.6
+2024,Wright State,115.7,114.2,1.5
+2024,Missouri,108.2,106.7,1.5
+2024,Towson,103.7,102.3,1.4
+2024,Wichita State,104.9,104.1,0.8
+2024,Sam Houston,104.7,103.9,0.8
+2024,Purdue Fort Wayne,105.1,104.3,0.7
+2024,West Virginia,107.6,107.0,0.6
+2024,Delaware,105.7,105.2,0.5
+2024,Quinnipiac,106.8,106.4,0.4
+2024,Missouri State,104.6,104.3,0.3
+2024,Murray State,107.3,106.9,0.3
+2024,Long Beach State,107.0,106.7,0.2
+2024,Fairfield,108.9,108.7,0.2
+2024,Winthrop,107.1,106.9,0.2
+2024,Lipscomb,111.7,111.6,0.1
+2024,Kent State,107.8,107.7,0.1
+2024,Hawai'i,105.8,106.0,-0.1
+2024,Bryant,101.9,102.1,-0.2
+2024,Oregon State,106.3,106.6,-0.3
+2024,UC Davis,103.1,103.4,-0.3
+2024,Longwood,104.9,105.2,-0.3
+2024,Utah Valley,100.5,100.8,-0.3
+2024,Wyoming,107.9,108.3,-0.4
+2024,UNC Asheville,107.3,107.8,-0.5
+2024,Stephen F. Austin,101.5,102.3,-0.8
+2024,Stony Brook,106.1,107.2,-1.1
+2024,Fordham,101.9,103.4,-1.5
+2024,East Tennessee State,103.2,104.7,-1.5
+2024,Little Rock,107.3,108.9,-1.5
+2024,Northern Kentucky,103.5,105.6,-2.0
+2024,Texas A&M-Corpus Christi,100.4,102.5,-2.1
+2024,Loyola Marymount,107.9,110.0,-2.1
+2024,Saint Peter's,99.6,101.8,-2.2
+2024,Brown,104.0,106.2,-2.2
+2024,Cleveland State,106.6,108.9,-2.3
+2024,UTEP,98.4,100.8,-2.4
+2024,Marist,98.2,100.6,-2.4
+2024,Monmouth,105.8,108.3,-2.5
+2024,Illinois State,102.2,104.7,-2.5
+2024,La Salle,106.1,108.7,-2.6
+2024,UIC,101.2,103.9,-2.7
+2024,Norfolk State,104.4,107.1,-2.7
+2024,East Carolina,104.2,106.9,-2.8
+2024,Wofford,108.2,111.0,-2.8
+2024,California Baptist,103.7,106.4,-2.8
+2024,Northern Colorado,107.6,110.4,-2.8
+2024,Tulsa,102.4,105.2,-2.8
+2024,Gardner-Webb,102.6,105.4,-2.9
+2024,Temple,102.6,105.5,-3.0
+2024,UC Santa Barbara,106.8,109.8,-3.0
+2024,Iona,104.5,107.5,-3.0
+2024,Merrimack,97.1,100.1,-3.1
+2024,Texas State,99.6,102.7,-3.1
+2024,George Washington,106.5,109.7,-3.2
+2024,Jacksonville State,101.1,104.4,-3.3
+2024,Louisville,105.1,108.5,-3.4
+2024,Georgetown,109.3,112.6,-3.4
+2024,UT Martin,106.8,110.2,-3.5
+2024,Vanderbilt,104.2,107.8,-3.5
+2024,Saint Louis,110.4,114.0,-3.5
+2024,Lamar,105.0,108.6,-3.6
+2024,Pennsylvania,107.6,111.3,-3.7
+2024,Green Bay,104.3,108.1,-3.8
+2024,Georgia State,105.8,109.6,-3.8
+2024,Eastern Kentucky,106.2,110.2,-4.0
+2024,Rider,103.7,107.7,-4.0
+2024,Rhode Island,106.6,110.7,-4.1
+2024,Montana State,104.3,108.5,-4.2
+2024,Pepperdine,105.8,110.0,-4.3
+2024,New Hampshire,100.5,104.8,-4.3
+2024,Milwaukee,108.9,113.3,-4.4
+2024,Harvard,103.0,107.4,-4.4
+2024,Florida Gulf Coast,103.3,107.8,-4.5
+2024,Evansville,101.6,106.1,-4.5
+2024,Mercer,103.8,108.4,-4.5
+2024,Mount St. Mary's,102.8,107.3,-4.5
+2024,Columbia,106.6,111.2,-4.6
+2024,UC Riverside,103.9,108.5,-4.6
+2024,North Florida,108.6,113.3,-4.7
+2024,Cal State Northridge,100.8,105.5,-4.8
+2024,Maine,97.6,102.3,-4.8
+2024,Kansas City,102.0,106.7,-4.8
+2024,Stetson,109.5,114.4,-4.9
+2024,Bowling Green,102.3,107.2,-4.9
+2024,Austin Peay,107.7,112.7,-5.0
+2024,UAlbany,105.5,110.5,-5.0
+2024,Central Connecticut,102.1,107.4,-5.3
+2024,Omaha,104.8,110.1,-5.3
+2024,Marshall,101.4,106.8,-5.4
+2024,Radford,107.2,112.6,-5.4
+2024,Cal State Bakersfield,102.0,107.4,-5.4
+2024,Cal State Fullerton,99.8,105.2,-5.4
+2024,North Dakota,105.7,111.2,-5.5
+2024,Abilene Christian,101.1,106.6,-5.5
+2024,Rice,105.1,110.6,-5.5
+2024,Nicholls,103.8,109.3,-5.5
+2024,Southern Miss,100.9,106.5,-5.6
+2024,South Alabama,103.8,109.5,-5.6
+2024,Lehigh,100.9,106.7,-5.7
+2024,Portland State,99.6,105.7,-6.1
+2024,North Alabama,105.9,112.0,-6.2
+2024,Fresno State,102.9,109.1,-6.2
+2024,Southern Utah,105.3,111.7,-6.4
+2024,The Citadel,102.5,109.0,-6.5
+2024,Miami (OH),101.0,107.6,-6.6
+2024,Idaho State,104.1,110.8,-6.7
+2024,Northeastern,104.6,111.2,-6.7
+2024,North Carolina Central,104.9,111.6,-6.8
+2024,Denver,108.3,115.2,-6.9
+2024,Niagara,104.6,111.6,-7.1
+2024,UTSA,106.8,114.1,-7.2
+2024,Ball State,103.1,110.3,-7.2
+2024,Kennesaw State,105.0,112.3,-7.3
+2024,Southern,97.6,105.0,-7.4
+2024,Canisius,101.3,108.7,-7.4
+2024,San Diego,100.8,108.4,-7.5
+2024,Howard,105.9,113.5,-7.5
+2024,North Dakota State,104.4,112.0,-7.6
+2024,Bucknell,100.9,108.5,-7.7
+2024,Presbyterian,102.7,110.3,-7.7
+2024,Sacred Heart,103.1,110.9,-7.8
+2024,San José State,104.2,112.0,-7.8
+2024,UMBC,104.8,112.6,-7.9
+2024,Western Illinois,97.8,105.9,-8.1
+2024,Queens University,103.5,111.6,-8.1
+2024,Binghamton,102.4,110.7,-8.3
+2024,SIU Edwardsville,101.6,110.0,-8.4
+2024,American University,104.7,113.2,-8.4
+2024,Texas Southern,99.5,108.0,-8.5
+2024,Georgia Southern,103.6,112.2,-8.6
+2024,Oral Roberts,103.7,112.3,-8.6
+2024,Air Force,104.4,113.1,-8.7
+2024,Boston University,98.5,107.5,-8.9
+2024,Chicago State,99.5,108.3,-8.9
+2024,Central Michigan,97.1,106.1,-9.1
+2024,Wagner,97.5,106.6,-9.2
+2024,Utah Tech,99.4,108.7,-9.2
+2024,Jacksonville,102.2,111.6,-9.4
+2024,Old Dominion,99.4,108.9,-9.6
+2024,Grambling,99.2,108.8,-9.6
+2024,Le Moyne,100.7,110.5,-9.7
+2024,South Carolina Upstate,100.2,110.2,-10.0
+2024,Florida International,100.4,110.8,-10.4
+2024,Tennessee State,98.6,109.0,-10.4
+2024,Robert Morris,102.3,112.8,-10.5
+2024,Middle Tennessee,96.8,107.3,-10.5
+2024,Delaware State,96.2,106.8,-10.7
+2024,Bethune-Cookman,98.3,109.1,-10.9
+2024,Valparaiso,99.2,110.1,-10.9
+2024,Western Michigan,99.9,111.0,-11.2
+2024,Jackson State,101.1,112.2,-11.2
+2024,New Mexico State,99.8,111.1,-11.3
+2024,SE Louisiana,98.7,110.1,-11.4
+2024,UL Monroe,100.2,111.6,-11.4
+2024,Northern Illinois,101.8,113.4,-11.6
+2024,Portland,103.5,115.2,-11.7
+2024,Campbell,100.4,112.1,-11.8
+2024,William & Mary,101.4,113.7,-12.3
+2024,Lafayette,94.4,106.7,-12.3
+2024,Alcorn State,106.1,118.5,-12.4
+2024,Eastern Illinois,95.8,108.2,-12.4
+2024,Navy,97.6,110.0,-12.4
+2024,DePaul,101.0,113.8,-12.8
+2024,Coastal Carolina,99.3,112.2,-12.8
+2024,Sacramento State,97.9,110.8,-12.9
+2024,South Carolina State,97.2,110.2,-13.1
+2024,Alabama State,92.7,106.0,-13.3
+2024,Bellarmine,100.1,113.5,-13.4
+2024,Northern Arizona,98.2,112.0,-13.7
+2024,Prairie View A&M,95.4,109.1,-13.8
+2024,Elon,100.9,114.7,-13.8
+2024,Alabama A&M,94.9,108.8,-13.9
+2024,Idaho,99.1,112.9,-13.9
+2024,Fairleigh Dickinson,98.4,112.3,-13.9
+2024,Southern Indiana,96.0,110.2,-14.2
+2024,South Dakota,102.8,117.0,-14.2
+2024,Charleston Southern,95.7,110.0,-14.4
+2024,Eastern Michigan,97.3,112.1,-14.8
+2024,Arkansas-Pine Bluff,103.8,119.5,-15.7
+2024,Dartmouth,93.1,109.1,-16.0
+2024,Northwestern State,97.8,113.8,-16.1
+2024,Manhattan,96.0,112.3,-16.2
+2024,UT Rio Grande Valley,94.9,111.2,-16.3
+2024,Tennessee Tech,96.1,112.6,-16.5
+2024,NJIT,97.5,114.1,-16.6
+2024,Army,92.0,109.0,-17.0
+2024,East Texas A&M,94.2,111.4,-17.3
+2024,Hampton,95.2,112.5,-17.3
+2024,Cal Poly,94.4,112.1,-17.7
+2024,Morgan State,96.2,114.2,-17.9
+2024,Central Arkansas,97.7,115.7,-18.0
+2024,Loyola Maryland,94.3,112.3,-18.1
+2024,Incarnate Word,97.1,115.3,-18.3
+2024,North Carolina A&T,96.6,115.0,-18.4
+2024,Florida A&M,94.1,112.6,-18.5
+2024,New Orleans,97.2,115.8,-18.6
+2024,Buffalo,96.1,114.7,-18.6
+2024,Long Island University,92.7,111.5,-18.8
+2024,Holy Cross,100.1,119.4,-19.3
+2024,Maryland Eastern Shore,90.7,110.7,-20.0
+2024,Southeast Missouri State,91.8,112.5,-20.7
+2024,St. Francis (PA),94.6,115.4,-20.8
+2024,Detroit Mercy,96.5,118.3,-21.8
+2024,Stonehill,92.7,114.9,-22.2
+2024,Houston Christian,94.9,117.5,-22.6
+2024,Siena,90.3,113.4,-23.1
+2024,VMI,89.3,112.7,-23.5
+2024,Lindenwood,91.8,115.5,-23.7
+2024,Pacific,93.6,118.7,-25.1
+2024,Coppin State,85.2,111.1,-25.8
+2024,IU Indianapolis,92.6,119.2,-26.6
+2024,Mississippi Valley State,85.0,118.8,-33.8
+2025,Duke,130.3,90.5,39.8
+2025,Houston,123.3,86.9,36.4
+2025,Auburn,128.4,93.4,35.1
+2025,Florida,126.5,91.9,34.6
+2025,Gonzaga,127.6,97.0,30.6
+2025,Tennessee,120.8,90.3,30.5
+2025,Alabama,126.4,96.7,29.7
+2025,Maryland,120.2,92.0,28.2
+2025,Texas Tech,125.1,97.7,27.4
+2025,Arizona,123.6,96.9,26.7
+2025,Michigan State,119.3,92.9,26.4
+2025,Iowa State,119.4,93.5,25.9
+2025,St. John's,115.0,89.5,25.5
+2025,Kentucky,123.8,99.4,24.3
+2025,Illinois,122.1,97.8,24.3
+2025,Purdue,124.6,100.2,24.3
+2025,Wisconsin,122.5,98.3,24.2
+2025,Saint Mary's,117.2,93.8,23.5
+2025,UCLA,118.0,94.8,23.2
+2025,Missouri,124.3,101.4,22.9
+2025,Texas A&M,117.0,94.7,22.4
+2025,Kansas,117.8,95.5,22.3
+2025,Clemson,117.7,95.5,22.1
+2025,UConn,122.7,100.9,21.8
+2025,Marquette,117.3,95.9,21.3
+2025,Michigan,116.0,94.8,21.2
+2025,Ole Miss,118.1,96.9,21.2
+2025,Louisville,118.0,96.8,21.2
+2025,BYU,122.5,101.4,21.0
+2025,Oregon,117.1,96.4,20.8
+2025,Baylor,121.3,100.5,20.8
+2025,VCU,116.5,95.8,20.7
+2025,North Carolina,119.9,99.6,20.3
+2025,Ohio State,119.4,99.6,19.8
+2025,Creighton,117.3,97.8,19.5
+2025,Mississippi State,118.3,99.2,19.1
+2025,UC San Diego,115.1,96.3,18.8
+2025,Georgia,116.5,97.9,18.6
+2025,Arkansas,114.4,95.8,18.5
+2025,Xavier,117.8,99.7,18.1
+2025,Boise State,119.0,101.3,17.7
+2025,Texas,118.2,101.0,17.2
+2025,Colorado State,116.1,98.9,17.1
+2025,New Mexico,113.0,96.0,17.0
+2025,Santa Clara,117.0,100.6,16.4
+2025,Oklahoma,117.8,101.5,16.2
+2025,Villanova,119.9,103.8,16.1
+2025,SMU,117.1,101.3,15.9
+2025,Utah State,120.6,104.7,15.9
+2025,Vanderbilt,117.8,102.2,15.6
+2025,Northwestern,114.3,98.8,15.5
+2025,McNeese,115.5,100.2,15.3
+2025,Indiana,113.7,98.6,15.1
+2025,Cincinnati,111.4,96.5,14.9
+2025,Drake,114.1,99.3,14.8
+2025,West Virginia,109.2,94.4,14.8
+2025,San Diego State,111.6,97.0,14.5
+2025,Nebraska,113.5,99.1,14.4
+2025,Memphis,113.9,100.0,13.9
+2025,Penn State,114.5,101.3,13.1
+2025,Pittsburgh,116.1,103.1,13.0
+2025,USC,116.2,103.5,12.7
+2025,Iowa,119.3,106.8,12.5
+2025,UC Irvine,108.2,95.8,12.4
+2025,San Francisco,113.5,101.1,12.4
+2025,Yale,115.8,103.6,12.2
+2025,Liberty,112.3,100.5,11.9
+2025,North Texas,111.0,99.2,11.8
+2025,Utah,114.8,103.5,11.4
+2025,Wake Forest,109.9,98.9,11.1
+2025,Butler,117.3,106.2,11.0
+2025,South Carolina,111.2,100.4,10.8
+2025,George Mason,107.9,97.3,10.6
+2025,Kansas State,110.1,100.2,10.0
+2025,Nevada,113.4,103.5,9.9
+2025,Rutgers,114.6,104.7,9.9
+2025,Oregon State,116.2,106.3,9.9
+2025,Dayton,116.5,106.6,9.8
+2025,UCF,114.7,104.9,9.8
+2025,Arkansas State,114.3,104.5,9.7
+2025,High Point,118.0,108.2,9.7
+2025,Saint Joseph's,110.1,100.8,9.2
+2025,Bradley,112.2,103.1,9.1
+2025,Arizona State,111.5,102.4,9.1
+2025,LSU,110.2,101.3,9.0
+2025,TCU,108.3,99.3,9.0
+2025,Stanford,113.2,104.2,9.0
+2025,Lipscomb,112.5,103.9,8.6
+2025,Colorado,108.7,100.9,7.8
+2025,Georgetown,108.8,101.0,7.8
+2025,Northern Iowa,111.1,103.6,7.5
+2025,Florida State,109.9,102.5,7.4
+2025,Providence,112.0,105.3,6.7
+2025,UAB,116.5,109.8,6.7
+2025,Akron,114.5,108.0,6.6
+2025,Minnesota,109.7,103.0,6.6
+2025,Troy,107.5,101.0,6.5
+2025,Grand Canyon,108.4,101.8,6.5
+2025,UNLV,109.0,102.6,6.3
+2025,Chattanooga,116.9,110.7,6.2
+2025,Notre Dame,111.9,105.7,6.2
+2025,UNC Wilmington,112.8,106.7,6.1
+2025,Loyola Chicago,109.4,103.7,5.6
+2025,Oklahoma State,107.4,102.2,5.2
+2025,Utah Valley,107.4,102.1,5.2
+2025,St. Bonaventure,106.4,101.4,5.0
+2025,Kent State,107.1,102.2,5.0
+2025,Georgia Tech,107.5,102.7,4.8
+2025,Cornell,116.3,111.5,4.8
+2025,Robert Morris,108.4,103.7,4.7
+2025,Cal State Northridge,108.8,104.1,4.7
+2025,Saint Louis,109.4,104.8,4.6
+2025,North Alabama,111.5,107.1,4.5
+2025,DePaul,110.0,105.5,4.5
+2025,Illinois State,114.3,109.9,4.4
+2025,Jacksonville State,109.7,105.5,4.2
+2025,Samford,112.6,108.5,4.1
+2025,Northern Colorado,112.8,108.7,4.1
+2025,Washington,109.8,105.8,4.0
+2025,Virginia,110.1,106.1,4.0
+2025,Middle Tennessee,110.2,106.1,4.0
+2025,St. Thomas-Minnesota,114.2,110.4,3.8
+2025,California,110.6,106.9,3.7
+2025,Belmont,112.8,109.2,3.7
+2025,South Alabama,107.2,103.6,3.6
+2025,Milwaukee,110.4,106.9,3.5
+2025,Florida Atlantic,112.4,109.1,3.3
+2025,NC State,108.1,104.9,3.2
+2025,George Washington,107.3,104.3,3.0
+2025,Washington State,113.3,110.3,3.0
+2025,North Dakota State,116.2,113.3,2.9
+2025,Wofford,113.1,110.1,2.9
+2025,Syracuse,109.9,107.1,2.8
+2025,South Dakota State,110.2,107.5,2.7
+2025,East Tennessee State,108.3,105.6,2.7
+2025,Furman,110.1,107.5,2.6
+2025,UNC Greensboro,107.7,105.3,2.4
+2025,Kennesaw State,107.6,105.2,2.4
+2025,Louisiana Tech,108.5,106.2,2.3
+2025,Bryant,107.7,105.6,2.1
+2025,Murray State,107.4,105.3,2.1
+2025,UC Santa Barbara,110.1,108.0,2.0
+2025,Norfolk State,109.3,107.5,1.9
+2025,Duquesne,106.5,104.6,1.9
+2025,Wichita State,106.8,105.0,1.8
+2025,Seattle U,104.8,103.1,1.7
+2025,Rhode Island,108.6,107.1,1.6
+2025,New Mexico State,105.2,103.8,1.4
+2025,Purdue Fort Wayne,111.0,109.8,1.3
+2025,Cleveland State,105.4,104.2,1.2
+2025,Tulane,108.2,107.1,1.1
+2025,Texas A&M-Corpus Christi,107.5,106.5,1.1
+2025,Towson,107.4,106.4,1.0
+2025,Davidson,110.4,109.5,1.0
+2025,Radford,110.1,109.5,0.6
+2025,Miami (OH),109.1,108.5,0.6
+2025,Charleston,106.7,106.3,0.3
+2025,UTEP,105.6,105.4,0.2
+2025,Western Kentucky,104.1,104.0,0.1
+2025,Lamar,102.9,102.8,0.1
+2025,James Madison,110.3,110.4,0.0
+2025,Montana,111.3,111.4,0.0
+2025,UC Riverside,110.1,110.2,-0.1
+2025,Central Connecticut,101.9,102.0,-0.1
+2025,Loyola Marymount,106.3,106.6,-0.2
+2025,UIC,108.0,108.2,-0.2
+2025,Temple,110.7,111.0,-0.3
+2025,California Baptist,105.9,106.2,-0.3
+2025,Omaha,110.4,110.9,-0.5
+2025,Winthrop,108.1,108.8,-0.6
+2025,Marshall,108.3,108.9,-0.6
+2025,Ohio,107.8,108.4,-0.6
+2025,Nicholls,106.3,107.1,-0.8
+2025,Virginia Tech,106.8,107.8,-1.0
+2025,App State,101.4,102.4,-1.1
+2025,Montana State,107.0,108.3,-1.3
+2025,Oakland,107.7,109.0,-1.3
+2025,Youngstown State,104.3,105.6,-1.3
+2025,Drexel,104.8,106.2,-1.4
+2025,Indiana State,110.6,112.1,-1.5
+2025,Merrimack,100.8,102.4,-1.6
+2025,East Carolina,107.8,109.4,-1.6
+2025,South Carolina State,103.8,105.5,-1.7
+2025,Florida Gulf Coast,107.3,109.0,-1.7
+2025,San José State,107.0,108.8,-1.8
+2025,Elon,108.8,110.7,-1.9
+2025,Cal Poly,109.0,111.1,-2.0
+2025,SE Louisiana,105.3,107.4,-2.2
+2025,Sam Houston,110.5,112.8,-2.2
+2025,Hampton,105.9,108.1,-2.2
+2025,Southeast Missouri State,103.9,106.1,-2.2
+2025,Eastern Kentucky,109.2,111.4,-2.3
+2025,Idaho State,107.1,109.5,-2.4
+2025,Hofstra,99.3,101.8,-2.4
+2025,Dartmouth,102.3,104.8,-2.5
+2025,Northeastern,105.0,107.5,-2.5
+2025,UTSA,107.8,110.4,-2.6
+2025,Quinnipiac,103.9,106.5,-2.6
+2025,Wright State,110.7,113.5,-2.8
+2025,Rice,105.6,108.5,-2.9
+2025,Brown,104.1,107.0,-2.9
+2025,Princeton,105.3,108.2,-2.9
+2025,Southern Illinois,106.0,108.9,-2.9
+2025,Jacksonville,103.4,106.4,-3.0
+2025,Central Michigan,106.2,109.3,-3.1
+2025,Wyoming,103.5,106.6,-3.1
+2025,Valparaiso,107.0,110.2,-3.2
+2025,Bucknell,104.2,107.5,-3.3
+2025,Boston College,105.5,109.0,-3.4
+2025,South Florida,103.2,106.6,-3.4
+2025,Portland State,101.5,105.0,-3.5
+2025,Texas State,110.7,114.1,-3.5
+2025,Queens University,109.7,113.2,-3.5
+2025,Seton Hall,99.9,103.5,-3.6
+2025,UNC Asheville,109.2,112.9,-3.6
+2025,Longwood,106.8,110.6,-3.8
+2025,Campbell,103.2,107.1,-3.9
+2025,Maine,101.4,105.4,-4.0
+2025,Northern Kentucky,104.2,108.5,-4.3
+2025,Massachusetts,103.3,107.7,-4.4
+2025,Delaware,110.5,114.9,-4.4
+2025,SIU Edwardsville,102.0,106.4,-4.4
+2025,Incarnate Word,106.5,111.2,-4.7
+2025,La Salle,104.2,109.0,-4.8
+2025,Miami,112.0,117.0,-5.0
+2025,Manhattan,109.6,114.5,-5.0
+2025,William & Mary,107.8,112.7,-5.0
+2025,Presbyterian,104.8,110.0,-5.1
+2025,Little Rock,99.1,104.2,-5.1
+2025,Southern,100.2,105.5,-5.2
+2025,UT Rio Grande Valley,105.7,111.1,-5.4
+2025,Northwestern State,103.1,108.5,-5.4
+2025,Tennessee State,103.8,109.2,-5.5
+2025,Hawai'i,103.8,109.3,-5.5
+2025,Colgate,105.6,111.2,-5.6
+2025,UMass Lowell,109.3,114.9,-5.6
+2025,Kansas City,102.0,107.9,-5.9
+2025,Toledo,111.4,117.4,-6.0
+2025,Fordham,106.0,112.1,-6.0
+2025,Siena,104.1,110.3,-6.2
+2025,Mount St. Mary's,101.3,107.6,-6.3
+2025,Vermont,99.5,105.8,-6.3
+2025,Abilene Christian,98.3,104.8,-6.4
+2025,UT Arlington,108.2,114.6,-6.4
+2025,Georgia State,108.3,114.6,-6.4
+2025,South Dakota,109.2,115.8,-6.5
+2025,American University,103.5,110.1,-6.6
+2025,Missouri State,101.9,108.7,-6.8
+2025,Iona,99.7,106.5,-6.8
+2025,Cal State Bakersfield,107.0,113.9,-6.8
+2025,Pepperdine,107.1,114.0,-7.0
+2025,Northern Arizona,105.2,112.2,-7.0
+2025,Sacred Heart,105.1,112.2,-7.1
+2025,UC Davis,97.4,104.8,-7.4
+2025,Florida International,99.2,106.6,-7.4
+2025,Marist,99.2,106.6,-7.4
+2025,Richmond,103.2,110.7,-7.5
+2025,Georgia Southern,102.3,109.9,-7.6
+2025,Evansville,98.3,106.1,-7.8
+2025,UAlbany,104.9,112.9,-7.9
+2025,Jackson State,100.8,108.7,-8.0
+2025,Charlotte,104.7,112.7,-8.0
+2025,Mercer,100.8,108.9,-8.1
+2025,Stephen F. Austin,96.4,104.5,-8.1
+2025,Harvard,101.2,109.3,-8.2
+2025,Ball State,105.4,113.7,-8.3
+2025,Alabama State,102.3,110.7,-8.4
+2025,Navy,102.9,111.3,-8.4
+2025,Columbia,106.4,114.9,-8.5
+2025,North Dakota,108.0,116.5,-8.5
+2025,Gardner-Webb,103.9,112.5,-8.6
+2025,Monmouth,105.1,113.7,-8.6
+2025,Long Island University,96.6,105.6,-9.0
+2025,Lehigh,102.2,111.5,-9.2
+2025,Eastern Michigan,104.6,114.0,-9.4
+2025,North Florida,108.9,118.3,-9.4
+2025,Tulsa,101.9,111.4,-9.5
+2025,Fresno State,101.4,111.0,-9.6
+2025,Saint Peter's,97.1,106.6,-9.6
+2025,Lafayette,100.5,110.1,-9.6
+2025,Fairleigh Dickinson,100.6,110.2,-9.7
+2025,Portland,107.2,117.0,-9.7
+2025,Houston Christian,100.9,110.6,-9.7
+2025,Bowling Green,100.2,110.1,-9.9
+2025,Texas Southern,96.9,106.9,-9.9
+2025,Idaho,108.1,118.0,-9.9
+2025,Western Michigan,103.0,113.1,-10.1
+2025,St. Francis (PA),101.8,112.3,-10.5
+2025,Eastern Washington,103.5,114.1,-10.6
+2025,UMBC,107.7,118.3,-10.6
+2025,Bethune-Cookman,98.0,109.0,-10.9
+2025,Austin Peay,101.5,112.4,-11.0
+2025,UT Martin,102.7,113.7,-11.0
+2025,Tennessee Tech,101.3,112.4,-11.1
+2025,Boston University,100.0,111.4,-11.4
+2025,Binghamton,100.3,111.8,-11.5
+2025,Southern Miss,97.7,109.2,-11.5
+2025,Pacific,100.3,111.9,-11.6
+2025,Delaware State,103.0,114.5,-11.6
+2025,Old Dominion,102.0,113.6,-11.6
+2025,Weber State,101.6,113.4,-11.7
+2025,IU Indianapolis,110.7,122.4,-11.7
+2025,Pennsylvania,103.1,114.9,-11.8
+2025,Army,101.4,113.5,-12.1
+2025,Denver,100.6,112.6,-12.1
+2025,VMI,99.9,112.0,-12.1
+2025,Eastern Illinois,95.4,107.6,-12.2
+2025,Utah Tech,101.3,113.4,-12.2
+2025,Loyola Maryland,100.6,112.9,-12.3
+2025,Charleston Southern,100.2,112.6,-12.4
+2025,Niagara,102.8,115.5,-12.7
+2025,Stonehill,101.5,114.2,-12.7
+2025,Rider,101.8,114.5,-12.7
+2025,Holy Cross,102.4,115.3,-12.9
+2025,Grambling,97.3,110.2,-13.0
+2025,Tarleton State,92.9,106.0,-13.2
+2025,North Carolina Central,103.8,116.9,-13.2
+2025,Southern Utah,97.0,110.4,-13.4
+2025,Lindenwood,96.5,109.9,-13.5
+2025,San Diego,100.7,114.3,-13.6
+2025,Air Force,98.4,112.2,-13.8
+2025,Long Beach State,100.8,114.7,-13.9
+2025,Morehead State,98.4,112.4,-14.0
+2025,Coastal Carolina,100.9,115.2,-14.3
+2025,Louisiana,97.9,112.3,-14.4
+2025,Howard,101.7,116.3,-14.6
+2025,Florida A&M,101.9,116.5,-14.6
+2025,North Carolina A&T,98.0,112.6,-14.7
+2025,Southern Indiana,99.1,113.9,-14.8
+2025,Morgan State,102.7,117.8,-15.1
+2025,Stony Brook,103.3,118.4,-15.1
+2025,East Texas A&M,96.2,111.3,-15.1
+2025,Oral Roberts,103.4,118.5,-15.1
+2025,Fairfield,99.6,114.9,-15.3
+2025,Alcorn State,98.2,113.7,-15.5
+2025,Green Bay,101.7,117.4,-15.7
+2025,Detroit Mercy,96.3,112.1,-15.8
+2025,Wagner,93.2,109.6,-16.4
+2025,Mercyhurst,100.4,116.9,-16.5
+2025,Western Illinois,99.2,117.0,-17.8
+2025,Western Carolina,94.3,112.2,-17.9
+2025,Buffalo,96.2,114.3,-18.1
+2025,New Orleans,99.9,118.1,-18.2
+2025,South Carolina Upstate,98.2,116.6,-18.4
+2025,Central Arkansas,98.2,116.6,-18.4
+2025,Sacramento State,95.4,113.8,-18.5
+2025,Le Moyne,102.0,121.0,-18.9
+2025,Northern Illinois,94.5,113.5,-19.0
+2025,West Georgia,97.9,117.4,-19.4
+2025,UL Monroe,95.6,115.0,-19.4
+2025,Bellarmine,102.8,122.3,-19.6
+2025,NJIT,94.4,114.3,-20.0
+2025,Stetson,101.7,122.6,-20.9
+2025,Cal State Fullerton,93.6,114.5,-21.0
+2025,New Hampshire,94.5,115.8,-21.3
+2025,Prairie View A&M,98.8,120.1,-21.3
+2025,Canisius,99.4,121.8,-22.5
+2025,The Citadel,94.2,117.6,-23.4
+2025,Maryland Eastern Shore,95.2,119.1,-23.9
+2025,Chicago State,91.5,115.4,-23.9
+2025,Coppin State,88.7,114.3,-25.6
+2025,Alabama A&M,91.9,117.6,-25.7
+2025,Arkansas-Pine Bluff,96.5,123.5,-27.0
+2025,Mississippi Valley State,81.3,126.8,-45.5

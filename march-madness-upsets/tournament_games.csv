@@ -1,0 +1,621 @@
+season,game_id,home_team,away_team,home_seed,away_seed,home_points,away_points,favorite_team,underdog_team,favorite_seed,underdog_seed,upset
+2015,65792,Notre Dame,Northeastern,3,14,69,65,Notre Dame,Northeastern,3,14,0
+2015,65793,Iowa State,UAB,3,14,59,60,Iowa State,UAB,3,14,1
+2015,65794,Baylor,Georgia State,3,14,56,57,Baylor,Georgia State,3,14,1
+2015,65795,Arizona,Texas Southern,2,15,93,72,Arizona,Texas Southern,2,15,0
+2015,65796,Butler,Texas,6,11,56,48,Butler,Texas,6,11,0
+2015,65797,SMU,UCLA,6,11,59,60,SMU,UCLA,6,11,1
+2015,65798,Xavier,Ole Miss,6,11,76,57,Xavier,Ole Miss,6,11,0
+2015,65799,VCU,Ohio State,7,10,72,75,VCU,Ohio State,7,10,1
+2015,65800,Villanova,Lafayette,1,16,93,52,Villanova,Lafayette,1,16,0
+2015,65801,Cincinnati,Purdue,8,9,66,65,Cincinnati,Purdue,8,9,0
+2015,65802,North Carolina,Harvard,4,13,67,65,North Carolina,Harvard,4,13,0
+2015,65803,Utah,Stephen F. Austin,5,12,57,50,Utah,Stephen F. Austin,5,12,0
+2015,65804,NC State,LSU,8,9,66,65,NC State,LSU,8,9,0
+2015,65805,Arkansas,Wofford,5,12,56,53,Arkansas,Wofford,5,12,0
+2015,65806,Kentucky,Hampton,1,16,79,56,Kentucky,Hampton,1,16,0
+2015,65807,Georgetown,Eastern Washington,4,13,84,74,Georgetown,Eastern Washington,4,13,0
+2015,65809,Kansas,New Mexico State,2,15,75,56,Kansas,New Mexico State,2,15,0
+2015,65810,Michigan State,Georgia,7,10,70,63,Michigan State,Georgia,7,10,0
+2015,65811,Northern Iowa,Wyoming,5,12,71,54,Northern Iowa,Wyoming,5,12,0
+2015,65812,West Virginia,Buffalo,5,12,68,62,West Virginia,Buffalo,5,12,0
+2015,65813,Wichita State,Indiana,7,10,81,76,Wichita State,Indiana,7,10,0
+2015,65814,Virginia,Belmont,2,15,79,67,Virginia,Belmont,2,15,0
+2015,65815,Louisville,UC Irvine,4,13,57,55,Louisville,UC Irvine,4,13,0
+2015,65816,Maryland,Valparaiso,4,13,65,62,Maryland,Valparaiso,4,13,0
+2015,65817,Oregon,Oklahoma State,8,9,79,73,Oregon,Oklahoma State,8,9,0
+2015,65818,Duke,Robert Morris,1,16,85,56,Duke,Robert Morris,1,16,0
+2015,65819,Iowa,Davidson,7,10,83,52,Iowa,Davidson,7,10,0
+2015,65820,Oklahoma,UAlbany,3,14,69,60,Oklahoma,UAlbany,3,14,0
+2015,65821,Wisconsin,Coastal Carolina,1,16,86,72,Wisconsin,Coastal Carolina,1,16,0
+2015,65822,San Diego State,St. John's,8,9,76,64,San Diego State,St. John's,8,9,0
+2015,65823,Gonzaga,North Dakota State,2,15,86,76,Gonzaga,North Dakota State,2,15,0
+2015,65824,Providence,Dayton,6,11,53,66,Providence,Dayton,6,11,1
+2015,65830,UCLA,UAB,11,14,92,75,UCLA,UAB,11,14,0
+2015,65831,Kentucky,Cincinnati,1,8,64,51,Kentucky,Cincinnati,1,8,0
+2015,65832,Arizona,Ohio State,2,10,73,58,Arizona,Ohio State,2,10,0
+2015,65833,Xavier,Georgia State,6,14,75,67,Xavier,Georgia State,6,14,0
+2015,65834,Villanova,NC State,1,8,68,71,Villanova,NC State,1,8,1
+2015,65835,Georgetown,Utah,4,5,64,75,Georgetown,Utah,4,5,1
+2015,65836,North Carolina,Arkansas,4,5,87,78,North Carolina,Arkansas,4,5,0
+2015,65837,Notre Dame,Butler,3,6,67,64,Notre Dame,Butler,3,6,0
+2015,65839,Virginia,Michigan State,2,7,54,60,Virginia,Michigan State,2,7,1
+2015,65840,Duke,San Diego State,1,8,68,49,Duke,San Diego State,1,8,0
+2015,65841,Kansas,Wichita State,2,7,65,78,Kansas,Wichita State,2,7,1
+2015,65842,Oklahoma,Dayton,3,11,72,66,Oklahoma,Dayton,3,11,0
+2015,65843,Gonzaga,Iowa,2,7,87,68,Gonzaga,Iowa,2,7,0
+2015,65844,Wisconsin,Oregon,1,8,72,65,Wisconsin,Oregon,1,8,0
+2015,65845,Maryland,West Virginia,4,5,59,69,Maryland,West Virginia,4,5,1
+2015,65846,Louisville,Northern Iowa,4,5,66,53,Louisville,Northern Iowa,4,5,0
+2015,65868,Notre Dame,Wichita State,3,7,81,70,Notre Dame,Wichita State,3,7,0
+2015,65869,Wisconsin,North Carolina,1,4,79,72,Wisconsin,North Carolina,1,4,0
+2015,65870,Kentucky,West Virginia,1,5,78,39,Kentucky,West Virginia,1,5,0
+2015,65871,Arizona,Xavier,2,6,68,60,Arizona,Xavier,2,6,0
+2015,65873,Gonzaga,UCLA,2,11,74,62,Gonzaga,UCLA,2,11,0
+2015,65874,Louisville,NC State,4,8,75,65,Louisville,NC State,4,8,0
+2015,65875,Duke,Utah,1,5,63,57,Duke,Utah,1,5,0
+2015,65876,Oklahoma,Michigan State,3,7,58,62,Oklahoma,Michigan State,3,7,1
+2015,65878,Wisconsin,Arizona,1,2,85,78,Wisconsin,Arizona,1,2,0
+2015,65879,Kentucky,Notre Dame,1,3,68,66,Kentucky,Notre Dame,1,3,0
+2015,65880,Louisville,Michigan State,4,7,70,76,Louisville,Michigan State,4,7,1
+2015,65881,Duke,Gonzaga,1,2,66,52,Duke,Gonzaga,1,2,0
+2015,65890,Duke,Michigan State,1,7,81,61,Duke,Michigan State,1,7,0
+2016,59839,Duke,UNC Wilmington,4,13,93,85,Duke,UNC Wilmington,4,13,0
+2016,59840,Texas Tech,Butler,8,9,61,71,Texas Tech,Butler,8,9,1
+2016,59841,Colorado,UConn,8,9,67,74,Colorado,UConn,8,9,1
+2016,59842,Iowa State,Iona,4,13,94,81,Iowa State,Iona,4,13,0
+2016,59843,Baylor,Yale,5,12,75,79,Baylor,Yale,5,12,1
+2016,59844,Virginia,Hampton,1,16,81,45,Virginia,Hampton,1,16,0
+2016,59845,Kansas,Austin Peay,1,16,105,79,Kansas,Austin Peay,1,16,0
+2016,59846,Purdue,Little Rock,5,12,83,85,Purdue,Little Rock,5,12,1
+2016,59847,Miami,Buffalo,3,14,79,72,Miami,Buffalo,3,14,0
+2016,59848,Indiana,Chattanooga,5,12,99,74,Indiana,Chattanooga,5,12,0
+2016,59849,North Carolina,Florida Gulf Coast,1,16,83,67,North Carolina,Florida Gulf Coast,1,16,0
+2016,59850,Utah,Fresno State,3,14,80,69,Utah,Fresno State,3,14,0
+2016,59851,Arizona,Wichita State,6,11,55,65,Arizona,Wichita State,6,11,1
+2016,59852,Kentucky,Stony Brook,4,13,85,57,Kentucky,Stony Brook,4,13,0
+2016,59853,USC,Providence,8,9,69,70,USC,Providence,8,9,1
+2016,59854,Seton Hall,Gonzaga,6,11,52,68,Seton Hall,Gonzaga,6,11,1
+2016,59856,Dayton,Syracuse,7,10,51,70,Dayton,Syracuse,7,10,1
+2016,59857,Villanova,UNC Asheville,2,15,86,56,Villanova,UNC Asheville,2,15,0
+2016,59858,Oregon State,VCU,7,10,67,75,Oregon State,VCU,7,10,1
+2016,59859,California,Hawai'i,4,13,66,77,California,Hawai'i,4,13,1
+2016,59860,Michigan State,Middle Tennessee,2,15,81,90,Michigan State,Middle Tennessee,2,15,1
+2016,59861,Iowa,Temple,7,10,72,70,Iowa,Temple,7,10,0
+2016,59862,Oklahoma,Cal State Bakersfield,2,15,82,68,Oklahoma,Cal State Bakersfield,2,15,0
+2016,59863,Maryland,South Dakota State,5,12,79,74,Maryland,South Dakota State,5,12,0
+2016,59864,Wisconsin,Pittsburgh,7,10,47,43,Wisconsin,Pittsburgh,7,10,0
+2016,59865,West Virginia,Stephen F. Austin,3,14,56,70,West Virginia,Stephen F. Austin,3,14,1
+2016,59866,Texas A&M,Green Bay,3,14,92,65,Texas A&M,Green Bay,3,14,0
+2016,59867,Oregon,Holy Cross,1,16,91,52,Oregon,Holy Cross,1,16,0
+2016,59868,Xavier,Weber State,2,15,71,53,Xavier,Weber State,2,15,0
+2016,59869,Texas,Northern Iowa,6,11,72,75,Texas,Northern Iowa,6,11,1
+2016,59870,Notre Dame,Michigan,6,11,70,63,Notre Dame,Michigan,6,11,0
+2016,59871,Saint Joseph's,Cincinnati,8,9,78,76,Saint Joseph's,Cincinnati,8,9,0
+2016,59875,Miami,Wichita State,3,11,65,57,Miami,Wichita State,3,11,0
+2016,59876,Duke,Yale,4,12,71,64,Duke,Yale,4,12,0
+2016,59877,Kentucky,Indiana,4,5,67,73,Kentucky,Indiana,4,5,1
+2016,59878,Iowa State,Little Rock,4,12,78,61,Iowa State,Little Rock,4,12,0
+2016,59879,Virginia,Butler,1,9,77,69,Virginia,Butler,1,9,0
+2016,59880,Kansas,UConn,1,9,73,61,Kansas,UConn,1,9,0
+2016,59881,Utah,Gonzaga,3,11,59,82,Utah,Gonzaga,3,11,1
+2016,59882,North Carolina,Providence,1,9,85,66,North Carolina,Providence,1,9,0
+2016,59885,Villanova,Iowa,2,7,87,68,Villanova,Iowa,2,7,0
+2016,59886,Notre Dame,Stephen F. Austin,6,14,76,75,Notre Dame,Stephen F. Austin,6,14,0
+2016,59887,Oklahoma,VCU,2,10,85,81,Oklahoma,VCU,2,10,0
+2016,59888,Syracuse,Middle Tennessee,10,15,75,50,Syracuse,Middle Tennessee,10,15,0
+2016,59889,Maryland,Hawai'i,5,13,73,60,Maryland,Hawai'i,5,13,0
+2016,59890,Texas A&M,Northern Iowa,3,11,92,88,Texas A&M,Northern Iowa,3,11,0
+2016,59891,Xavier,Wisconsin,2,7,63,66,Xavier,Wisconsin,2,7,1
+2016,59892,Oregon,Saint Joseph's,1,8,69,64,Oregon,Saint Joseph's,1,8,0
+2016,59913,Villanova,Miami,2,3,92,69,Villanova,Miami,2,3,0
+2016,59914,Oklahoma,Texas A&M,2,3,77,63,Oklahoma,Texas A&M,2,3,0
+2016,59915,Kansas,Maryland,1,5,79,63,Kansas,Maryland,1,5,0
+2016,59916,Oregon,Duke,1,4,82,68,Oregon,Duke,1,4,0
+2016,59917,Virginia,Iowa State,1,4,84,71,Virginia,Iowa State,1,4,0
+2016,59918,Notre Dame,Wisconsin,6,7,61,56,Notre Dame,Wisconsin,6,7,0
+2016,59919,Syracuse,Gonzaga,10,11,63,60,Syracuse,Gonzaga,10,11,0
+2016,59920,North Carolina,Indiana,1,5,101,86,North Carolina,Indiana,1,5,0
+2016,59921,Oregon,Oklahoma,1,2,68,80,Oregon,Oklahoma,1,2,1
+2016,59922,Kansas,Villanova,1,2,59,64,Kansas,Villanova,1,2,1
+2016,59925,Virginia,Syracuse,1,10,62,68,Virginia,Syracuse,1,10,1
+2016,59926,North Carolina,Notre Dame,1,6,88,74,North Carolina,Notre Dame,1,6,0
+2016,59942,North Carolina,Syracuse,1,10,83,66,North Carolina,Syracuse,1,10,0
+2016,59943,North Carolina,Villanova,1,2,74,77,North Carolina,Villanova,1,2,1
+2017,53854,Notre Dame,Princeton,5,12,60,58,Notre Dame,Princeton,5,12,0
+2017,53855,Virginia,UNC Wilmington,5,12,76,71,Virginia,UNC Wilmington,5,12,0
+2017,53856,Butler,Winthrop,4,13,76,64,Butler,Winthrop,4,13,0
+2017,53857,Gonzaga,South Dakota State,1,16,66,46,Gonzaga,South Dakota State,1,16,0
+2017,53858,West Virginia,Bucknell,4,13,86,80,West Virginia,Bucknell,4,13,0
+2017,53859,Florida,East Tennessee State,4,13,80,65,Florida,East Tennessee State,4,13,0
+2017,53860,Minnesota,Middle Tennessee,5,12,72,81,Minnesota,Middle Tennessee,5,12,1
+2017,53861,Northwestern,Vanderbilt,8,9,68,66,Northwestern,Vanderbilt,8,9,0
+2017,53862,Maryland,Xavier,6,11,65,76,Maryland,Xavier,6,11,1
+2017,53863,Villanova,Mount St. Mary's,1,16,76,56,Villanova,Mount St. Mary's,1,16,0
+2017,53864,Saint Mary's,VCU,7,10,85,77,Saint Mary's,VCU,7,10,0
+2017,53865,Purdue,Vermont,4,13,80,70,Purdue,Vermont,4,13,0
+2017,53866,Florida State,Florida Gulf Coast,3,14,86,80,Florida State,Florida Gulf Coast,3,14,0
+2017,53867,Wisconsin,Virginia Tech,8,9,84,74,Wisconsin,Virginia Tech,8,9,0
+2017,53868,Iowa State,Nevada,5,12,84,73,Iowa State,Nevada,5,12,0
+2017,53869,Arizona,North Dakota,2,15,100,82,Arizona,North Dakota,2,15,0
+2017,53870,Michigan,Oklahoma State,7,10,92,91,Michigan,Oklahoma State,7,10,0
+2017,53871,Baylor,New Mexico State,3,14,91,73,Baylor,New Mexico State,3,14,0
+2017,53872,Arkansas,Seton Hall,8,9,77,71,Arkansas,Seton Hall,8,9,0
+2017,53873,Oregon,Iona,3,14,93,77,Oregon,Iona,3,14,0
+2017,53874,Louisville,Jacksonville State,2,15,78,63,Louisville,Jacksonville State,2,15,0
+2017,53875,SMU,USC,6,11,65,66,SMU,USC,6,11,1
+2017,53876,North Carolina,Texas Southern,1,16,103,64,North Carolina,Texas Southern,1,16,0
+2017,53877,Creighton,Rhode Island,6,11,72,84,Creighton,Rhode Island,6,11,1
+2017,53878,Kansas,UC Davis,1,16,100,62,Kansas,UC Davis,1,16,0
+2017,53879,Dayton,Wichita State,7,10,58,64,Dayton,Wichita State,7,10,1
+2017,53880,Duke,Troy,2,15,87,65,Duke,Troy,2,15,0
+2017,53881,Cincinnati,Kansas State,6,11,75,61,Cincinnati,Kansas State,6,11,0
+2017,53882,Miami,Michigan State,8,9,58,78,Miami,Michigan State,8,9,1
+2017,53883,South Carolina,Marquette,7,10,93,73,South Carolina,Marquette,7,10,0
+2017,53884,Kentucky,Northern Kentucky,2,15,79,70,Kentucky,Northern Kentucky,2,15,0
+2017,53885,UCLA,Kent State,3,14,97,80,UCLA,Kent State,3,14,0
+2017,53887,West Virginia,Notre Dame,4,5,83,71,West Virginia,Notre Dame,4,5,0
+2017,53888,Villanova,Wisconsin,1,8,62,65,Villanova,Wisconsin,1,8,1
+2017,53889,Gonzaga,Northwestern,1,8,79,73,Gonzaga,Northwestern,1,8,0
+2017,53890,Florida State,Xavier,3,11,66,91,Florida State,Xavier,3,11,1
+2017,53891,Butler,Middle Tennessee,4,12,74,65,Butler,Middle Tennessee,4,12,0
+2017,53892,Arizona,Saint Mary's,2,7,69,60,Arizona,Saint Mary's,2,7,0
+2017,53893,Florida,Virginia,4,5,65,39,Florida,Virginia,4,5,0
+2017,53894,Purdue,Iowa State,4,5,80,76,Purdue,Iowa State,4,5,0
+2017,53896,Louisville,Michigan,2,7,69,73,Louisville,Michigan,2,7,1
+2017,53897,Kentucky,Wichita State,2,10,65,62,Kentucky,Wichita State,2,10,0
+2017,53898,Kansas,Michigan State,1,9,90,70,Kansas,Michigan State,1,9,0
+2017,53899,North Carolina,Arkansas,1,8,72,65,North Carolina,Arkansas,1,8,0
+2017,53900,Oregon,Rhode Island,3,11,75,72,Oregon,Rhode Island,3,11,0
+2017,53901,Baylor,USC,3,11,82,78,Baylor,USC,3,11,0
+2017,53902,Duke,South Carolina,2,7,81,88,Duke,South Carolina,2,7,1
+2017,53903,UCLA,Cincinnati,3,6,79,67,UCLA,Cincinnati,3,6,0
+2017,53925,Oregon,Michigan,3,7,69,68,Oregon,Michigan,3,7,0
+2017,53926,Gonzaga,West Virginia,1,4,61,58,Gonzaga,West Virginia,1,4,0
+2017,53927,Kansas,Purdue,1,4,98,66,Kansas,Purdue,1,4,0
+2017,53928,Arizona,Xavier,2,11,71,73,Arizona,Xavier,2,11,1
+2017,53929,North Carolina,Butler,1,4,92,80,North Carolina,Butler,1,4,0
+2017,53930,Baylor,South Carolina,3,7,50,70,Baylor,South Carolina,3,7,1
+2017,53931,Kentucky,UCLA,2,3,86,75,Kentucky,UCLA,2,3,0
+2017,53932,Florida,Wisconsin,4,8,84,83,Florida,Wisconsin,4,8,0
+2017,53935,Gonzaga,Xavier,1,11,83,59,Gonzaga,Xavier,1,11,0
+2017,53936,Kansas,Oregon,1,3,60,74,Kansas,Oregon,1,3,1
+2017,53939,Florida,South Carolina,4,7,70,77,Florida,South Carolina,4,7,1
+2017,53940,North Carolina,Kentucky,1,2,75,73,North Carolina,Kentucky,1,2,0
+2017,53950,Gonzaga,South Carolina,1,7,77,73,Gonzaga,South Carolina,1,7,0
+2017,53951,North Carolina,Oregon,1,3,77,76,North Carolina,Oregon,1,3,0
+2018,47872,Rhode Island,Oklahoma,7,10,83,78,Rhode Island,Oklahoma,7,10,0
+2018,47873,Tennessee,Wright State,3,14,73,47,Tennessee,Wright State,3,14,0
+2018,47874,Gonzaga,UNC Greensboro,4,13,68,64,Gonzaga,UNC Greensboro,4,13,0
+2018,47875,Kansas,Pennsylvania,1,16,76,60,Kansas,Pennsylvania,1,16,0
+2018,47876,Duke,Iona,2,15,89,67,Duke,Iona,2,15,0
+2018,47877,Miami,Loyola Chicago,6,11,62,64,Miami,Loyola Chicago,6,11,1
+2018,47878,Ohio State,South Dakota State,5,12,81,73,Ohio State,South Dakota State,5,12,0
+2018,47879,Seton Hall,NC State,8,9,94,83,Seton Hall,NC State,8,9,0
+2018,47880,Villanova,Radford,1,16,87,61,Villanova,Radford,1,16,0
+2018,47881,Kentucky,Davidson,5,12,78,73,Kentucky,Davidson,5,12,0
+2018,47882,Texas Tech,Stephen F. Austin,3,14,70,60,Texas Tech,Stephen F. Austin,3,14,0
+2018,47883,Houston,San Diego State,6,11,67,65,Houston,San Diego State,6,11,0
+2018,47884,Virginia Tech,Alabama,8,9,83,86,Virginia Tech,Alabama,8,9,1
+2018,47885,Arizona,Buffalo,4,13,68,89,Arizona,Buffalo,4,13,1
+2018,47886,Florida,St. Bonaventure,6,11,77,62,Florida,St. Bonaventure,6,11,0
+2018,47887,Michigan,Montana,3,14,61,47,Michigan,Montana,3,14,0
+2018,47889,Texas A&M,Providence,7,10,73,69,Texas A&M,Providence,7,10,0
+2018,47890,Purdue,Cal State Fullerton,2,15,74,48,Purdue,Cal State Fullerton,2,15,0
+2018,47891,Wichita State,Marshall,4,13,75,81,Wichita State,Marshall,4,13,1
+2018,47892,Cincinnati,Georgia State,2,15,68,53,Cincinnati,Georgia State,2,15,0
+2018,47893,North Carolina,Lipscomb,2,15,84,66,North Carolina,Lipscomb,2,15,0
+2018,47894,Arkansas,Butler,7,10,62,79,Arkansas,Butler,7,10,1
+2018,47895,West Virginia,Murray State,5,12,85,68,West Virginia,Murray State,5,12,0
+2018,47896,Nevada,Texas,7,10,87,83,Nevada,Texas,7,10,0
+2018,47897,Creighton,Kansas State,8,9,59,69,Creighton,Kansas State,8,9,1
+2018,47898,Michigan State,Bucknell,3,14,82,78,Michigan State,Bucknell,3,14,0
+2018,47899,Auburn,Charleston,4,13,62,58,Auburn,Charleston,4,13,0
+2018,47900,Xavier,Texas Southern,1,16,102,83,Xavier,Texas Southern,1,16,0
+2018,47901,Virginia,UMBC,1,16,54,74,Virginia,UMBC,1,16,1
+2018,47902,TCU,Syracuse,6,11,52,57,TCU,Syracuse,6,11,1
+2018,47903,Clemson,New Mexico State,5,12,79,68,Clemson,New Mexico State,5,12,0
+2018,47904,Missouri,Florida State,8,9,54,67,Missouri,Florida State,8,9,1
+2018,47906,Villanova,Alabama,1,9,81,58,Villanova,Alabama,1,9,0
+2018,47907,Duke,Rhode Island,2,7,87,62,Duke,Rhode Island,2,7,0
+2018,47908,Kentucky,Buffalo,5,13,95,75,Kentucky,Buffalo,5,13,0
+2018,47909,Tennessee,Loyola Chicago,3,11,62,63,Tennessee,Loyola Chicago,3,11,1
+2018,47910,Kansas,Seton Hall,1,8,83,79,Kansas,Seton Hall,1,8,0
+2018,47911,Gonzaga,Ohio State,4,5,90,84,Gonzaga,Ohio State,4,5,0
+2018,47912,Texas Tech,Florida,3,6,69,66,Texas Tech,Florida,3,6,0
+2018,47913,Michigan,Houston,3,6,64,63,Michigan,Houston,3,6,0
+2018,47916,Purdue,Butler,2,10,76,73,Purdue,Butler,2,10,0
+2018,47917,Michigan State,Syracuse,3,11,53,55,Michigan State,Syracuse,3,11,1
+2018,47918,North Carolina,Texas A&M,2,7,65,86,North Carolina,Texas A&M,2,7,1
+2018,47919,Cincinnati,Nevada,2,7,73,75,Cincinnati,Nevada,2,7,1
+2018,47920,Auburn,Clemson,4,5,53,84,Auburn,Clemson,4,5,1
+2018,47921,Kansas State,UMBC,9,16,50,43,Kansas State,UMBC,9,16,0
+2018,47922,Xavier,Florida State,1,9,70,75,Xavier,Florida State,1,9,1
+2018,47923,West Virginia,Marshall,5,13,94,71,West Virginia,Marshall,5,13,0
+2018,47944,Nevada,Loyola Chicago,7,11,68,69,Nevada,Loyola Chicago,7,11,1
+2018,47945,Michigan,Texas A&M,3,7,99,72,Michigan,Texas A&M,3,7,0
+2018,47946,Kentucky,Kansas State,5,9,58,61,Kentucky,Kansas State,5,9,1
+2018,47947,Gonzaga,Florida State,4,9,60,75,Gonzaga,Florida State,4,9,1
+2018,47950,Kansas,Clemson,1,5,80,76,Kansas,Clemson,1,5,0
+2018,47951,Villanova,West Virginia,1,5,90,78,Villanova,West Virginia,1,5,0
+2018,47952,Duke,Syracuse,2,11,69,65,Duke,Syracuse,2,11,0
+2018,47953,Purdue,Texas Tech,2,3,65,78,Purdue,Texas Tech,2,3,1
+2018,47954,Kansas State,Loyola Chicago,9,11,62,78,Kansas State,Loyola Chicago,9,11,1
+2018,47955,Michigan,Florida State,3,9,58,54,Michigan,Florida State,3,9,0
+2018,47957,Villanova,Texas Tech,1,3,71,59,Villanova,Texas Tech,1,3,0
+2018,47958,Kansas,Duke,1,2,85,81,Kansas,Duke,1,2,0
+2018,47968,Michigan,Loyola Chicago,3,11,69,57,Michigan,Loyola Chicago,3,11,0
+2018,47970,Villanova,Michigan,1,3,79,62,Villanova,Michigan,1,3,0
+2019,41878,Louisville,Minnesota,7,10,76,86,Louisville,Minnesota,7,10,1
+2019,41879,LSU,Yale,3,14,79,74,LSU,Yale,3,14,0
+2019,41880,Auburn,New Mexico State,5,12,78,77,Auburn,New Mexico State,5,12,0
+2019,41881,Florida State,Vermont,4,13,76,69,Florida State,Vermont,4,13,0
+2019,41882,Michigan State,Bradley,2,15,76,65,Michigan State,Bradley,2,15,0
+2019,41883,Maryland,Belmont,6,11,79,77,Maryland,Belmont,6,11,0
+2019,41884,Kansas,Northeastern,4,13,87,53,Kansas,Northeastern,4,13,0
+2019,41885,Marquette,Murray State,5,12,64,83,Marquette,Murray State,5,12,1
+2019,41886,Nevada,Florida,7,10,61,70,Nevada,Florida,7,10,1
+2019,41887,Kentucky,Abilene Christian,2,15,79,44,Kentucky,Abilene Christian,2,15,0
+2019,41888,Gonzaga,Fairleigh Dickinson,1,16,87,49,Gonzaga,Fairleigh Dickinson,1,16,0
+2019,41889,Villanova,Saint Mary's,6,11,61,57,Villanova,Saint Mary's,6,11,0
+2019,41890,Wofford,Seton Hall,7,10,84,68,Wofford,Seton Hall,7,10,0
+2019,41891,Michigan,Montana,2,15,74,55,Michigan,Montana,2,15,0
+2019,41892,Syracuse,Baylor,8,9,69,78,Syracuse,Baylor,8,9,1
+2019,41893,Purdue,Old Dominion,3,14,61,48,Purdue,Old Dominion,3,14,0
+2019,41898,Cincinnati,Iowa,7,10,72,79,Cincinnati,Iowa,7,10,1
+2019,41899,Ole Miss,Oklahoma,8,9,72,95,Ole Miss,Oklahoma,8,9,1
+2019,41900,Texas Tech,Northern Kentucky,3,14,72,57,Texas Tech,Northern Kentucky,3,14,0
+2019,41901,Kansas State,UC Irvine,4,13,64,70,Kansas State,UC Irvine,4,13,1
+2019,41902,Tennessee,Colgate,2,15,77,70,Tennessee,Colgate,2,15,0
+2019,41903,Virginia,Gardner-Webb,1,16,71,56,Virginia,Gardner-Webb,1,16,0
+2019,41904,Buffalo,Arizona State,6,11,91,74,Buffalo,Arizona State,6,11,0
+2019,41905,Wisconsin,Oregon,5,12,54,72,Wisconsin,Oregon,5,12,1
+2019,41906,Utah State,Washington,8,9,61,78,Utah State,Washington,8,9,1
+2019,41907,Duke,North Dakota State,1,16,85,62,Duke,North Dakota State,1,16,0
+2019,41908,Houston,Georgia State,3,14,84,55,Houston,Georgia State,3,14,0
+2019,41909,Mississippi State,Liberty,5,12,76,80,Mississippi State,Liberty,5,12,1
+2019,41910,North Carolina,Iona,1,16,88,73,North Carolina,Iona,1,16,0
+2019,41911,VCU,UCF,8,9,58,73,VCU,UCF,8,9,1
+2019,41912,Iowa State,Ohio State,6,11,59,62,Iowa State,Ohio State,6,11,1
+2019,41913,Virginia Tech,Saint Louis,4,13,66,52,Virginia Tech,Saint Louis,4,13,0
+2019,41916,LSU,Maryland,3,6,69,67,LSU,Maryland,3,6,0
+2019,41917,Kentucky,Wofford,2,7,62,56,Kentucky,Wofford,2,7,0
+2019,41918,Michigan,Florida,2,10,64,49,Michigan,Florida,2,10,0
+2019,41919,Florida State,Murray State,4,12,90,62,Florida State,Murray State,4,12,0
+2019,41920,Gonzaga,Baylor,1,9,83,71,Gonzaga,Baylor,1,9,0
+2019,41921,Michigan State,Minnesota,2,10,70,50,Michigan State,Minnesota,2,10,0
+2019,41922,Purdue,Villanova,3,6,87,61,Purdue,Villanova,3,6,0
+2019,41923,Kansas,Auburn,4,5,75,89,Kansas,Auburn,4,5,1
+2019,41927,Tennessee,Iowa,2,10,83,77,Tennessee,Iowa,2,10,0
+2019,41928,North Carolina,Washington,1,9,81,59,North Carolina,Washington,1,9,0
+2019,41929,Duke,UCF,1,9,77,76,Duke,UCF,1,9,0
+2019,41930,Texas Tech,Buffalo,3,6,78,58,Texas Tech,Buffalo,3,6,0
+2019,41931,Virginia Tech,Liberty,4,12,67,58,Virginia Tech,Liberty,4,12,0
+2019,41932,Virginia,Oklahoma,1,9,63,51,Virginia,Oklahoma,1,9,0
+2019,41933,Houston,Ohio State,3,11,74,59,Houston,Ohio State,3,11,0
+2019,41934,Oregon,UC Irvine,12,13,73,54,Oregon,UC Irvine,12,13,0
+2019,41955,Gonzaga,Florida State,1,4,72,58,Gonzaga,Florida State,1,4,0
+2019,41956,Tennessee,Purdue,2,3,94,99,Tennessee,Purdue,2,3,1
+2019,41957,Michigan,Texas Tech,2,3,44,63,Michigan,Texas Tech,2,3,1
+2019,41958,Virginia,Oregon,1,12,53,49,Virginia,Oregon,1,12,0
+2019,41962,Michigan State,LSU,2,3,80,63,Michigan State,LSU,2,3,0
+2019,41963,North Carolina,Auburn,1,5,80,97,North Carolina,Auburn,1,5,1
+2019,41964,Duke,Virginia Tech,1,4,75,73,Duke,Virginia Tech,1,4,0
+2019,41965,Kentucky,Houston,2,3,62,58,Kentucky,Houston,2,3,0
+2019,41967,Gonzaga,Texas Tech,1,3,69,75,Gonzaga,Texas Tech,1,3,1
+2019,41968,Virginia,Purdue,1,3,80,75,Virginia,Purdue,1,3,0
+2019,41969,Kentucky,Auburn,2,5,71,77,Kentucky,Auburn,2,5,1
+2019,41970,Duke,Michigan State,1,2,67,68,Duke,Michigan State,1,2,1
+2019,41980,Virginia,Auburn,1,5,63,62,Virginia,Auburn,1,5,0
+2019,41981,Michigan State,Texas Tech,2,3,51,61,Michigan State,Texas Tech,2,3,1
+2019,41982,Virginia,Texas Tech,1,3,85,77,Virginia,Texas Tech,1,3,0
+2021,29979,Florida,Virginia Tech,7,10,75,70,Florida,Virginia Tech,7,10,0
+2021,29980,Arkansas,Colgate,3,14,85,68,Arkansas,Colgate,3,14,0
+2021,29981,Illinois,Drexel,1,16,78,49,Illinois,Drexel,1,16,0
+2021,29982,Texas Tech,Utah State,6,11,65,53,Texas Tech,Utah State,6,11,0
+2021,29983,Ohio State,Oral Roberts,2,15,72,75,Ohio State,Oral Roberts,2,15,1
+2021,29984,Baylor,Hartford,1,16,79,55,Baylor,Hartford,1,16,0
+2021,29985,Loyola Chicago,Georgia Tech,8,9,71,60,Loyola Chicago,Georgia Tech,8,9,0
+2021,29986,Tennessee,Oregon State,5,12,56,70,Tennessee,Oregon State,5,12,1
+2021,29987,Oklahoma State,Liberty,4,13,69,60,Oklahoma State,Liberty,4,13,0
+2021,29988,North Carolina,Wisconsin,8,9,62,85,North Carolina,Wisconsin,8,9,1
+2021,29989,Houston,Cleveland State,2,15,87,56,Houston,Cleveland State,2,15,0
+2021,29990,Purdue,North Texas,4,13,69,78,Purdue,North Texas,4,13,1
+2021,29991,Clemson,Rutgers,7,10,56,60,Clemson,Rutgers,7,10,1
+2021,29992,San Diego State,Syracuse,6,11,62,78,San Diego State,Syracuse,6,11,1
+2021,29993,Villanova,Winthrop,5,12,73,63,Villanova,Winthrop,5,12,0
+2021,29994,West Virginia,Morehead State,3,14,84,67,West Virginia,Morehead State,3,14,0
+2021,29997,Colorado,Georgetown,5,12,96,73,Colorado,Georgetown,5,12,0
+2021,29998,Florida State,UNC Greensboro,4,13,64,54,Florida State,UNC Greensboro,4,13,0
+2021,29999,Kansas,Eastern Washington,3,14,93,84,Kansas,Eastern Washington,3,14,0
+2021,30000,LSU,St. Bonaventure,8,9,76,61,LSU,St. Bonaventure,8,9,0
+2021,30001,Michigan,Texas Southern,1,16,82,66,Michigan,Texas Southern,1,16,0
+2021,30002,Creighton,UC Santa Barbara,5,12,63,62,Creighton,UC Santa Barbara,5,12,0
+2021,30003,Alabama,Iona,2,15,68,55,Alabama,Iona,2,15,0
+2021,30004,USC,Drake,6,11,72,56,USC,Drake,6,11,0
+2021,30005,Iowa,Grand Canyon,2,15,86,74,Iowa,Grand Canyon,2,15,0
+2021,30006,UConn,Maryland,7,10,54,63,UConn,Maryland,7,10,1
+2021,30007,Virginia,Ohio,4,13,58,62,Virginia,Ohio,4,13,1
+2021,30008,Oklahoma,Missouri,8,9,72,68,Oklahoma,Missouri,8,9,0
+2021,30009,Gonzaga,Norfolk State,1,16,98,55,Gonzaga,Norfolk State,1,16,0
+2021,30010,BYU,UCLA,6,11,62,73,BYU,UCLA,6,11,1
+2021,30011,Oregon,VCU,7,10,1,0,Oregon,VCU,7,10,0
+2021,30012,Texas,Abilene Christian,3,14,52,53,Texas,Abilene Christian,3,14,1
+2021,30015,Illinois,Loyola Chicago,1,8,58,71,Illinois,Loyola Chicago,1,8,1
+2021,30016,Baylor,Wisconsin,1,9,76,63,Baylor,Wisconsin,1,9,0
+2021,30017,West Virginia,Syracuse,3,11,72,75,West Virginia,Syracuse,3,11,1
+2021,30018,Arkansas,Texas Tech,3,6,68,66,Arkansas,Texas Tech,3,6,0
+2021,30019,Houston,Rutgers,2,10,63,60,Houston,Rutgers,2,10,0
+2021,30020,Florida,Oral Roberts,7,15,78,81,Florida,Oral Roberts,7,15,1
+2021,30021,Villanova,North Texas,5,13,84,61,Villanova,North Texas,5,13,0
+2021,30022,Oklahoma State,Oregon State,4,12,70,80,Oklahoma State,Oregon State,4,12,1
+2021,30023,Iowa,Oregon,2,7,80,95,Iowa,Oregon,2,7,1
+2021,30024,Gonzaga,Oklahoma,1,8,87,71,Gonzaga,Oklahoma,1,8,0
+2021,30025,UCLA,Abilene Christian,11,14,67,47,UCLA,Abilene Christian,11,14,0
+2021,30026,Creighton,Ohio,5,13,72,58,Creighton,Ohio,5,13,0
+2021,30027,Michigan,LSU,1,8,86,78,Michigan,LSU,1,8,0
+2021,30028,Florida State,Colorado,4,5,71,53,Florida State,Colorado,4,5,0
+2021,30029,Alabama,Maryland,2,10,96,77,Alabama,Maryland,2,10,0
+2021,30030,Kansas,USC,3,6,51,85,Kansas,USC,3,6,1
+2021,30042,Loyola Chicago,Oregon State,8,12,58,65,Loyola Chicago,Oregon State,8,12,1
+2021,30043,Baylor,Villanova,1,5,62,51,Baylor,Villanova,1,5,0
+2021,30044,Arkansas,Oral Roberts,3,15,72,70,Arkansas,Oral Roberts,3,15,0
+2021,30045,Houston,Syracuse,2,11,62,46,Houston,Syracuse,2,11,0
+2021,30048,Gonzaga,Creighton,1,5,83,65,Gonzaga,Creighton,1,5,0
+2021,30049,Michigan,Florida State,1,4,76,58,Michigan,Florida State,1,4,0
+2021,30050,Alabama,UCLA,2,11,78,88,Alabama,UCLA,2,11,1
+2021,30051,USC,Oregon,6,7,82,68,USC,Oregon,6,7,0
+2021,30054,Houston,Oregon State,2,12,67,61,Houston,Oregon State,2,12,0
+2021,30055,Baylor,Arkansas,1,3,81,72,Baylor,Arkansas,1,3,0
+2021,30056,Gonzaga,USC,1,6,85,66,Gonzaga,USC,1,6,0
+2021,30057,Michigan,UCLA,1,11,49,51,Michigan,UCLA,1,11,1
+2021,30058,Baylor,Houston,1,2,78,59,Baylor,Houston,1,2,0
+2021,30059,Gonzaga,UCLA,1,11,93,90,Gonzaga,UCLA,1,11,0
+2022,24675,Colorado State,Michigan,6,11,63,75,Colorado State,Michigan,6,11,1
+2022,24676,Providence,South Dakota State,4,13,66,57,Providence,South Dakota State,4,13,0
+2022,24677,Boise State,Memphis,8,9,53,64,Boise State,Memphis,8,9,1
+2022,24678,Baylor,Norfolk State,1,16,85,49,Baylor,Norfolk State,1,16,0
+2022,24679,Tennessee,Longwood,3,14,88,56,Tennessee,Longwood,3,14,0
+2022,24680,Iowa,Richmond,5,12,63,67,Iowa,Richmond,5,12,1
+2022,24681,Gonzaga,Georgia State,1,16,93,72,Gonzaga,Georgia State,1,16,0
+2022,24682,North Carolina,Marquette,8,9,95,63,North Carolina,Marquette,8,9,0
+2022,24683,UConn,New Mexico State,5,12,63,70,UConn,New Mexico State,5,12,1
+2022,24684,Kentucky,Saint Peter's,2,15,79,85,Kentucky,Saint Peter's,2,15,1
+2022,24685,Saint Mary's,Indiana,5,12,82,53,Saint Mary's,Indiana,5,12,0
+2022,24686,San Diego State,Creighton,8,9,69,72,San Diego State,Creighton,8,9,1
+2022,24687,Arkansas,Vermont,4,13,75,71,Arkansas,Vermont,4,13,0
+2022,24688,UCLA,Akron,4,13,57,53,UCLA,Akron,4,13,0
+2022,24689,Murray State,San Francisco,7,10,92,87,Murray State,San Francisco,7,10,0
+2022,24690,Kansas,Texas Southern,1,16,83,56,Kansas,Texas Southern,1,16,0
+2022,24691,Ohio State,Loyola Chicago,7,10,54,41,Ohio State,Loyola Chicago,7,10,0
+2022,24692,Auburn,Jacksonville State,2,15,80,61,Auburn,Jacksonville State,2,15,0
+2022,24693,Texas Tech,Montana State,3,14,97,62,Texas Tech,Montana State,3,14,0
+2022,24694,Purdue,Yale,3,14,78,56,Purdue,Yale,3,14,0
+2022,24695,Villanova,Delaware,2,15,80,60,Villanova,Delaware,2,15,0
+2022,24696,USC,Miami,7,10,66,68,USC,Miami,7,10,1
+2022,24697,Alabama,Notre Dame,6,11,64,78,Alabama,Notre Dame,6,11,1
+2022,24698,Texas,Virginia Tech,6,11,81,73,Texas,Virginia Tech,6,11,0
+2022,24699,Illinois,Chattanooga,4,13,54,53,Illinois,Chattanooga,4,13,0
+2022,24700,Duke,Cal State Fullerton,2,15,78,61,Duke,Cal State Fullerton,2,15,0
+2022,24701,Arizona,Wright State,1,16,87,70,Arizona,Wright State,1,16,0
+2022,24702,LSU,Iowa State,6,11,54,59,LSU,Iowa State,6,11,1
+2022,24703,Michigan State,Davidson,7,10,74,73,Michigan State,Davidson,7,10,0
+2022,24704,Houston,UAB,5,12,82,68,Houston,UAB,5,12,0
+2022,24705,Seton Hall,TCU,8,9,42,69,Seton Hall,TCU,8,9,1
+2022,24706,Wisconsin,Colgate,3,14,67,60,Wisconsin,Colgate,3,14,0
+2022,24710,Baylor,North Carolina,1,8,86,93,Baylor,North Carolina,1,8,1
+2022,24711,Kansas,Creighton,1,9,79,72,Kansas,Creighton,1,9,0
+2022,24712,Tennessee,Michigan,3,11,68,76,Tennessee,Michigan,3,11,1
+2022,24713,Providence,Richmond,4,12,79,51,Providence,Richmond,4,12,0
+2022,24714,UCLA,Saint Mary's,4,5,72,56,UCLA,Saint Mary's,4,5,0
+2022,24715,Murray State,Saint Peter's,7,15,60,70,Murray State,Saint Peter's,7,15,1
+2022,24716,Arkansas,New Mexico State,4,12,53,48,Arkansas,New Mexico State,4,12,0
+2022,24717,Gonzaga,Memphis,1,9,82,78,Gonzaga,Memphis,1,9,0
+2022,24725,Illinois,Houston,4,5,53,68,Illinois,Houston,4,5,1
+2022,24726,Villanova,Ohio State,2,7,71,61,Villanova,Ohio State,2,7,0
+2022,24727,Duke,Michigan State,2,7,85,76,Duke,Michigan State,2,7,0
+2022,24728,Wisconsin,Iowa State,3,11,49,54,Wisconsin,Iowa State,3,11,1
+2022,24729,Texas Tech,Notre Dame,3,11,59,53,Texas Tech,Notre Dame,3,11,0
+2022,24730,Auburn,Miami,2,10,61,79,Auburn,Miami,2,10,1
+2022,24731,Purdue,Texas,3,6,81,71,Purdue,Texas,3,6,0
+2022,24732,Arizona,TCU,1,9,85,80,Arizona,TCU,1,9,0
+2022,24757,Gonzaga,Arkansas,1,4,68,74,Gonzaga,Arkansas,1,4,1
+2022,24758,Villanova,Michigan,2,11,63,55,Villanova,Michigan,2,11,0
+2022,24759,Duke,Texas Tech,2,3,78,73,Duke,Texas Tech,2,3,0
+2022,24760,Arizona,Houston,1,5,60,72,Arizona,Houston,1,5,1
+2022,24761,Purdue,Saint Peter's,3,15,64,67,Purdue,Saint Peter's,3,15,1
+2022,24762,Kansas,Providence,1,4,66,61,Kansas,Providence,1,4,0
+2022,24763,UCLA,North Carolina,4,8,66,73,UCLA,North Carolina,4,8,1
+2022,24764,Miami,Iowa State,10,11,70,56,Miami,Iowa State,10,11,0
+2022,24766,Villanova,Houston,2,5,50,44,Villanova,Houston,2,5,0
+2022,24767,Duke,Arkansas,2,4,78,69,Duke,Arkansas,2,4,0
+2022,24768,Kansas,Miami,1,10,76,50,Kansas,Miami,1,10,0
+2022,24769,North Carolina,Saint Peter's,8,15,69,49,North Carolina,Saint Peter's,8,15,0
+2022,24776,Kansas,Villanova,1,2,81,65,Kansas,Villanova,1,2,0
+2022,24777,Duke,North Carolina,2,8,77,81,Duke,North Carolina,2,8,1
+2022,24778,Kansas,North Carolina,1,8,72,69,Kansas,North Carolina,1,8,0
+2023,18297,Maryland,West Virginia,8,9,67,65,Maryland,West Virginia,8,9,0
+2023,18298,Virginia,Furman,4,13,67,68,Virginia,Furman,4,13,1
+2023,18299,Missouri,Utah State,7,10,76,65,Missouri,Utah State,7,10,0
+2023,18300,Kansas,Howard,1,16,96,68,Kansas,Howard,1,16,0
+2023,18301,Alabama,Texas A&M-Corpus Christi,1,16,96,75,Alabama,Texas A&M-Corpus Christi,1,16,0
+2023,18302,San Diego State,Charleston,5,12,63,57,San Diego State,Charleston,5,12,0
+2023,18303,Arizona,Princeton,2,15,55,59,Arizona,Princeton,2,15,1
+2023,18304,Arkansas,Illinois,8,9,73,63,Arkansas,Illinois,8,9,0
+2023,18305,Iowa,Auburn,8,9,75,83,Iowa,Auburn,8,9,1
+2023,18306,Duke,Oral Roberts,5,12,74,51,Duke,Oral Roberts,5,12,0
+2023,18307,Northwestern,Boise State,7,10,75,67,Northwestern,Boise State,7,10,0
+2023,18308,Texas,Colgate,2,15,81,61,Texas,Colgate,2,15,0
+2023,18309,Houston,Northern Kentucky,1,16,63,52,Houston,Northern Kentucky,1,16,0
+2023,18310,Tennessee,Louisiana,4,13,58,55,Tennessee,Louisiana,4,13,0
+2023,18311,UCLA,UNC Asheville,2,15,86,53,UCLA,UNC Asheville,2,15,0
+2023,18312,Texas A&M,Penn State,7,10,59,76,Texas A&M,Penn State,7,10,1
+2023,18313,Michigan State,USC,7,10,72,62,Michigan State,USC,7,10,0
+2023,18314,Xavier,Kennesaw State,3,14,72,67,Xavier,Kennesaw State,3,14,0
+2023,18315,Baylor,UC Santa Barbara,3,14,74,56,Baylor,UC Santa Barbara,3,14,0
+2023,18316,Saint Mary's,VCU,5,12,63,51,Saint Mary's,VCU,5,12,0
+2023,18317,Marquette,Vermont,2,15,78,61,Marquette,Vermont,2,15,0
+2023,18318,Iowa State,Pittsburgh,6,11,41,59,Iowa State,Pittsburgh,6,11,1
+2023,18319,Creighton,NC State,6,11,72,63,Creighton,NC State,6,11,0
+2023,18320,UConn,Iona,4,13,87,63,UConn,Iona,4,13,0
+2023,18321,Purdue,Fairleigh Dickinson,1,16,58,63,Purdue,Fairleigh Dickinson,1,16,1
+2023,18322,Kentucky,Providence,6,11,61,53,Kentucky,Providence,6,11,0
+2023,18323,Gonzaga,Grand Canyon,3,14,82,70,Gonzaga,Grand Canyon,3,14,0
+2023,18324,Miami,Drake,5,12,63,56,Miami,Drake,5,12,0
+2023,18325,Memphis,Florida Atlantic,8,9,65,66,Memphis,Florida Atlantic,8,9,1
+2023,18326,Kansas State,Montana State,3,14,77,65,Kansas State,Montana State,3,14,0
+2023,18327,TCU,Arizona State,6,11,72,70,TCU,Arizona State,6,11,0
+2023,18328,Indiana,Kent State,4,13,71,60,Indiana,Kent State,4,13,0
+2023,18329,San Diego State,Furman,5,13,75,52,San Diego State,Furman,5,13,0
+2023,18330,Tennessee,Duke,4,5,65,52,Tennessee,Duke,4,5,0
+2023,18331,Kansas,Arkansas,1,8,71,72,Kansas,Arkansas,1,8,1
+2023,18332,Missouri,Princeton,7,15,63,78,Missouri,Princeton,7,15,1
+2023,18333,Houston,Auburn,1,9,81,64,Houston,Auburn,1,9,0
+2023,18334,Texas,Penn State,2,10,71,66,Texas,Penn State,2,10,0
+2023,18335,UCLA,Northwestern,2,7,68,63,UCLA,Northwestern,2,7,0
+2023,18336,Alabama,Maryland,1,8,73,51,Alabama,Maryland,1,8,0
+2023,18343,Xavier,Pittsburgh,3,11,84,73,Xavier,Pittsburgh,3,11,0
+2023,18344,Kansas State,Kentucky,3,6,75,69,Kansas State,Kentucky,3,6,0
+2023,18345,Marquette,Michigan State,2,7,60,69,Marquette,Michigan State,2,7,1
+2023,18346,UConn,Saint Mary's,4,5,70,55,UConn,Saint Mary's,4,5,0
+2023,18347,Baylor,Creighton,3,6,76,85,Baylor,Creighton,3,6,1
+2023,18348,Florida Atlantic,Fairleigh Dickinson,9,16,78,70,Florida Atlantic,Fairleigh Dickinson,9,16,0
+2023,18349,Indiana,Miami,4,5,69,85,Indiana,Miami,4,5,1
+2023,18350,Gonzaga,TCU,3,6,84,81,Gonzaga,TCU,3,6,0
+2023,18372,Kansas State,Michigan State,3,7,98,93,Kansas State,Michigan State,3,7,0
+2023,18373,UConn,Arkansas,4,8,88,65,UConn,Arkansas,4,8,0
+2023,18374,Tennessee,Florida Atlantic,4,9,55,62,Tennessee,Florida Atlantic,4,9,1
+2023,18375,UCLA,Gonzaga,2,3,76,79,UCLA,Gonzaga,2,3,1
+2023,18376,Alabama,San Diego State,1,5,64,71,Alabama,San Diego State,1,5,1
+2023,18377,Houston,Miami,1,5,75,89,Houston,Miami,1,5,1
+2023,18378,Creighton,Princeton,6,15,86,75,Creighton,Princeton,6,15,0
+2023,18379,Texas,Xavier,2,3,83,71,Texas,Xavier,2,3,0
+2023,18380,Kansas State,Florida Atlantic,3,9,76,79,Kansas State,Florida Atlantic,3,9,1
+2023,18381,Gonzaga,UConn,3,4,54,82,Gonzaga,UConn,3,4,1
+2023,18382,San Diego State,Creighton,5,6,57,56,San Diego State,Creighton,5,6,0
+2023,18383,Texas,Miami,2,5,81,88,Texas,Miami,2,5,1
+2023,18387,San Diego State,Florida Atlantic,5,9,72,71,San Diego State,Florida Atlantic,5,9,0
+2023,18388,UConn,Miami,4,5,72,59,UConn,Miami,4,5,0
+2023,18389,UConn,San Diego State,4,5,76,59,UConn,San Diego State,4,5,0
+2024,12049,Mississippi State,Michigan State,8,9,51,69,Mississippi State,Michigan State,8,9,1
+2024,12043,BYU,Duquesne,6,11,67,71,BYU,Duquesne,6,11,1
+2024,12038,Creighton,Akron,3,14,77,60,Creighton,Akron,3,14,0
+2024,12035,Arizona,Long Beach State,2,15,85,65,Arizona,Long Beach State,2,15,0
+2024,12034,North Carolina,Wagner,1,16,90,62,North Carolina,Wagner,1,16,0
+2024,12039,Illinois,Morehead State,3,14,85,69,Illinois,Morehead State,3,14,0
+2024,12044,South Carolina,Oregon,6,11,73,87,South Carolina,Oregon,6,11,1
+2024,12046,Dayton,Nevada,7,10,63,60,Dayton,Nevada,7,10,0
+2024,12047,Texas,Colorado State,7,10,56,44,Texas,Colorado State,7,10,0
+2024,12040,Kentucky,Oakland,3,14,76,80,Kentucky,Oakland,3,14,1
+2024,12036,Iowa State,South Dakota State,2,15,82,65,Iowa State,South Dakota State,2,15,0
+2024,12042,Gonzaga,McNeese,5,12,86,65,Gonzaga,McNeese,5,12,0
+2024,12037,Tennessee,Saint Peter's,2,15,83,49,Tennessee,Saint Peter's,2,15,0
+2024,12045,Texas Tech,NC State,6,11,67,80,Texas Tech,NC State,6,11,1
+2024,12048,Washington State,Drake,7,10,66,61,Washington State,Drake,7,10,0
+2024,12041,Kansas,Samford,4,13,93,89,Kansas,Samford,4,13,0
+2024,12063,Florida Atlantic,Northwestern,8,9,65,77,Florida Atlantic,Northwestern,8,9,1
+2024,12054,Baylor,Colgate,3,14,92,67,Baylor,Colgate,3,14,0
+2024,12058,San Diego State,UAB,5,12,69,65,San Diego State,UAB,5,12,0
+2024,12053,Marquette,Western Kentucky,2,15,87,69,Marquette,Western Kentucky,2,15,0
+2024,12061,Clemson,New Mexico,6,11,77,56,Clemson,New Mexico,6,11,0
+2024,12050,UConn,Stetson,1,16,91,52,UConn,Stetson,1,16,0
+2024,12055,Auburn,Yale,4,13,76,78,Auburn,Yale,4,13,1
+2024,12062,Florida,Colorado,7,10,100,102,Florida,Colorado,7,10,1
+2024,12064,Nebraska,Texas A&M,8,9,83,98,Nebraska,Texas A&M,8,9,1
+2024,12056,Duke,Vermont,4,13,64,47,Duke,Vermont,4,13,0
+2024,12051,Purdue,Grambling,1,16,78,50,Purdue,Grambling,1,16,0
+2024,12057,Alabama,Charleston,4,13,109,96,Alabama,Charleston,4,13,0
+2024,12052,Houston,Longwood,1,16,86,46,Houston,Longwood,1,16,0
+2024,12059,Wisconsin,James Madison,5,12,61,72,Wisconsin,James Madison,5,12,1
+2024,12065,Utah State,TCU,8,9,88,72,Utah State,TCU,8,9,0
+2024,12060,Saint Mary's,Grand Canyon,5,12,66,75,Saint Mary's,Grand Canyon,5,12,1
+2024,12067,Arizona,Dayton,2,7,78,68,Arizona,Dayton,2,7,0
+2024,12072,Kansas,Gonzaga,4,5,68,89,Kansas,Gonzaga,4,5,1
+2024,12066,North Carolina,Michigan State,1,9,85,69,North Carolina,Michigan State,1,9,0
+2024,12068,Iowa State,Washington State,2,7,67,56,Iowa State,Washington State,2,7,0
+2024,12073,NC State,Oakland,11,14,79,73,NC State,Oakland,11,14,0
+2024,12069,Tennessee,Texas,2,7,62,58,Tennessee,Texas,2,7,0
+2024,12070,Illinois,Duquesne,3,11,89,63,Illinois,Duquesne,3,11,0
+2024,12071,Creighton,Oregon,3,11,86,73,Creighton,Oregon,3,11,0
+2024,12084,Marquette,Colorado,2,10,81,77,Marquette,Colorado,2,10,0
+2024,12081,Purdue,Utah State,1,8,106,67,Purdue,Utah State,1,8,0
+2024,12086,Duke,James Madison,4,12,93,55,Duke,James Madison,4,12,0
+2024,12085,Baylor,Clemson,3,6,64,72,Baylor,Clemson,3,6,1
+2024,12087,Alabama,Grand Canyon,4,12,72,61,Alabama,Grand Canyon,4,12,0
+2024,12082,UConn,Northwestern,1,9,75,58,UConn,Northwestern,1,9,0
+2024,12083,Houston,Texas A&M,1,9,100,95,Houston,Texas A&M,1,9,0
+2024,12088,San Diego State,Yale,5,13,85,57,San Diego State,Yale,5,13,0
+2024,12113,Arizona,Clemson,2,6,72,77,Arizona,Clemson,2,6,1
+2024,12111,UConn,San Diego State,1,5,82,52,UConn,San Diego State,1,5,0
+2024,12112,North Carolina,Alabama,1,4,87,89,North Carolina,Alabama,1,4,1
+2024,12114,Iowa State,Illinois,2,3,69,72,Iowa State,Illinois,2,3,1
+2024,12117,Marquette,NC State,2,11,58,67,Marquette,NC State,2,11,1
+2024,12115,Purdue,Gonzaga,1,5,80,68,Purdue,Gonzaga,1,5,0
+2024,12116,Houston,Duke,1,4,51,54,Houston,Duke,1,4,1
+2024,12118,Tennessee,Creighton,2,3,82,75,Tennessee,Creighton,2,3,0
+2024,12119,UConn,Illinois,1,3,77,52,UConn,Illinois,1,3,0
+2024,12120,Alabama,Clemson,4,6,89,82,Alabama,Clemson,4,6,0
+2024,12121,Purdue,Tennessee,1,2,72,66,Purdue,Tennessee,1,2,0
+2024,12122,Duke,NC State,4,11,64,76,Duke,NC State,4,11,1
+2024,12126,Purdue,NC State,1,11,63,50,Purdue,NC State,1,11,0
+2024,12127,UConn,Alabama,1,4,86,72,UConn,Alabama,1,4,0
+2025,209508,Louisville,Creighton,8,9,75,89,Louisville,Creighton,8,9,1
+2025,209500,Purdue,High Point,4,13,75,63,Purdue,High Point,4,13,0
+2025,209504,Wisconsin,Montana,3,14,85,66,Wisconsin,Montana,3,14,0
+2025,209503,Houston,SIU Edwardsville,1,16,78,40,Houston,SIU Edwardsville,1,16,0
+2025,209588,Auburn,Alabama State,1,16,83,63,Auburn,Alabama State,1,16,0
+2025,209501,Clemson,McNeese,5,12,67,69,Clemson,McNeese,5,12,1
+2025,209505,BYU,VCU,6,11,80,71,BYU,VCU,6,11,0
+2025,209502,Gonzaga,Georgia,8,9,89,68,Gonzaga,Georgia,8,9,0
+2025,209498,Tennessee,Wofford,2,15,77,62,Tennessee,Wofford,2,15,0
+2025,209495,Kansas,Arkansas,7,10,72,79,Kansas,Arkansas,7,10,1
+2025,209506,Texas A&M,Yale,4,13,80,71,Texas A&M,Yale,4,13,0
+2025,209497,Missouri,Drake,6,11,57,67,Missouri,Drake,6,11,1
+2025,209499,UCLA,Utah State,7,10,72,47,UCLA,Utah State,7,10,0
+2025,209494,St. John's,Omaha,2,15,83,53,St. John's,Omaha,2,15,0
+2025,209507,Michigan,UC San Diego,5,12,68,65,Michigan,UC San Diego,5,12,0
+2025,209496,Texas Tech,UNC Wilmington,3,14,82,72,Texas Tech,UNC Wilmington,3,14,0
+2025,209518,Mississippi State,Baylor,8,9,72,75,Mississippi State,Baylor,8,9,1
+2025,209514,Alabama,Robert Morris,2,15,90,81,Alabama,Robert Morris,2,15,0
+2025,209521,Iowa State,Lipscomb,3,14,82,55,Iowa State,Lipscomb,3,14,0
+2025,209510,Memphis,Colorado State,5,12,70,78,Memphis,Colorado State,5,12,1
+2025,209617,Duke,Mount St. Mary's,1,16,93,49,Duke,Mount St. Mary's,1,16,0
+2025,209515,Saint Mary's,Vanderbilt,7,10,59,56,Saint Mary's,Vanderbilt,7,10,0
+2025,209589,Ole Miss,North Carolina,6,11,71,64,Ole Miss,North Carolina,6,11,0
+2025,209509,Maryland,Grand Canyon,4,13,81,49,Maryland,Grand Canyon,4,13,0
+2025,209512,Florida,Norfolk State,1,16,95,69,Florida,Norfolk State,1,16,0
+2025,209513,Kentucky,Troy,3,14,76,57,Kentucky,Troy,3,14,0
+2025,209520,Marquette,New Mexico,7,10,66,75,Marquette,New Mexico,7,10,1
+2025,209516,Arizona,Akron,4,13,93,65,Arizona,Akron,4,13,0
+2025,209511,UConn,Oklahoma,8,9,67,59,UConn,Oklahoma,8,9,0
+2025,209618,Illinois,Xavier,6,11,86,73,Illinois,Xavier,6,11,0
+2025,209519,Michigan State,Bryant,2,15,87,62,Michigan State,Bryant,2,15,0
+2025,209517,Oregon,Liberty,5,12,81,52,Oregon,Liberty,5,12,0
+2025,209626,Purdue,McNeese,4,12,76,62,Purdue,McNeese,4,12,0
+2025,209627,St. John's,Arkansas,2,10,66,75,St. John's,Arkansas,2,10,1
+2025,209628,Texas A&M,Michigan,4,5,79,91,Texas A&M,Michigan,4,5,1
+2025,209629,Texas Tech,Drake,3,11,77,64,Texas Tech,Drake,3,11,0
+2025,209630,Auburn,Creighton,1,9,82,70,Auburn,Creighton,1,9,0
+2025,209631,Wisconsin,BYU,3,6,89,91,Wisconsin,BYU,3,6,1
+2025,209632,Houston,Gonzaga,1,8,81,76,Houston,Gonzaga,1,8,0
+2025,209633,Tennessee,UCLA,2,7,67,58,Tennessee,UCLA,2,7,0
+2025,209652,Florida,UConn,1,8,77,75,Florida,UConn,1,8,0
+2025,209653,Duke,Baylor,1,9,89,66,Duke,Baylor,1,9,0
+2025,209655,Kentucky,Illinois,3,6,84,75,Kentucky,Illinois,3,6,0
+2025,209654,Alabama,Saint Mary's,2,7,80,66,Alabama,Saint Mary's,2,7,0
+2025,209657,Maryland,Colorado State,4,12,72,71,Maryland,Colorado State,4,12,0
+2025,209656,Iowa State,Ole Miss,3,6,78,91,Iowa State,Ole Miss,3,6,1
+2025,209658,Michigan State,New Mexico,2,10,71,63,Michigan State,New Mexico,2,10,0
+2025,209666,Arizona,Oregon,4,5,87,83,Arizona,Oregon,4,5,0
+2025,209696,Alabama,BYU,2,6,113,88,Alabama,BYU,2,6,0
+2025,209697,Florida,Maryland,1,4,87,71,Florida,Maryland,1,4,0
+2025,209698,Duke,Arizona,1,4,100,93,Duke,Arizona,1,4,0
+2025,209668,Texas Tech,Arkansas,3,10,85,83,Texas Tech,Arkansas,3,10,0
+2025,209702,Michigan State,Ole Miss,2,6,73,70,Michigan State,Ole Miss,2,6,0
+2025,209703,Tennessee,Kentucky,2,3,78,65,Tennessee,Kentucky,2,3,0
+2025,209671,Auburn,Michigan,1,5,78,65,Auburn,Michigan,1,5,0
+2025,209670,Houston,Purdue,1,4,62,60,Houston,Purdue,1,4,0
+2025,209723,Florida,Texas Tech,1,3,84,79,Florida,Texas Tech,1,3,0
+2025,209724,Duke,Alabama,1,2,85,65,Duke,Alabama,1,2,0
+2025,209727,Houston,Tennessee,1,2,69,50,Houston,Tennessee,1,2,0
+2025,209728,Auburn,Michigan State,1,2,70,64,Auburn,Michigan State,1,2,0
