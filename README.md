@@ -17,7 +17,7 @@ methodology and results.
 *(in progress)* Predicts NCAA tournament game outcomes using team
 efficiency stats and historical seed/upset data.
 
-### 3. *(reserved for a future project)*
+### 3. [Champions League Style Clash Comparison](./champions-league-style-clash)
 
 ## About
 
