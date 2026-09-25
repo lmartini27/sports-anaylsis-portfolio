@@ -1,82 +1,44 @@
 # Champions League Clash of Styles
 
-Predicts and explains Champions League matchups not just by team
-*strength*, but by team *style* — quantifying which tactical styles
-(high press, possession-control, direct/counter, low-block defensive)
-tend to beat which, when teams from different leagues collide.
+Do domestic playing styles predict what happens when Big-5 league clubs meet in the Champions League? This project clusters 194 team-seasons into style archetypes and tests them against 127 CL matches.
 
-This is project #4 in the
-[Sports Analytics & Applied Math Portfolio](../README.md), following the
-fantasy football and March Madness predictors.
+**Headline finding:** results follow a clear hierarchy along a possession/control ladder rather than rock-paper-scissors matchups. Each step up the ladder is worth about +0.82 goals (R² = 0.158, p < 0.0001). Style is heavily entangled with team quality, though, so the report treats this as a strong signal rather than proof of cause.
 
-## The idea
+Full methodology, results, and limitations: [REPORT.md](REPORT.md)
 
-The Champions League is the one competition where Europe's different
-tactical cultures — the Premier League's pace and directness, La Liga's
-possession control, the Bundesliga's pressing, Serie A's structure — are
-forced to play each other. Two teams can have near-identical "quality"
-ratings and still produce very lopsided results because one team's style
-is a bad matchup for the other's.
+Project #4 in the [Sports Analytics Portfolio](../README.md).
 
-This project:
+## Pipeline
 
-1. Pulls advanced team stats (possession, pressing, pass directness,
-   shot volume, defensive line) for Champions League clubs and their
-   domestic leagues.
-2. Clusters teams into **style archetypes** using unsupervised learning
-   (k-means on standardized style features).
-3. Builds a historical dataset of CL matches labeled with each side's
-   style archetype.
-4. Computes a **style vs. style win-rate matrix** — the empirical answer
-   to "does pressing beat possession?"
-5. Trains a predictive model for match outcomes that includes a
-   style-matchup interaction term, and checks whether it beats a
-   strength-only baseline.
-6. Visualizes everything (style radar charts, matchup heatmap, feature
-   importances).
+| Script | What it does |
+|---|---|
+| `src/00_inspect_downloads.py` | Prints columns of every CSV in `data/raw/` (use after adding new data) |
+| `src/01_collect_data.py` | Scrapes FBref team possession via `soccerdata` (produces `team_standard.csv`) |
+| `src/02_feature_engineering.py` | Aggregates player stats to team style features |
+| `src/03_style_clustering.py` | K-means clustering into 4 style archetypes |
+| `src/04_build_matchup_dataset.py` | Matches CL results to both clubs' styles |
+| `src/05_train_model.py` | Style matrix, style-gap regression, cross-validated model comparison |
+| `src/06_visualize_results.py` | Radar chart, matchup heatmap, style-gap chart |
 
-See [REPORT.md](REPORT.md) for full methodology, results, and honest
-limitations, and [STEP_BY_STEP.md](STEP_BY_STEP.md) for how to run this
-in VS Code from a clean clone.
+## Data (place in `data/raw/`)
 
-## Project structure
+- `team_standard.csv`, produced by `01_collect_data.py`. FBref blocks the later detailed stat pages, so the script errors after saving this file; that's expected.
+- `players_data-2024_2025.csv`, from Kaggle, *Football Players Stats (2024-2025)* by hubertsidorowicz
+- `2022-2023 Football Player Stats.csv`, from Kaggle, *2022-2023 Football Player Stats* by vivovinco
+- `uefa_champions_league_historical_match_statistics_2020_2026.csv`, from Kaggle
 
-```
-champions-league-style-clash/
-├── README.md
-├── REPORT.md                  <- full write-up: methodology, results, limitations
-├── STEP_BY_STEP.md            <- VS Code setup + run order
-├── requirements.txt
-├── config.py                  <- seasons, leagues, constants — edit this first
-├── data/
-│   ├── raw/                   <- scraped FBref stats land here (gitignored)
-│   └── processed/             <- cleaned feature tables + match dataset
-├── outputs/
-│   └── figures/                <- saved PNGs (radar charts, heatmap, etc.)
-├── src/
-│   ├── 01_collect_data.py      <- pulls squad style stats + CL match results
-│   ├── 02_feature_engineering.py  <- builds per-team style vectors
-│   ├── 03_style_clustering.py     <- k-means -> style archetype labels
-│   ├── 04_build_matchup_dataset.py <- match-level dataset w/ style pairing
-│   ├── 05_train_model.py          <- baseline vs. style-aware model
-│   └── 06_visualize_results.py    <- radar charts + matchup heatmap
-└── notebooks/
-    └── exploration.ipynb       <- optional scratch space
-```
+Seasons used are set in `config.py` (`SEASONS`).
 
-## Quickstart
+## Run it
 
-```bash
+```powershell
 python -m venv venv
-source venv/bin/activate          # Windows: venv\Scripts\activate
+venv\Scripts\activate
 pip install -r requirements.txt
 
-python src/01_collect_data.py
-python src/02_feature_engineering.py
-python src/03_style_clustering.py
-python src/04_build_matchup_dataset.py
-python src/05_train_model.py
-python src/06_visualize_results.py
+python src\02_feature_engineering.py
+python src\03_style_clustering.py
+python src\04_build_matchup_dataset.py
+python src\05_train_model.py
+python src\06_visualize_results.py
 ```
-
-Full walkthrough with VS Code-specific setup: [STEP_BY_STEP.md](STEP_BY_STEP.md).

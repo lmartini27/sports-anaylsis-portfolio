@@ -1,102 +1,125 @@
 """
 04_build_matchup_dataset.py
 
-Joins the CL schedule/results with each team's style cluster (from the
-*domestic league season immediately preceding* the CL season, since
-that's the most recent style read we have on a team going into Europe).
+Joins Champions League results (uefa_champions_league_historical_match_
+statistics_2020_2026.csv -- Portuguese columns: mandante/visitante =
+home/away, placar = "X x Y", temporada = "24/25") to each team's style.
 
-Produces one row per CL match with:
-  home_team, away_team, home_style, away_style, home_goals, away_goals,
-  result (H/D/A from the home team's perspective)
-
-NAME MATCHING CAVEAT: FBref sometimes spells a club's name slightly
-differently between its domestic-league page and its Champions League
-page (e.g. "Paris S-G" vs "Paris Saint-Germain"). This script does an
-exact-match join and PRINTS any CL teams it couldn't find a style for --
-add those to TEAM_NAME_FIXES below and re-run rather than silently
-dropping matches.
+Club names differ between the CL file and FBref ("Bayer 04 Leverkusen"
+vs "Leverkusen", "AC Milan" vs "Milan"), so names are normalized and
+matched automatically within each season. Every unmatched name is saved
+to data/processed/unmatched_cl_teams.csv so you can check nothing
+important was missed -- clubs outside the Big 5 leagues SHOULD be there.
 """
 
+import os
+import re
 import sys
+import unicodedata
 import pandas as pd
 
-sys.path.append("..")
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import config
 
-# Map CL schedule name -> domestic league name, only needed for teams
-# that print as "unmatched" when you first run this.
-TEAM_NAME_FIXES = {
-    # "Paris S-G": "Paris Saint-Germain",
-}
+CL_FILE = "uefa_champions_league_historical_match_statistics_2020_2026.csv"
+
+# Manual overrides: CL name -> FBref name. Add here if a Big-5 club shows up unmatched.
+MANUAL_FIXES = {}
+
+STOP = {"fc", "ac", "as", "ss", "ssc", "sc", "cf", "afc", "club", "kv", "bc", "de", "cd", "rc",
+        "ud", "sv", "vfb", "vfl", "tsg", "bv", "us", "ogc", "losc", "calcio", "hotspur", "bsc",
+        "stade", "olympique", "1", "04", "05", "09", "29", "1899", "1909", "1846", "1900"}
+PHRASE_FIXES = [("munchen", "munich"), ("utd", "united"), ("eint", "eintracht"),
+                ("paris s g", "paris saint germain"), ("psg", "paris saint germain"),
+                ("nottham", "nottingham"), ("brestois", "brest"), ("rennais", "rennes"),
+                ("lyonnais", "lyon"), ("m gladbach", "gladbach"), ("monchengladbach", "gladbach"),
+                ("mgladbach", "gladbach"), ("internazionale", "inter"), ("inter milan", "inter"),
+                ("athletic bilbao", "athletic")]
 
 
-def prev_season(season: str) -> str:
-    """'2023-2024' -> '2022-2023' -- used to look up a team's style
-    from the domestic season before the CL campaign in question."""
-    start, end = season.split("-")
-    return f"{int(start) - 1}-{int(end) - 1}"
+def normalize(name):
+    s = unicodedata.normalize("NFKD", str(name)).encode("ascii", "ignore").decode()
+    s = f" {re.sub(r'[^a-z0-9]+', ' ', s.lower()).strip()} "
+    for old, new in PHRASE_FIXES:
+        s = s.replace(f" {old} ", f" {new} ")
+    return " ".join(t for t in s.split() if t not in STOP)
+
+
+def match_team(cl_name, index):
+    if cl_name in MANUAL_FIXES:
+        return MANUAL_FIXES[cl_name] if any(n == MANUAL_FIXES[cl_name] for n, _ in index) else None
+    tokens = set(normalize(cl_name).split())
+    if not tokens:
+        return None
+    exact = [n for n, t in index if t == tokens]
+    if len(exact) == 1:
+        return exact[0]
+    subset = [(n, t) for n, t in index if t and t <= tokens and len(t) / len(tokens) >= 0.5]
+    if not subset:
+        return None
+    best = max(len(t) for _, t in subset)
+    cands = [n for n, t in subset if len(t) == best]
+    return cands[0] if len(cands) == 1 else None
+
+
+def parse_score(placar):
+    m = re.match(r"\s*(\d+)\s*x\s*(\d+)", str(placar))
+    return (int(m.group(1)), int(m.group(2))) if m else (None, None)
 
 
 def main():
-    schedule = pd.read_csv(f"{config.RAW_DATA_DIR}/cl_schedule.csv")
-    styles = pd.read_csv(f"{config.PROCESSED_DATA_DIR}/team_style_clusters.csv")
+    raw = pd.read_csv(os.path.join(config.RAW_DATA_DIR, CL_FILE))
+    raw = raw[raw["campeonato"] == "UEFA Champions League"].copy()
+    raw["season"] = raw["temporada"].apply(lambda t: f"20{t.split('/')[0]}-20{t.split('/')[1]}")
+    raw = raw[raw["season"].isin(config.SEASONS)].copy()
 
-    # normalize name spelling using the manual fix map
-    schedule["home_team_clean"] = schedule["home_team"].replace(TEAM_NAME_FIXES)
-    schedule["away_team_clean"] = schedule["away_team"].replace(TEAM_NAME_FIXES)
+    scores = raw["placar"].apply(parse_score)
+    raw["home_goals"] = scores.str[0]
+    raw["away_goals"] = scores.str[1]
+    raw = raw.dropna(subset=["home_goals", "away_goals"])
 
+    styles = pd.read_csv(os.path.join(config.PROCESSED_DATA_DIR, "team_style_clusters.csv"))
     style_lookup = styles.set_index(["team", "season"])["style_name"].to_dict()
+    indexes = {s: [(n, set(normalize(n).split())) for n in grp["team"].unique()]
+               for s, grp in styles.groupby("season")}
 
-    def lookup_style(team, cl_season):
-        # try same-season domestic style first, fall back to prior season
-        for season in (cl_season, prev_season(cl_season)):
-            key = (team, season)
-            if key in style_lookup:
-                return style_lookup[key]
-        return None
+    matched_names, unmatched = {}, set()
 
-    schedule["home_style"] = schedule.apply(
-        lambda r: lookup_style(r["home_team_clean"], r["season"]), axis=1
-    )
-    schedule["away_style"] = schedule.apply(
-        lambda r: lookup_style(r["away_team_clean"], r["season"]), axis=1
-    )
+    def resolve(cl_name, season):
+        key = (cl_name, season)
+        if key not in matched_names:
+            team = match_team(cl_name, indexes.get(season, []))
+            matched_names[key] = team
+            if team is None:
+                unmatched.add(cl_name)
+        return matched_names[key]
 
-    unmatched_home = schedule.loc[schedule["home_style"].isna(), "home_team"].unique()
-    unmatched_away = schedule.loc[schedule["away_style"].isna(), "away_team"].unique()
-    unmatched = sorted(set(unmatched_home) | set(unmatched_away))
-    if unmatched:
-        print(f"[!] {len(unmatched)} teams had no style match (likely name-spelling "
-              f"mismatches, or clubs outside the 5 tracked leagues):")
-        for t in unmatched:
-            print(f"    - {t}")
-        print("Add fixes to TEAM_NAME_FIXES in this file and re-run if these are "
-              "spelling issues. Rows without a style on both sides get dropped below.")
+    raw["home_team"] = [resolve(n, s) for n, s in zip(raw["mandante"], raw["season"])]
+    raw["away_team"] = [resolve(n, s) for n, s in zip(raw["visitante"], raw["season"])]
+    raw["home_style"] = [style_lookup.get((t, s)) for t, s in zip(raw["home_team"], raw["season"])]
+    raw["away_style"] = [style_lookup.get((t, s)) for t, s in zip(raw["away_team"], raw["season"])]
 
-    matched = schedule.dropna(subset=["home_style", "away_style"]).copy()
+    print("Name matches made (CL name -> FBref name), only where they differ:")
+    for cl, team in sorted({(cl, t) for (cl, _), t in matched_names.items() if t and t != cl}):
+        print(f"  {cl} -> {team}")
 
-    # result from home team's perspective, assuming schedule has goal columns
-    goal_cols = [c for c in matched.columns if "goal" in c.lower() or c.lower() in ("hg", "ag")]
-    if "home_goals" not in matched.columns and goal_cols:
-        print(f"Note: expected 'home_goals'/'away_goals' columns; found {goal_cols} "
-              f"instead. Rename them to home_goals/away_goals above if needed.")
+    pd.Series(sorted(unmatched), name="cl_team").to_csv(
+        os.path.join(config.PROCESSED_DATA_DIR, "unmatched_cl_teams.csv"), index=False)
+    print(f"\n{len(unmatched)} CL clubs not matched to a Big-5 style (full list saved to "
+          f"data/processed/unmatched_cl_teams.csv -- skim it for any Big-5 club).")
 
-    matched["result"] = matched.apply(
-        lambda r: "H" if r.get("home_goals", 0) > r.get("away_goals", 0)
-        else ("A" if r.get("home_goals", 0) < r.get("away_goals", 0) else "D"),
-        axis=1,
-    )
-    matched["style_matchup"] = matched["home_style"] + " vs " + matched["away_style"]
+    m = raw.dropna(subset=["home_style", "away_style"]).copy()
+    m["result"] = ["H" if h > a else ("A" if h < a else "D")
+                   for h, a in zip(m["home_goals"], m["away_goals"])]
+    m["style_matchup"] = m["home_style"] + " vs " + m["away_style"]
 
-    keep_cols = ["season", "home_team", "away_team", "home_goals", "away_goals",
-                 "result", "home_style", "away_style", "style_matchup"]
-    keep_cols = [c for c in keep_cols if c in matched.columns]
-    out = matched[keep_cols]
-
-    out_path = f"{config.PROCESSED_DATA_DIR}/cl_matchup_dataset.csv"
-    out.to_csv(out_path, index=False)
-    print(f"\nSaved {out_path}  ({out.shape[0]} matches with both sides' style, "
-          f"out of {schedule.shape[0]} total CL matches pulled)")
+    cols = ["season", "home_team", "away_team", "home_goals", "away_goals",
+            "result", "home_style", "away_style", "style_matchup"]
+    out_path = os.path.join(config.PROCESSED_DATA_DIR, "cl_matchup_dataset.csv")
+    m[cols].to_csv(out_path, index=False)
+    print(f"\nSaved {out_path}: {len(m)} matches with both sides' style "
+          f"(out of {len(raw)} CL matches in {config.SEASONS})")
+    print(m.groupby("season").size().rename("matches per season"))
 
 
 if __name__ == "__main__":

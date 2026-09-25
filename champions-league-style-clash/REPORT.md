@@ -1,152 +1,122 @@
-# Champions League Clash of Styles — Methodology & Results
+# Champions League Clash of Styles: Methodology & Results
 
-> Fill in the [Results](#results) and [Discussion](#discussion) sections
-> with your actual numbers once you've run the pipeline — everything
-> below is scaffolded to match how the fantasy football and March
-> Madness reports are structured, so keep the tone the same: plain
-> about what the model does and doesn't show.
+## 1. Question
 
-## 1. Motivation
+The Champions League is the one competition where clubs shaped by five different domestic tactical cultures are guaranteed to meet. Pundits often talk about stylistic matchups, like a possession side undone by a team that sits deep and counters. This project asks a testable version of that idea:
 
-Most match-prediction models reduce a team to a single strength number
-(Elo, xG differential, etc.) and predict outcomes from the gap between
-two strength numbers. That's a reasonable baseline, but it throws away
-something coaches and pundits talk about constantly: *stylistic*
-matchups. A possession-heavy side that dominates the ball domestically
-can come unstuck against a team that presses aggressively and forces
-turnovers in dangerous areas — regardless of the "quality gap" between
-them. The Champions League is the best natural experiment for this,
-because it's the one competition where clubs shaped by five different
-domestic tactical cultures are guaranteed to meet.
-
-This project asks a narrower, more answerable question than "who wins":
-**given two teams' playing styles, is there a systematic edge for one
-style over another, independent of which specific clubs are involved?**
+**When Big-5 league clubs meet in the Champions League, does their domestic playing style predict the result? Are there "counter" styles, or is it a simple hierarchy?**
 
 ## 2. Data
 
-- **Source:** FBref advanced squad stats, pulled via the `soccerdata`
-  Python package (no API key required, mirrors public FBref tables).
-- **Domestic leagues:** Premier League, La Liga, Serie A, Bundesliga,
-  Ligue 1 — the leagues that supply the large majority of CL
-  participants.
-- **Seasons:** `config.SEASONS` (three seasons by default — widen this
-  once the pipeline runs cleanly, since more seasons = more matchup
-  data per style pair).
-- **Match results:** FBref's Champions League schedule/results table
-  for the same seasons.
+| Source | What it provides | Seasons |
+|---|---|---|
+| FBref squad stats (via the `soccerdata` package) | Team possession % | 2022-23, 2024-25 |
+| Kaggle: *Football Players Stats 2024-2025* (FBref-derived, season totals) | Player passing, defending, possession, shooting | 2024-25 |
+| Kaggle: *2022-2023 Football Player Stats* (FBref-derived, per-90 values) | Same categories | 2022-23 (partial season, see Limitations) |
+| Kaggle: *UEFA Champions League historical match statistics 2020-2026* | Match results | 2022-23, 2024-25 |
 
-**Sample size caveat, stated up front:** even across three seasons,
-the number of CL matches that land in any *specific* style-pair cell
-(e.g. "High Press home vs. Possession Control away") can be small —
-sometimes single digits. Every percentage in the win-rate matrix should
-be read next to its sample size, not on its own. This is flagged again
-in [Limitations](#5-limitations).
+**Why Kaggle instead of scraping FBref directly:** the original plan was to scrape all stats live with `soccerdata`. FBref's bot protection allowed the basic squad table but blocked the detailed passing, possession, and defense pages. The Kaggle files are FBref-derived snapshots of the same stats.
 
-## 3. Style Features & Clustering
+**Leagues:** Premier League, La Liga, Serie A, Bundesliga, Ligue 1. The 2023-24 season was skipped because no complete public player file was available. The 2025-26 player data didn't yet include detailed passing and defense stats.
 
-Each team-season is described by a small set of features chosen to
-capture *how* a team plays rather than *how well*:
+## 3. Method
+
+### 3.1 Style features
+
+Player stats were summed to team level. Pass completion, for example, is total completions divided by total attempts across the whole squad, rather than an average of player percentages, which would over-weight bench players. Per-90 rates are per team match.
 
 | Feature | What it captures |
 |---|---|
-| `possession_pct` | ball-dominance tendency |
-| `pass_completion_pct` | control vs. risk in possession |
-| `progressive_passes_per90` | how much ground is gained via passing |
-| `passes_into_final_third_per90` | penetration through passing |
-| `press_height_pct` | proxy for how high up the pitch defensive actions happen (see note below) |
-| `shots_per90` | attacking output/volume |
-| `touches_att_pen_per90` | direct penetration into the box |
+| `possession_pct` | Ball dominance |
+| `pass_completion_pct` | Control vs. risk in possession |
+| `passes_into_final_third_per90` | Territorial progression |
+| `press_height_pct` | Share of tackles made in the middle/attacking thirds (a proxy for pressing height; see Limitations) |
+| `shots_per90` | Attacking volume |
+| `touches_att_pen_per90` | Penetration into the box |
 
-Features are standardized (z-scored) and clustered with **k-means**
-(`config.N_STYLE_CLUSTERS`, default 4) into style archetypes. The
-number of clusters isn't derived from first principles — it's set to
-match commonly-discussed tactical buckets (e.g. high press,
-possession-control, direct/counter, low-block) and should be checked
-against the elbow-method output that `03_style_clustering.py` prints
-before trusting it.
+### 3.2 Clustering
 
-**On `press_height_pct`:** true pressing intensity is usually measured
-as PPDA (opponent passes allowed per defensive action) computed from
-match-level event data. The season-aggregate squad tables used here
-don't expose opponent pass counts cleanly, so this project uses a proxy
-— the share of a team's tackles+interceptions made in the middle/
-attacking third rather than their own defensive third. It captures
-*where* a team defends, which is most of what "high press" means for
-style-clustering purposes, but it is not the same statistic as PPDA and
-shouldn't be reported as one.
+The features were standardized and clustered with k-means (k = 4) over 194 team-seasons. Clusters were named by ranking them on average possession:
 
-## 4. Matchup Dataset & Model
+| Style | Possession | Pass % | Final-third passes/90 | Press height % | Shots/90 | Box touches/90 | Team-seasons |
+|---|---|---|---|---|---|---|---|
+| Low-Block / Reactive | 43.7 | 75.2 | 24.1 | 48.9 | 10.7 | 17.2 | 67 |
+| Balanced / Mid-Block | 49.8 | 79.4 | 28.8 | 51.8 | 12.1 | 20.5 | 66 |
+| Structured Progressive | 54.8 | 82.5 | 35.0 | 56.6 | 13.6 | 25.1 | 41 |
+| Possession Control | 61.8 | 86.1 | 46.4 | 59.7 | 16.2 | 31.7 | 20 |
 
-Each CL match is joined to both teams' style cluster from their most
-recent domestic season, producing a table of
-`home_style, away_style, result`. From this:
+Example clubs: **Possession Control** includes Barcelona, PSG, Bayern Munich, and Man City. **Structured Progressive** includes Inter, Dortmund, Brighton, and Chelsea. **Balanced** includes Real Sociedad, Bologna, and Gladbach. **Low-Block** includes Valladolid, Monza, Valencia, and Spezia.
 
-1. **Win-rate matrix** — for every (home style, away style) pair, the
-   empirical share of home wins / draws / away wins. This is the
-   project's core descriptive result.
-2. **Classifier check** — a multinomial logistic regression predicting
-   match result from `home_style` + `away_style` (one-hot encoded),
-   compared against a "always predict the most common result" baseline.
-   This is a deliberately modest model: it has no team-strength signal
-   at all, so it isolates how much *style alone* (divorced from quality)
-   predicts outcomes. Expect a small lift over baseline, not a large
-   one — see [Discussion](#discussion).
+![Style radar chart](outputs/figures/style_radar_chart.png)
 
-## 5. Results
+**An important structural finding:** every feature rises together across the clusters. No cluster combines, say, low possession with high pressing. The clusters are therefore less like four distinct tactical philosophies and more like four rungs on a single **possession/control ladder**.
 
-*(run `05_train_model.py` and `06_visualize_results.py`, then fill in)*
+### 3.3 Match dataset
 
-- Named style archetypes and their defining features:
-  - Style 0 — `___`
-  - Style 1 — `___`
-  - Style 2 — `___`
-  - Style 3 — `___`
-- Style radar chart: `outputs/figures/style_radar_chart.png`
-- Matchup heatmap: `outputs/figures/matchup_heatmap.png`
-- Headline matchup finding(s): `___`
-- Baseline accuracy vs. style-matchup model accuracy: `___` vs `___`
-- Sample sizes behind the most interesting cells — call these out
-  explicitly wherever a win rate looks extreme, since extreme
-  percentages on tiny samples are the most likely thing to mislead a
-  reader here.
+Champions League matches were kept when both clubs were in the style dataset for that season. Club names were matched automatically across sources, for example "Bayer 04 Leverkusen" to "Leverkusen". Result: **127 matches** (51 from 2022-23, 76 from 2024-25). Overall: 54% home wins, 15% draws, 31% away wins.
 
-## Discussion
+### 3.4 Analyses
 
-*(fill in once you have results — some prompts to answer honestly:)*
+1. **Style matrix:** home win % for every home-style × away-style pair, with the match count for each cell.
+2. **Style gap:** each match's gap = home style rank − away style rank (from −3 to +3). A linear regression of home goal difference on style gap.
+3. **Predictive check:** 5-fold stratified cross-validation, repeated 20 times. It compares a baseline that always predicts the overall H/D/A rates, a logistic regression on the style pair, and a logistic regression on the style gap alone. Models are compared on accuracy and log loss.
 
-- Which style matchup(s) showed the clearest edge, and does the sample
-  size behind that edge actually support the claim?
-- Did the classifier beat the baseline by a meaningful margin, or was
-  the lift small? Either answer is a legitimate finding — a small lift
-  says style matters at the margins, not that it dominates outcomes.
-- Do the style-cluster labels look tactically sensible when you
-  spot-check a few known clubs, or does the clustering need more/fewer
-  clusters or different features?
+## 4. Results
 
-## 5. Limitations
+### 4.1 Style matrix
 
-- **Small per-cell samples.** Some style-pair cells will have very few
-  matches; treat any single extreme percentage with real skepticism.
-- **No team-strength control.** This project deliberately isolates
-  style from quality, but that also means the win-rate matrix partly
-  reflects *which clubs happen to fall into which style bucket*, not
-  a pure style effect. A team that's simply the best team in the
-  competition will look good in whatever style cluster it lands in.
-  A natural extension: control for strength (e.g. add an Elo or
-  goal-difference rating) and check whether the style effect survives.
-- **`press_height_pct` is a proxy, not real PPDA** — see Section 3.
-- **Style is not static.** A club's style can change mid-season (new
-  manager, injuries) or evolve year to year; using one seasonal
-  average per team-season smooths over that.
-- **Squad-level stats, not CL-specific stats.** Style features are
-  drawn from each team's *domestic* league performance, on the
-  assumption that broad style is stable across competitions — teams
-  don't usually play a completely different way in Europe, but some do
-  adjust tactically for tougher opposition, and that adjustment isn't
-  captured here.
-- **Name-matching between competitions.** FBref occasionally spells a
-  club differently on its CL page vs. its domestic league page (see
-  `TEAM_NAME_FIXES` in `04_build_matchup_dataset.py`); unmatched teams
-  get dropped rather than silently mismatched, which shrinks the
-  usable sample somewhat.
+| Home \ Away | Balanced / Mid-Block | Structured Progressive | Possession Control |
+|---|---|---|---|
+| **Balanced / Mid-Block** | 60% (n=5) | 33% (n=6) | 12% (n=8) |
+| **Structured Progressive** | 50% (n=4) | 43% (n=21) | 46% (n=24) |
+| **Possession Control** | 83% (n=6) | 72% (n=25) | 61% (n=28) |
+
+No Low-Block / Reactive club appeared in any CL match against another Big-5 club in these two seasons. Low-possession Big-5 clubs essentially don't reach the competition.
+
+![Matchup heatmap](outputs/figures/matchup_heatmap.png)
+
+### 4.2 Style gap (headline result)
+
+| Style gap | n | Home win % | Draw % | Away win % | Avg home goal diff |
+|---|---|---|---|---|---|
+| −2 | 8 | 12.5 | 12.5 | 75.0 | −1.2 |
+| −1 | 30 | 43.3 | 16.7 | 40.0 | −0.2 |
+| 0 | 54 | 53.7 | 14.8 | 31.5 | +0.5 |
+| +1 | 29 | 69.0 | 17.2 | 13.8 | +1.3 |
+| +2 | 6 | 83.3 | 0.0 | 16.7 | +2.3 |
+
+**Regression: home goal difference ~ style gap (n = 127)**
+
+- Slope: **+0.82 goals per step** up the style ladder
+- Intercept: +0.56 (home advantage when both teams share a style)
+- **R² = 0.158**
+- **p < 0.0001**
+
+![Results by style gap](outputs/figures/style_gap_results.png)
+
+### 4.3 Predictive check
+
+| Model | Accuracy (mean ± sd) | Log loss (mean ± sd) |
+|---|---|---|
+| Baseline (overall H/D/A rates) | 0.535 ± 0.015 | 0.983 ± 0.018 |
+| Style-pair model | 0.538 ± 0.069 | 0.982 ± 0.065 |
+| Style-gap model | **0.565 ± 0.071** | **0.948 ± 0.060** |
+
+## 5. Discussion
+
+**The answer to "which styles beat which" is a hierarchy, not rock-paper-scissors.** Results move steadily with the style gap: home sides two rungs *below* their opponent won 12.5% of the time, and home sides two rungs *above* won 83%. The regression is highly significant. Each rung is worth about 0.8 goals, and the style gap explains about 16% of the variation in goal difference, which is meaningful in a sport where single results are this noisy. No cell in the matrix suggests a lower-ranked style reliably beating a higher-ranked one.
+
+**The simple gap model beat the detailed style-pair model.** Knowing only *how far apart* two teams are on the ladder predicted better (lowest log loss) than knowing their exact style labels. The extra detail mostly added noise with 127 matches, which is further evidence that the ladder, not specific pairings, is what matters.
+
+**The predictive edge is real but small.** Accuracy improved by 3 percentage points over the baseline, which is inside one standard deviation across folds. Log loss improved more consistently. Style shifts win probabilities in a useful way but doesn't make individual matches predictable.
+
+**The biggest caveat: style here is tangled up with quality.** The Possession Control cluster is made up of the richest, strongest squads in Europe. Because all six features rise together, this analysis can't separate "possession-dominant play wins" from "the best teams also dominate possession." The honest conclusion is that **a team's place on the possession/control ladder is a strong signal of CL results; whether the style itself causes the wins remains open.**
+
+## 6. Limitations
+
+- **Style is confounded with team strength** (see Discussion). A natural extension is adding a strength measure, such as domestic points per game or Elo, and testing whether the style gap still matters after controlling for it.
+- **The 2022-23 player file is a mid-season snapshot.** Its highest player total is 23 full matches vs. about 38 for a complete season, so it was likely captured around February 2023. The style rates (percentages and per-90 values) are still usable but noisier than a full season.
+- **Two seasons, 127 matches.** Some matrix cells have fewer than 10 matches and shouldn't be over-interpreted. The style-gap analysis is more reliable because it pools all matches.
+- **`press_height_pct` is a proxy, not true PPDA** (passes allowed per defensive action). It measures *where* tackles happen, not how intensely a team presses.
+- **Domestic style is assumed to carry into Europe.** Teams sometimes adjust tactics against stronger CL opponents, and that adjustment isn't captured here.
+- **Only Big-5 clubs are included.** Matches involving clubs from Portugal, the Netherlands, Scotland, and elsewhere were excluded because comparable style data wasn't collected for those leagues.

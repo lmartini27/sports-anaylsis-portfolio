@@ -6,7 +6,7 @@ Edit this first -- everything downstream reads from here.
 # --- Seasons to pull (FBref format: "2023-2024") -----------------------
 # Start with 2-3 seasons. More seasons = more style-matchup data, but
 # also more scraping time and more risk of FBref rate-limiting you.
-SEASONS = ["2022-2023", "2023-2024", "2024-2025"]
+SEASONS = ["2022-2023", "2024-2025"]
 
 # --- Domestic leagues to source style stats from ------------------------
 # These are the leagues whose clubs regularly reach the CL group/league
@@ -37,8 +37,7 @@ CUP = "Champions League"
 # PPDA. Documented as a limitation in REPORT.md -- don't oversell it.
 STYLE_FEATURES = [
     "possession_pct",              # average possession share
-    "pass_completion_pct",         # control vs. risk
-    "progressive_passes_per90",    # how much a team progresses the ball via passing
+    "pass_completion_pct",         # control vs. risk    # how much a team progresses the ball via passing
     "passes_into_final_third_per90",
     "press_height_pct",            # proxy for pressing height (see note above)
     "shots_per90",
