@@ -18,7 +18,7 @@ REQUIRED_COLUMNS = [
     "player_id", "player_display_name", "position", "season", "week",
     "recent_team", "opponent_team",
     "fantasy_points_ppr", "targets", "carries", "receiving_yards",
-    "rushing_yards", "passing_yards", "receptions",
+    "rushing_yards", "passing_yards", "receptions", "season_type",
 ]
 
 
@@ -31,6 +31,10 @@ def load_weekly_data(years):
         import nfl_data_py as nfl
         df = nfl.import_weekly_data(years)
         df = df[[c for c in REQUIRED_COLUMNS if c in df.columns]].copy()
+        # Regular season only: playoff weeks only include playoff teams and
+        # would make "next game" and opponent averages inconsistent.
+        if "season_type" in df.columns:
+            df = df[df["season_type"] == "REG"].drop(columns="season_type")
         return df
     except ImportError:
         print("nfl_data_py not installed — falling back to synthetic demo data.")

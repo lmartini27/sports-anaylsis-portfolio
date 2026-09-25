@@ -1,37 +1,44 @@
 """
-Fantasy Football Success Predictor — main pipeline.
+Fantasy Football Success Predictor -- main pipeline.
 
-Run this file to load data, build features, train models, and see results:
     python main.py
+
+Predicts each player's PPR fantasy points in their next game, using their
+recent form and the next opponent's recent defense against their position.
+Evaluated walk-forward by season against a naive "recent average" baseline,
+with and without the opponent feature.
 """
 
 from src.data_loader import load_weekly_data
+from src.features import add_next_game, build_features
 from src.opponent import add_opponent_strength
-from src.features import build_features
-from src.model import train_and_evaluate, print_feature_importance
+from src.model import train_and_evaluate, print_results, print_feature_importance
+
+YEARS = [2021, 2022, 2023]
+WINDOW = 3
 
 
 def main():
     print("Loading data...")
-    df = load_weekly_data(years=[2021, 2022, 2023])
-    print(f"Loaded {len(df)} player-week rows.\n")
+    df = load_weekly_data(years=YEARS)
+    print(f"Loaded {len(df)} player-week rows.")
 
-    print("Computing opponent defensive strength...")
-    df, opponent_col = add_opponent_strength(df, window=3)
-    print(f"Added opponent-strength feature: {opponent_col}\n")
+    df = add_next_game(df)
+    df, opp_col = add_opponent_strength(df, window=WINDOW)
+    df_model, all_features = build_features(df, rolling_window=WINDOW, extra_feature_cols=[opp_col])
+    base_features = [c for c in all_features if c != opp_col]
+    baseline_col = f"fantasy_points_ppr_avg_last{WINDOW}"
+    print(f"{len(df_model)} rows ready for modeling ({len(all_features)} features).")
 
-    print("Building features...")
-    df_model, feature_cols = build_features(df, rolling_window=3, extra_feature_cols=[opponent_col])
-    print(f"{len(df_model)} rows ready for modeling, using {len(feature_cols)} features.\n")
+    res_without, _ = train_and_evaluate(df_model, base_features, baseline_col)
+    res_with, rf = train_and_evaluate(df_model, all_features, baseline_col)
 
-    print("Training models...")
-    results, splits = train_and_evaluate(df_model, feature_cols)
+    print_results(res_without, "WITHOUT opponent feature")
+    print_results(res_with, "WITH next-opponent feature")
 
-    print("\n--- Results ---")
-    for name, r in results.items():
-        print(f"{name:20s} MAE = {r['mae']:.2f} pts   R^2 = {r['r2']:.3f}")
-
-    print_feature_importance(results["random_forest"]["model"], feature_cols)
+    gain = res_with["linear_regression"]["r2"] - res_without["linear_regression"]["r2"]
+    print(f"\nOpponent feature R^2 change (Linear Regression): {gain:+.3f}")
+    print_feature_importance(rf, all_features)
 
 
 if __name__ == "__main__":

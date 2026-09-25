@@ -1,117 +1,97 @@
-# Fantasy Football Success Predictor — Project Report
+# Fantasy Football Success Predictor: Project Report
 
 ## Objective
 
-Predict an NFL player's fantasy points (PPR scoring) for their **next
-week**, using their own recent performance trend and their upcoming
-opponent's defensive strength at their position. The goal was to build a
-genuinely applied statistical model — not just a stat tracker — using
-real historical NFL data.
+Predict an NFL player's PPR fantasy points in their **next game**, using their recent form and the next opponent's recent defense against their position. The model is compared against a naive baseline so its value is measurable, not just its accuracy.
 
 ## Data
 
-- **Source**: `nfl_data_py`, which provides weekly player statistics
-  pulled from the public nflverse/nflfastR data releases
-- **Scope**: weekly player-level stats across the 2021–2023 NFL seasons
-- **Volume**: 16,982 player-week rows loaded; 15,171 rows retained after
-  feature engineering (rows are dropped when a player doesn't yet have
-  enough game history, or when there's no "next week" to predict, e.g.
-  a player's final game of a season)
+- **Source:** `nfl_data_py` (weekly player stats from the public nflverse/nflfastR releases)
+- **Scope:** 2021–2023 regular seasons; QB, RB, WR, TE only
+- **Volume:** 16,248 player-week rows loaded; 12,997 used for modeling
+
+A row is kept only if the player's next game is in the **same season** and at most 2 weeks later (allowing for a bye week). This excludes predictions across an offseason and after injury absences.
 
 ## Methodology
 
-### Feature Engineering
+### Timing and leakage
 
-Two categories of features were built, both carefully avoiding data
-leakage (never using information the model wouldn't actually have
-*before* a game is played):
+Each row is a player's game in week *t*. Features use only information available after week *t* and before the next game. The target is the player's points in that next game.
 
-1. **Player form** — rolling 3-week averages of the player's own stats
-   (fantasy points, targets, carries, receiving/rushing/passing yards,
-   receptions), computed using only *prior* weeks.
-2. **Opponent strength** — for the upcoming opponent, a rolling 3-week
-   average of how many fantasy points that defense has allowed to the
-   player's position, computed the same leakage-safe way. This captures
-   matchup difficulty (facing a strong vs. weak defense) independent of
-   how well the player themselves has been playing.
+### Features (12 total)
 
-Position (QB/RB/WR/TE) was included as a one-hot encoded feature.
+1. **Player form:** 3-game rolling averages, up to and including week *t*, of fantasy points, targets, carries, receptions, and receiving, rushing, and passing yards. Averages reset each season.
+2. **Next-opponent strength:** the average fantasy points the *next* opponent allowed to the player's position over its previous 3 games that season, excluding the game being predicted.
+3. **Position:** one-hot QB/RB/WR/TE.
 
-In total, **26 features** were used per prediction.
+### Evaluation
 
-### Modeling
+- **Walk-forward split by season:** train on 2021 and test on 2022; then train on 2021–22 and test on 2023. Models never train on the future. Reported scores average the two test seasons.
+- **Naive baseline:** predict each player's 3-game points average. Any useful model must beat this.
+- **Ablation:** every model is run with and without the opponent feature to isolate its contribution.
 
-Two models were trained and compared:
-- **Linear Regression** — an interpretable baseline
-- **Random Forest** (200 trees, max depth 6) — able to capture nonlinear
-  relationships between features
-
-Both were trained on 80% of the data and evaluated on a held-out 20% test
-set the models never saw during training, to get an honest measure of
-predictive accuracy rather than a measure of memorization.
+Models: Linear Regression, and Random Forest (200 trees, max depth 6).
 
 ## Results
 
-| Model | MAE (points) | R² |
-|---|---|---|
-| Linear Regression | 5.04 | 0.313 |
-| Random Forest | 5.07 | 0.305 |
+### Accuracy (average of 2022 and 2023 test seasons)
 
-**Interpretation**: the typical prediction is off by about 5 fantasy
-points, and the model explains roughly 31% of the week-to-week variance
-in a player's scoring. Linear Regression performed marginally better
-than Random Forest, suggesting the relationships captured by these
-features are close to linear — the added complexity of a Random Forest
-isn't buying meaningful accuracy here.
+| Model | MAE (pts) | R² | R² 2022 | R² 2023 |
+|---|---|---|---|---|
+| Naive baseline (3-game average) | 5.34 | 0.182 | 0.156 | 0.208 |
+| Linear Regression | **5.06** | **0.309** | 0.295 | 0.322 |
+| Random Forest | 5.10 | 0.298 | 0.280 | 0.315 |
 
-### Feature Importance (Random Forest)
+### Opponent-feature ablation
+
+| Model | R² without opponent | R² with opponent | Change |
+|---|---|---|---|
+| Linear Regression | 0.308 | 0.309 | +0.001 |
+| Random Forest | 0.299 | 0.298 | −0.001 |
+
+### Feature importance (Random Forest, 2023 fold)
 
 | Feature | Importance |
 |---|---|
-| Recent fantasy points (avg, last 3 wks) | 0.792 |
-| Recent targets (avg, last 3 wks) | 0.050 |
-| Recent passing yards (avg, last 3 wks) | 0.036 |
-| Recent carries (avg, last 3 wks) | 0.035 |
-| Recent rushing yards (avg, last 3 wks) | 0.030 |
-| **Opponent defensive strength (avg, last 3 wks)** | **0.023** |
-| Recent receiving yards (avg, last 3 wks) | 0.019 |
-| Recent receptions (avg, last 3 wks) | 0.013 |
-| Position: QB | 0.001 |
-| Position: TE | 0.001 |
+| Fantasy points (3-game avg) | 0.752 |
+| Targets (3-game avg) | 0.051 |
+| Passing yards (3-game avg) | 0.047 |
+| Next opponent's points allowed to position | 0.037 |
+| Carries (3-game avg) | 0.034 |
+| Rushing yards (3-game avg) | 0.033 |
+| Receiving yards (3-game avg) | 0.030 |
+| Receptions (3-game avg) | 0.012 |
+| Position indicators | ≤ 0.001 each |
 
 ## Key Findings
 
-1. **Recency dominates.** A player's own recent scoring average accounts
-   for the vast majority of the model's predictive power (0.792 of total
-   importance). This is intuitive but also a limitation — the model is
-   mostly learning "hot players stay hot," not a deeper pattern.
-2. **Opponent strength contributes, modestly.** Adding the defensive
-   matchup feature improved R² from 0.297–0.306 (baseline, without
-   opponent data) to 0.305–0.313 (with it) — a real but small gain. The
-   feature ranked 6th in importance, likely because it summarizes an
-   entire position's performance against a defense over only 3 games,
-   which is a fairly coarse and noisy signal.
-3. **Random Forest added no advantage over Linear Regression** in this
-   configuration, suggesting the underlying relationships are close to
-   linear given the current feature set — added model complexity isn't
-   the bottleneck right now.
+1. **The model clearly beats the naive baseline.** Linear Regression explains about 31% of the variance in next-game scoring vs. 18% for the recent average, and cuts the typical error from 5.34 to 5.06 points. It wins in both test seasons, so the gain isn't a lucky split.
+
+2. **The model's main job is regression to the mean.** Recent fantasy points is by far the top feature, yet the model beats simply *using* that average by a wide margin. Raw recent averages overreact to hot and cold streaks; the model learns to pull predictions back toward typical levels, with volume stats (targets, carries) helping judge whether a streak is backed by real opportunity.
+
+3. **The matchup feature adds essentially nothing.** Correctly aligned to the next game, it changes R² by about ±0.001. A defense's total points allowed to a position over three games appears too noisy to be useful: it depends on how many players at that position saw the field, on game script, and on just three games.
+
+4. **Linear Regression matches or beats Random Forest.** The added flexibility buys nothing here, suggesting the relationships in these features are close to linear.
+
+## Corrections from the Previous Version
+
+An earlier version of this project reported R² ≈ 0.31 with a small opponent-feature gain. A review found three problems, all fixed here:
+
+- The opponent feature described the opponent of the **current** game rather than the game being predicted.
+- Predictions crossed season boundaries (a player's last game of one season was used to predict week 1 of the next).
+- A random train/test split let the same player's neighbouring weeks appear in both training and test data, and there was no naive baseline to judge the R² against.
+
+The corrected model reaches a similar R², but now against a harder, time-based test, with a baseline showing that the model genuinely adds value. The opponent-feature gain from the original version did not hold up.
 
 ## Limitations
 
-- Fantasy scoring is inherently noisy (injuries, game script, weather,
-  coaching decisions), so an R² around 0.3 is a realistic ceiling for a
-  model using only performance-based features — it is not a sign the
-  model is broken.
-- The opponent-strength feature is coarse: it aggregates all players at
-  a position against a defense, rather than accounting for more specific
-  matchup factors (e.g. a specific cornerback vs. a specific receiver).
-- The 3-week rolling window is a simplifying choice; it hasn't been
-  tuned or compared against other window lengths.
+- Fantasy scoring is inherently noisy (injuries, game script, weather, play-calling), so an R² near 0.3 is a realistic range for performance-based features.
+- The opponent feature is coarse: it sums points allowed to a whole position group over three games, not per-player or per-snap.
+- Only two test seasons are available; more seasons would tighten the estimates.
+- The 3-game window was not tuned.
 
 ## Next Steps
 
-Planned extensions include training separate models per position (since
-QB, RB, WR, and TE have very different scoring profiles), reframing part
-of the problem as a "boom/bust" classification task rather than pure
-point prediction, and adding statistical rigor (cross-validation,
-regularization) to the evaluation process.
+- **Better matchup features:** season-to-date points allowed per player at the position, or defense-vs-league-average adjustments, may extract a signal the 3-game version couldn't.
+- **Per-position models,** since QB, RB, WR, and TE scoring behave differently.
+- **Tuning the rolling window,** comparing 3, 5, and season-to-date averages.
